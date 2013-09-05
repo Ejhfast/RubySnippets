@@ -47,6 +47,10 @@ new do |var0, var1|
   var0[var1] = {}
 end
 
+# [Ethan] Isn't this using standard library? Also, this is almost certainly part of "Hash.new { |h,k| h[k] = {} }". In general, it's OK to guess at additional context (e.g, Hash.new) if there is an obvious "most common" use case.
+# [Abhishek] I missed the Hash use case. self.mistake!
+# [Abhishek] I think by standard library here you are referring to what constitutes idioms supported by Ruby language (core). I earlier thought it should refers to the libraries provided in the lib/ folder, like Date, IO, Erb etc. Am I right now?
+
 # 4.
 #
 # Title: Execute a given method name in the context of the current object 
@@ -60,6 +64,9 @@ end
 # Can be encapsulated in standalone function: [ Yes ]
 # There's a more common way to write the code snippet: [ Yes ]
 # => var1.send(var0) if var0
+
+# [Ethan] (I'm not sure this is correct; if there's a better way to code something, can you explain a bit more?)
+# [Abhishek] self.mistake! again
 
 if var0
   var1.instance_eval(&var0)
@@ -85,6 +92,8 @@ end
 #
 # Title: Adds elements of a list at its own end
 # Category: [ Other ]
+# [Ethan] (Isn't this using standard libs?)
+# [Abhishek] Yes perhaps
 # 
 # Description:
 # This snippet iterates over the current list, and in each iteration it adds the iterated element at the end. This keeps increasing the length of the list dynamically and runs into an infinte loop. 
@@ -127,6 +136,10 @@ end
 # 
 # Description:
 # Checks for the type of the last element in the list 'var0', pops and returns it. While pop-ing, the last element is removed from 'var0'. If the last element is not a hash, it is not pop-ed and an empty hash is returned 
+
+# [Ethan] (This description is good, but it would be nice to mention that this code is probably popping an options hash (if present) off of a list of arguments. While this can't be inferred with certainty from the context, it's definitely the most common/likely use case.)
+# [Abhishek] Surely worth mentioning, but didn't occur to me at that time.
+
 #
 # Useful programming task or idiom: [ Yes ]
 # Can be encapsulated in standalone function: [ Yes ]
@@ -328,7 +341,10 @@ end
 # Useful programming task or idiom: [ Yes ]
 # Can be encapsulated in standalone function: [ Yes]
 # There's a more common way to write the code snippet: [ Yes ]
-# => return to_enum(:sym0, var0)  unless block_given?
+# => return to_enum(:sym0, var0) unless block_given?
+
+# [Ethan] (This is a good insight, but your suggestion is semantically equivalent to the snippet we posted; our parser reformats these kinds of conditional snippets into a common form, e.g., "var0 if var1" is converted to "if var0; var1; end". So for conditionals, we'd only like "more common ways" suggested for snippets that differ semantically.)
+# [Abhishek] The suggestion here is not about the conditional. The intent is that 'to_enum' is another way to write 'enum_for'.
 
 unless block_given?
   return(enum_for(:sym0, var0))
@@ -482,4 +498,4 @@ each do |var1|
   else
     var2.const_missing(var1)
   end
-end
+end­
