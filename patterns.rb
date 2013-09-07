@@ -1,46 +1,334 @@
+
+# 1.
+#
+# Title: Copy value at an index/key from one array/hash to another
+# Category: [ Standard lib ]
+#
+# Description:
+# If an element exists at key 'var1' in the hash 'var0', it is copied to another hash var2 with the same key.
+# If var0 and var2 are arrays, the element at index var1 is copied from var0 to var2.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0[var1]
   var2[var1] = var0[var1]
 end
 
+# 2.
+#
+# Title: Split and get the last part
+# Category: [ Standard lib ]
+#
+# Description:
+# Splits the string version of 'var0' at all occurances of 'str0' and return the last part.
+# A common use case is getting file name from a full path by splitting it at "/"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_s.split("str0").last
+
+# 3.
+#
+# Title: Access a Hash elemeny by symbol or string key
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the element at key :sym0 from the hash 'var0'. If the symbol key :sym0 is not present, it fetches the value at the string key "str0"
+# Useful in cases where Hash access via both symbol and strings is needed: such that h[:a] and h['a'] can both get the value.
+# For example, Http parameter hash in Rails uses this kind of access.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 ((var0[:sym0]) || (var0["str0"]))
 
+# 4.
+#
+# Title: Iterate over the cookies hash
+# Category: [ External lib ]
+#
+# Description:
+# When 'var0' holds a 'cookies' hash, this will give an interator over the Hash.
+# Typical use case is for reading cookies in a Http request object.
+#
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.cookies.each
+
+# 5.
+#
+# Title: Get the first element of a list
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the first element of the list 'var1' and assigns it to another variable 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+# => var0 = var1.first
 
 var0 == var1[0]
 
+# 6.
+#
+# Title: Get the value at :sym0 as integer
+# Category: [ Standard lib ]
+#
+# Description:
+# Reads the value at key :sym0 from the params has and convert it to an integer.
+# Gives 0 when the value is absent.
+# A usecase is in reading Http parameters related to pagination:
+#  if the :page_no is not present, it means the user is at the first page,
+#  which can be treated as :page_no 0 in pagination logic
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 params[:sym0].to_i
+
+# 7.
+#
+# Title: Difference between the same property of two objects
+# Category: [ Standard lib ]
+#
+# Description: TODO-recheck
+# Gives the difference between the property 'x' of var0 and var1
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 var0.x - var1.x
 
+# 8.
+#
+# Title: Iterate over a list within a hash
+# Category: [ Standard lib ]
+#
+# Description: TODO: usecase
+# Returns an enumerator that can iterate over the array at "str0" in the hash 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+# => var0["str0"].map
+
 var0["str0"].collect
+
+# 9.
+#
+# Title: Configure action_controller to disable caching
+# Category: [ External lib ]
+#
+# Description:
+# Calls the 'perform_caching=' method on 'config.action_controller' object with 'false'.
+# This will set a global configuration related to caching in action_controller to false
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 config.action_controller.perform_caching=(false)
 
+# 10.
+#
+# Title: Checks if the name of current object is same as the given object's name
+# Category: [ Standard lib ]
+#
+# Description:
+# Calls the name method on the current object (self) and compares if it is equal to the 'name' property of 'var0s'.
+# This may be used to implement custom comparators on a class, somewhat like:
+#
+#  class A
+#    attr_accessor :name
+#    def ==(var0)
+#      self.name == var0.name
+#    end
+#  end
+#  a1=A.new; a1.name="a1"
+#  a2=A.new; a2.name=="a2"
+#  a1==a2
+#
+# Useful programming task or idiom: [ Yes/No ]
+# Can be encapsulated in standalone function: [ Yes/No ]
+# There's a more common way to write the code snippet: [ Yes/No ]
+
 self.name == var0.name
+
+# 11.
+#
+# Title: set the backtrace for exception object
+# Category: [ Standard lib ]
+#
+# Description:
+# Sets the backtrace of the exception object in the current context to backtrace of the the 'var0' exception object.
+# This maybe a useful pattern for building custom exception objects by catching existing exceptions.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 set_backtrace(var0.backtrace)
 
+# 12.
+#
+# Title: Concat the length of a variable to a string
+# Category: [ Standard lib ]
+#
+# Description: TODO- usecase
+# Gets the length of the variable 'var0', casts it to a string and adds it at the end of "str0"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+# => "str0#{var0.length}"
+
 "str0" + var0.length.to_s
+
+# 13.
+#
+# Title: Concatenate the reverse of a string/array to another
+# Category: [ Standard lib ]
+#
+# Description: TODO- usecase
+# Reverses 'var1' and adds it to the end of 'var0'
+#
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+# => var0 << var1.reverse
 
 var0.concat(var1.reverse)
 
+# 14.
+#
+# Title: Set an element of a Hash
+# Category: [ Standard lib  ]
+#
+# Description:
+# Sets the element at key 'var1' in the hash 'var0' to 'var2'.
+# Converts var1 to a symbol first, to take make it efficient
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1.to_sym] = var2
+
+# 15.
+#
+# Title: Sets the position_column of current object to the a position
+# Category: [ External lib]
+#
+# Description:
+# Sets the position_column property of the current object (which is a kind of Hash),
+#  to the bottom_position_in_list, offset by a number
+# Useful pattern for adding list-like behaviour to an existing (hash-like) object,
+#  where this step moves the current object to a particular position from bottom.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 self[position_column] = bottom_position_in_list.to_i + 0
 
+# 16.
+#
+# Title: Set the content-type
+# Category: [ External lib ]
+#
+# Description:
+# Set the 'content_type' property of 'var0' to the value at "str0" in the Hash 'var1'
+# May be used in a web framework to set the content-type HTTP header for the response.
+#
+# Useful programming task or idiom: [ Yes/No ]
+# Can be encapsulated in standalone function: [ Yes/No ]
+# There's a more common way to write the code snippet: [ Yes/No ]
+
 var0.content_type=(var1["str0"])
+
+# 17.
+#
+# Title: Split a string and iterate over its parts
+# Category: [ Standard lib ]
+#
+# Description: TODO: use of returning an iterator
+# Splits the 'var0' at white-spaces,
+# and returns an iterator which can be used to iterate over the parts
+#
+# Useful programming task or idiom: [ Yes/No ]
+# Can be encapsulated in standalone function: [ Yes/No ]
+# There's a more common way to write the code snippet: [ Yes/No ]
 
 var0.split.each
 
+# 18.
+#
+# Title: Check if the given variable is of the same type as the current object
+# Category: [ Standard lib ]
+#
+# Description:
+# Compares the 'class' of 'var0' with the class of the current object,
+# and tells if they are the same.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes/No ]
+# There's a more common way to write the code snippet: [ Yes/No ]
+
 var0.class == self.class
 
+# 19.
+#
+# Title: update multiple database records in a single step
+# Category: [ External lib ]
+#
+# Description:
+# Runs the 'update_all' method on the class represented by 'acts_as_list_class',
+#  to update all the records filtered by 'scope_conditions',
+#  by setting the 'position_column' to a new value determined by str0 and str1.
+# For example, this could be something like:
+#  User.update_all("#{position_column}=#{position_column}+1", "where priority like 'high'")
+#
+# This pattern is useful where many records of a model need to be updated
+#  without performing active-record validations or callbacks.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 acts_as_list_class.update_all("#{position_column}str0#{position_column}str1", "#{scope_condition}")
+
+# 20.
+#
+# Title: defining a that should be overloaded/redefined and never invoked directly
+# Category: [ Standard lib ]
+#
+# Description:
+# Defines a method 'method' that raises the 'NotImplementedError' exception.
+# The exception is raised with the error message "str".
+# This pattern may be useful when there is a class that is supposed to be
+#  inherited and has a method that has to be implemented by the clild class only,
+#  and does not make sense as a part of the parent class.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 def method
   raise(NotImplementedError.new("str0"))
 end
+
 
 var0["str0"][var1] = var2
 
