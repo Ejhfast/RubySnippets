@@ -574,6 +574,22 @@ unless var0 =~ /str0/
   raise(EOFError, "str1")
 end
 
+# 36.
+#
+# Title: Check if a variable is an instance of the current class
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' has the same class as the current object (self).
+#
+# May be used to be sure of the class name of an argument pased to a method
+#  that expects the argument to be of its own type.
+#  For example, while overloading operators like == or + or -
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.is_a?(self.class)
 
 config.filter_parameters += [:sym0]
