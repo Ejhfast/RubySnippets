@@ -432,6 +432,19 @@ else
   "str1"
 end
 
+# 27.
+#
+# Title: Iterate over constants available in the module
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets a list of available constants in module 'var0' and returns an iterator to it
+# Includes the constants that come from included modules.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.constants.each
 
 User.find(params[:sym0])
