@@ -413,6 +413,19 @@ var0 << var1.name
 
 var0.class.to_s
 
+# 26.
+#
+# Title: Chooses between str0 and str1 based on the presence of :sym0 in options
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the options hash contains :sym0, and gives "str0" if it does,
+# gives "str1" otherwise
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if options[:sym0]
   "str0"
 else
