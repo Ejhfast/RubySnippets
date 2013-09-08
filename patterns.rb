@@ -592,6 +592,19 @@ end
 
 var0.is_a?(self.class)
 
+# 37.
+#
+# Title: Configuration to filter out the mentioned parameters
+# Category: [ External lib ]
+#
+# Description:
+# In Rails, this adds :sym0 to the list of paramters to be filtered
+#  Now the parameter :sym0 will not be shown in logs
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.filter_parameters += [:sym0]
 
 var0.clear
