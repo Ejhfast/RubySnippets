@@ -399,6 +399,18 @@ end
 
 var0 << var1.name
 
+# 25.
+#
+# Title: Gives the class-name of a variable
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the class-name of 'var0' and casts it to a string
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.class.to_s
 
 if options[:sym0]
