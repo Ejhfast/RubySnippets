@@ -311,14 +311,14 @@ acts_as_list_class.update_all("#{position_column}str0#{position_column}str1", "#
 
 # 20.
 #
-# Title: defining a that should be overloaded/redefined and never invoked directly
+# Title: define a method that should be overloaded/redefined and never invoked directly
 # Category: [ Standard lib ]
 #
 # Description:
 # Defines a method 'method' that raises the 'NotImplementedError' exception.
-# The exception is raised with the error message "str".
-# This pattern may be useful when there is a class that is supposed to be
-#  inherited and has a method that has to be implemented by the clild class only,
+# The exception is raised with the error message "str0".
+# This pattern may be useful when there is a class that is to be
+#  inherited and has a method to be implemented by the clild class only,
 #  and does not make sense as a part of the parent class.
 #
 # Useful programming task or idiom: [ Yes ]
