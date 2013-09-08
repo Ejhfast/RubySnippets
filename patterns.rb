@@ -607,6 +607,21 @@ var0.is_a?(self.class)
 
 config.filter_parameters += [:sym0]
 
+# 38.
+#
+# Title: Clear the contents of the string/array/hash
+# Category: [ Standard lib ]
+#
+# Description: 
+# Clears the contents of 'var0' and 'var1'
+# It becomes an empty string "" if it was a string
+# It becomes an empty array [] if it was an array
+# It becomes an empty hash {} if it was a hash
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.clear
 var1.clear
 
