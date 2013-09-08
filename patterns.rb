@@ -555,6 +555,21 @@ var0 = options[:sym0]
 
 var0 = File.join(File.dirname("str0"), "str1")
 
+# 35.
+#
+# Title: Raise exception if pattern doesn't match
+# Category: [ Standard lib ]
+#
+# Description:
+# Matches the 'var0' with the pattern /str0/, and raises the EOFError
+#  with message "str1"
+# A usecase is in implementation of an IO stream interface,
+#  where this may used to mark the end of the steam
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 unless var0 =~ /str0/
   raise(EOFError, "str1")
 end
