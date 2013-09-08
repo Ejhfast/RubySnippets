@@ -361,6 +361,24 @@ var0.collect do |var1, **vr0|
   var1
 end.uniq
 
+# 23.
+#
+# Title: Assign local variables from argument hash
+# Category: [ Standard lib ]
+#
+# Description:
+# The method 'method' is being passed the argument 'var0',
+#  which is a hash, and may contiain values keyed by :sym0 and :sym1.
+#  The values are read and assigned to local variables 'var1' and 'var2'
+#
+# This pattern is useful in for passing variable number of arguments to a method,
+# and allows a more readable method-invokation style:
+#  method(:sym1 => 1, :sym2 => 2)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 def method(var0)
   var1 = var0[:sym0]
   var2 = var0[:sym1]
