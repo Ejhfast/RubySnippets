@@ -511,6 +511,18 @@ end
 
 var0 = var0.uniq.sort
 
+# 32.
+#
+# Title: Get the value at :sym0 from options hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value at key :sym0 from the 'options' hash, and assigns it to 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = options[:sym0]
 
 0 - var0.size
