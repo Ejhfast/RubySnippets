@@ -539,6 +539,20 @@ var0 = options[:sym0]
 
 0 - var0.size
 
+# 34.
+#
+# Title: Generate path for a file name
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the directory name of "str0" by calling File.dirname,
+#  and joins it with "str1" to generate the full path for "str1".
+#  The full path is then assigned to 'var0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = File.join(File.dirname("str0"), "str1")
 
 unless var0 =~ /str0/
