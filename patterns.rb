@@ -495,6 +495,20 @@ else
   var0.join("str0")
 end
 
+# 31.
+#
+# Title: Remove duplicates and sort the array
+# Category: [ Standard lib ]
+#
+# Description:
+# Removes duplicates from the array 'var0' using 'uniq',
+#  and then sorts it. Assigns the sorted array back to 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+# => var0.uniq.sort!
+
 var0 = var0.uniq.sort
 
 var0 = options[:sym0]
