@@ -625,6 +625,19 @@ config.filter_parameters += [:sym0]
 var0.clear
 var1.clear
 
+# 39.
+#
+# Title: Checks if an array/hash contains the given element.
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the array 'var0' contains the element 'var1', and returns false if it does
+#  When 'var0' is a hash, it looks for the key 'var1'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !var0.include?(var1)
 
 config.i18n.fallbacks=(true)
