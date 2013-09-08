@@ -476,6 +476,19 @@ User.find(params[:sym0])
 
 var0[0] != "str0"
 
+# 30.
+#
+# Title: Join elements of a non-empty array in to a string
+# Category: [ Standard lib ]
+#
+# Description:
+# Concatenates elements of the array 'var0' with "str0" as the separator,
+#  and gives the joined string. Gives nil if the array is empty
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0.empty?
   nil
 else
