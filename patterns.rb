@@ -525,6 +525,18 @@ var0 = var0.uniq.sort
 
 var0 = options[:sym0]
 
+# 33.
+#
+# Title: Difference between variable size and 0
+# Category: [ Standard lib ]
+#
+# Description: TODO- recheck
+# This gives the negative of the difference between the size of var0 and a number.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 0 - var0.size
 
 var0 = File.join(File.dirname("str0"), "str1")
