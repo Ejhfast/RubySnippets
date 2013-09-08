@@ -384,6 +384,19 @@ def method(var0)
   var2 = var0[:sym1]
 end
 
+# 24.
+#
+# Title: Append a name to list/string
+# Category: [ Standard lib ]
+#
+# Description:
+# Adds the 'name' property of 'var1' to the end of 'var0'.
+# Concats when 'var0' is a string, pushes when it is an array
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << var1.name
 
 var0.class.to_s
