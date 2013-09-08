@@ -462,6 +462,18 @@ var0.constants.each
 
 User.find(params[:sym0])
 
+# 29.
+#
+# Title: Compare an array value with a string
+# Category: [ Standard lib ]
+#
+# Description:
+# Compares inequality for the value at index 0 of the array 'var0' with string "str0"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0] != "str0"
 
 if var0.empty?
