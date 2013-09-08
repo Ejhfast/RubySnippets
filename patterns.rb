@@ -329,6 +329,18 @@ def method
   raise(NotImplementedError.new("str0"))
 end
 
+# 21.
+#
+# Title: Set a value in a nested hash
+# Category: [ Standard lib ]
+#
+# Description: TODO- usecase
+# Sets the value 'var2' for the key 'var1' whithin the hash nested in 'var0'.
+# The nested hash is located with the key "str0"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 var0["str0"][var1] = var2
 
