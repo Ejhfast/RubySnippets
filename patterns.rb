@@ -447,6 +447,19 @@ end
 
 var0.constants.each
 
+# 28.
+#
+# Title: finds a user object based on given params
+# Category: [ External lib ]
+#
+# Description:
+# Search for the User object whose id (or some predefined property) equals the value params[:sym0]
+# Used commonly in Rails for locating ActiveRecord objects
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 User.find(params[:sym0])
 
 var0[0] != "str0"
