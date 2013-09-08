@@ -344,6 +344,19 @@ end
 
 var0["str0"][var1] = var2
 
+# 22.
+#
+# [unsure][not sure about the **vr0]
+#
+# Title:
+# Category: [ Standard lib / External lib / Data or Control Flow / Other ]
+#
+# Description:
+#
+# Useful programming task or idiom: [ Yes/No ]
+# Can be encapsulated in standalone function: [ Yes/No ]
+# There's a more common way to write the code snippet: [ Yes/No ]
+
 var0.collect do |var1, **vr0|
   var1
 end.uniq
