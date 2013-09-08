@@ -640,6 +640,19 @@ var1.clear
 
 !var0.include?(var1)
 
+# 40.
+#
+# Title: Set the i18n fallbacks config to true
+# Category: [ External lib ]
+#
+# Description:
+# Calls the 'fallback=' method on 'i18n' config with the paramter true
+#  to set the configuration related to i18n (internationalization) to true
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.i18n.fallbacks=(true)
 
 record do |var0|
