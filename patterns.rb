@@ -674,6 +674,21 @@ record do |var0|
   var0.migration_template("str0", "str1")
 end
 
+# 42.
+#
+# Title: pop the last element from a list if its a hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Pops the last element from the list 'var0' if it is a Hash
+# Gives an empty hash if the last element is not a Hash
+#
+# This is generally used to fetch the options hash from a list of arguments.
+#
+# Useful programming task or idiom: [ Yes/No ]
+# Can be encapsulated in standalone function: [ Yes/No ]
+# There's a more common way to write the code snippet: [ Yes/No ]
+
 if Hash === var0.last
   var0.pop
 else
