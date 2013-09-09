@@ -916,6 +916,26 @@ var0[0].to_f
   return(var0 <=> var1)
 rescue NoMethodError
 
+# 57.
+#
+# Title: Load all ruby scripts in a directory
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterates over each file in a directory
+#  and attempts to do a ruby 'require' on the files.
+#  The directory path is obtained by using File.dirname on a file-path
+#  and concatenating it with the pattern to match the filenames.
+#
+#  An example could be:
+#    Dir[File.dirname("__FILE__","/*.rb")].each do |var0|
+#      require(var0)
+#    end
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Dir[File.dirname("str0") + "str1"].each do |var0|
   require(var0)
 end
