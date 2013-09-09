@@ -898,6 +898,19 @@ $3[0, 1].downcase
 
 var0[0].to_f
 
+# 56.
+#
+# Title: Coerce and compare
+# Category: [ Standard lib ]
+#
+# Description: TODO- usecase
+# Returns if 'var0' is greater/equal/lesser than 'var1',
+#  where 'var0' and 'var1' are obtained by coercing self into 'var2'
+#  If 'var2' can't coerce, it rescues the possible NoMethodError exception
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes/No ]
 
   var0, var1 = var2.coerce(self)
   return(var0 <=> var1)
