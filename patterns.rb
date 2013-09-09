@@ -1209,6 +1209,19 @@ var0 = var1[var2[0]]
 
 Thread.current[:sym0] = var0
 
+# 76.
+#
+# Title: Subtract using value from hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Reduces var0 by the value keyed at var2 in hash var1
+#  (or indexed at var2 in aray var1)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 - var1[var2]
 
 var0.type.to_s
