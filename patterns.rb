@@ -1021,6 +1021,18 @@ Format::ABBR_MONTHS[$2.downcase]
 
 "str0#{options[:sym0]}str1"
 
+# 63.
+#
+# Title: First value from a hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the first one from a list of values from the var0 hash
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.values.first
 
 var0.first["str0"]
