@@ -743,6 +743,20 @@ var0.puts(var1.inspect)
 
 var0.to_i - 0
 
+# 46.
+#
+# Title: Check if a variable is greater than the other
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the difference between 'var0' and 'var1' is greater than 0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var0 > var1
+
 (var0 - var1) > 0
 
 Dir[File.join(var0, "str0", "str1")]
