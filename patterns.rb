@@ -1005,6 +1005,20 @@ end
 
 Format::ABBR_MONTHS[$2.downcase]
 
+# 62.
+#
+# Title: Add prefix and suffix to option value
+# Category: [ Standard lib ]
+#
+# Description:
+# Prefixes 'str0' and suffixes 'str1' to the value at :sym0 in options hash
+#  String interpolation is being used to concatenate the string version of
+#  options[:sym0] with the prefix and suffix strings.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0#{options[:sym0]}str1"
 
 var0.values.first
