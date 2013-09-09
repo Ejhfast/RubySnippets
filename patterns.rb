@@ -840,6 +840,19 @@ end
 
 path.sub(/str0/, "str1")
 
+# 52.
+#
+# Title: Get a sublist from an array
+# Category: [ Standard lib ]
+#
+# Description: TODO- usecase
+# Gets a sub-array from 'var0' containtaing values within indexes 'var1' and
+#  the difference if var2 and var1.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1, var2 - var1]
 
 var0[:sym0] != "str0"
