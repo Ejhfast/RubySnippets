@@ -1241,6 +1241,20 @@ var0 - var1[var2]
 
 var0.type.to_s
 
+# 78.
+#
+# Title: Is the current object of given type?
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the type of the current object is the same as :sym0
+#  This may be useful in checking if the object is instantiated
+#  from the current class or from an inherited class
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 type != :sym0
 
 var0.abs / 0
