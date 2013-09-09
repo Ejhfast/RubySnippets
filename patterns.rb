@@ -1162,6 +1162,20 @@ if var0.respond_to?(:sym0)
   var0.close
 end
 
+# 73.
+#
+# Title: List bytes in a string
+# Category: [ Standard lib ]
+#
+# Description:
+# Lists bytes in the string var0, as an array of integers
+#
+# Useful programming task or idiom: [ Yes]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var0.bytes
+
 var0.bytes.to_a
 
 var0 = var1[var2[0]]
