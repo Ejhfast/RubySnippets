@@ -655,6 +655,21 @@ var1.clear
 
 config.i18n.fallbacks=(true)
 
+# 41.
+#
+# Title: Create a migration template
+# Category: [ External lib ]
+#
+# Description:
+# Create a migration template using "str0" as the source and "str1" as destination.
+#  Will create a database-migration file at the destination using the source file.
+#  The template generation happens within a manifest intantiated using record method.
+#  Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 record do |var0|
   var0.migration_template("str0", "str1")
 end
