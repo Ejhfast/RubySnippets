@@ -759,6 +759,23 @@ var0.to_i - 0
 
 (var0 - var1) > 0
 
+# 47.
+#
+# Title: List all files in a sub-directory of var0
+# Category: [ Standard lib ]
+#
+# Description:
+# Obtains the directory path by joining 'var0' with 'str0' and 'str1',
+#  and lists all files in it using Dir[]
+#
+# Useful when part of the directory structure is known,
+#  like listing models in a Rails project as so -
+#  Dir[File.join(Rails.root, "app", "models")]
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Dir[File.join(var0, "str0", "str1")]
 
 var0.write(var1.join("str0"))
