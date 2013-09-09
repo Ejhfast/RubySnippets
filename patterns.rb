@@ -729,6 +729,18 @@ var0 = ("str0" + var1.to_s) + "str1"
 
 var0.puts(var1.inspect)
 
+# 45.
+#
+# Title: Difference of a variable's integer representation and a number
+# Category: [ Standard lib ]
+#
+# Description: TODO- rechek
+# Gets the difference by type-casting 'var0' to integer and then taking the difference.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_i - 0
 
 (var0 - var1) > 0
