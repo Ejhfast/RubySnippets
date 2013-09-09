@@ -1112,6 +1112,19 @@ var0 > var1.size
 
 var0.to_s.downcase
 
+# 69.
+#
+# Title: Hash with object_id keys
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value keyed by the object_id of var1 from the hash var0
+#  This may be used to keep track of all created objects
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1.object_id]
 
 return(var0[var1 - 0])
