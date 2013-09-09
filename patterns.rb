@@ -712,6 +712,21 @@ end
 
 var0 = ("str0" + var1.to_s) + "str1"
 
+# 44.
+#
+# Title: Print human readable representation of an object
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the human readble representation of 'var1' using 'inspect',
+#  and prints it to the file (handler) 'var0'
+#
+# Generally useful when inspect has been redefined for an object for custom representation
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.puts(var1.inspect)
 
 var0.to_i - 0
