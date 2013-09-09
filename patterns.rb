@@ -695,6 +695,21 @@ else
   {}
 end
 
+# 43.
+#
+# Title: Adding prefix and suffix
+# Category: [ Standard lib ]
+#
+# Description:
+# Adds "str0" to the beginning and "str1" to the end of 'var1'.
+#  Converts var1 to a string first.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => "str0#{var1}str1"
+
 var0 = ("str0" + var1.to_s) + "str1"
 
 var0.puts(var1.inspect)
