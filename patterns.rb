@@ -989,6 +989,20 @@ end
 
 ((var0) && (var0[0] == "str0"))
 
+# 61.
+#
+# Title: Hash lookup using regex matches
+# Category: [ External lib ]
+#
+# Description:
+# Get a value from ABBR_MONTHS hash using downcased second capture
+#  from a recent regualar expression match.
+#  May be used as a part of a date formatting library
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 Format::ABBR_MONTHS[$2.downcase]
 
 "str0#{options[:sym0]}str1"
