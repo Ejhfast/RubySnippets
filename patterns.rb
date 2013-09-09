@@ -792,6 +792,19 @@ Dir[File.join(var0, "str0", "str1")]
 
 var0.write(var1.join("str0"))
 
+# 49.
+#
+# Title: Map over hash keys
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the keys of hash 'var0' as a list
+#  and returns a map-iterator
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.keys.map
 
 var0.keys.collect do |var1|
