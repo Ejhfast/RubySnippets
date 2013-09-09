@@ -1224,6 +1224,21 @@ Thread.current[:sym0] = var0
 
 var0 - var1[var2]
 
+# 77.
+#
+# Title: type of a variable
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the class of the variable var0 and converts it to string
+# [Deprecated in ruby > 1.9]
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var0.class.to_s
+
 var0.type.to_s
 
 type != :sym0
