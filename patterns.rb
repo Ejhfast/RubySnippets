@@ -1035,6 +1035,18 @@ Format::ABBR_MONTHS[$2.downcase]
 
 var0.values.first
 
+# 64.
+#
+# Title: Value from first hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value keyed at str0 from the first hash in a list.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.first["str0"]
 
 var0.each do |var1, var2|
