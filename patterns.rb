@@ -1098,6 +1098,18 @@ var0 = var1.split("str0")[0]
 
 var0 > var1.size
 
+# 68.
+#
+# Title: Convert to lowercase string
+# Category: [ Standard lib ]
+#
+# Description:
+# Converts var0 to a string, and then converts all its alpabetic characters to lowercase.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_s.downcase
 
 var0[var1.object_id]
