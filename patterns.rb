@@ -974,6 +974,19 @@ if ((var0) && (!var0.closed?))
   var0.close
 end
 
+# 60.
+#
+# Title: Check if an element in the array equals given string
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the array 'var0' exists, and if it does,
+#  checks if the element at an index (0) equals "str0"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0) && (var0[0] == "str0"))
 
 Format::ABBR_MONTHS[$2.downcase]
