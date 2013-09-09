@@ -869,6 +869,19 @@ var0[var1, var2 - var1]
 
 var0[:sym0] != "str0"
 
+# 54.
+#
+# Title: Downcased characters from regex match
+# Category: [ Standard lib ]
+#
+# Description: TODO- usecase
+# Takes the third capture from recent regular expression match
+#  and gives the down-cased version of its (first/few) character(s)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 $3[0, 1].downcase
 
 var0[0].to_f
