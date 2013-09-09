@@ -1257,6 +1257,19 @@ var0.type.to_s
 
 type != :sym0
 
+# 79.
+#
+# Title: Divide by zero
+# Category: [ Standard lib ]
+#
+# Description:
+# Get the absolute (non-negative) value of var0 and divide it by 0.
+#  Will result in a ZeroDivisionError
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.abs / 0
 
 var0[-var1..0]
