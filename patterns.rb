@@ -1194,6 +1194,19 @@ var0.bytes.to_a
 
 var0 = var1[var2[0]]
 
+# 75.
+#
+# Title: Assign a variable to current thread
+# Category: [ Standard lib ]
+#
+# Description:
+# Assigns the local variable :sym0 to var0 for the current thread.
+#  This variable will be local to the thread's root fiber.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Thread.current[:sym0] = var0
 
 var0 - var1[var2]
