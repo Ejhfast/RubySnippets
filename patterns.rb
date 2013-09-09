@@ -1069,6 +1069,19 @@ var0.each do |var1, var2|
   var3[var1.to_s] = var2
 end
 
+# 66.
+#
+# Title: Split string and pick a part
+# Category: [ Standard lib ]
+#
+# Description:
+# Splits the string var1 at occurances of str0,
+#  get a part (first here) and assign it to var0. var1 is not modified.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1.split("str0")[0]
 
 var0 > var1.size
