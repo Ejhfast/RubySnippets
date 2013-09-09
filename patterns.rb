@@ -807,6 +807,20 @@ var0.write(var1.join("str0"))
 
 var0.keys.map
 
+# 50.
+#
+# Title: Get a list of hash keys as strings
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterates over the keys of a hash 'var0'
+#  and gives a list of strings equivalents of the keys
+#  Does not modify the hash
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.keys.collect do |var1|
   var1.to_s
 end
