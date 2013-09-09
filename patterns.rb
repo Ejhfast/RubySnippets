@@ -778,6 +778,18 @@ var0.to_i - 0
 
 Dir[File.join(var0, "str0", "str1")]
 
+# 48.
+#
+# Title: Write a list to file
+# Category: [ Standard lib ]
+#
+# Description:
+# Joins the list 'var1' using "str0" as separator, and writes to file 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.write(var1.join("str0"))
 
 var0.keys.map
