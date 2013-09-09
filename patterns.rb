@@ -1084,6 +1084,18 @@ end
 
 var0 = var1.split("str0")[0]
 
+# 67.
+#
+# Title: Is given variable greater than size of another
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 is greater than the size of var1
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 > var1.size
 
 var0.to_s.downcase
