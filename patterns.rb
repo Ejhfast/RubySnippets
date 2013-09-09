@@ -1146,6 +1146,18 @@ var0.on("str0", "str1", "str2") do |var1|
   var2[:sym0] = var1
 end
 
+# 72.
+#
+# Title: Close IO stream conditionally
+# Category: [ Standard lib ]
+#
+# Description:
+# Closes the IO object var0 if it can respond to the method sym0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0.respond_to?(:sym0)
   var0.close
 end
