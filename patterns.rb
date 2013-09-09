@@ -940,6 +940,21 @@ Dir[File.dirname("str0") + "str1"].each do |var0|
   require(var0)
 end
 
+# 58.
+#
+# Title: Substitute pattern with a string and convert to lower-case
+# Category: [ Standard lib ]
+#
+# Description:
+# Replaces the occurance of the pattern /str0/ with "str1" in 'var0',
+#  and then converts it to lower-case.
+#  Pattern match with /str0/ takes additional option 'n'
+#  which can be for example, 'i' to ignore case
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.sub(/str0/n, "str1").downcase
 
 if ((var0) && (!var0.closed?))
