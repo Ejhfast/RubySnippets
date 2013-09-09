@@ -1127,6 +1127,19 @@ var0.to_s.downcase
 
 var0[var1.object_id]
 
+# 70. Element in an array at offset-ed index
+#
+# Title:
+# Category: [ Standard lib ]
+#
+# Description:
+# Returns an element from the array var0 which is at the index
+#   determined by offsetting var1 by a number (0 here)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 return(var0[var1 - 0])
 
 var0.on("str0", "str1", "str2") do |var1|
