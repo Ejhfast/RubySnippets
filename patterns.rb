@@ -957,6 +957,19 @@ end
 
 var0.sub(/str0/n, "str1").downcase
 
+# 59.
+#
+# Title: Close an IO stream if open
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the IO object/file-descriptor 'var0' exists,
+#   and close if it is not closed.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if ((var0) && (!var0.closed?))
   var0.close
 end
