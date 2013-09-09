@@ -1049,6 +1049,22 @@ var0.values.first
 
 var0.first["str0"]
 
+# 65.
+#
+# Title: Stringify keys in a hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterates over key-value pairs in a hash var0,
+#  and build another similar hash var3 with the keys of var0 stringified.
+#  Values are the same in both hashes
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var3 = var0.stringify_keys  # Needs Rails ActiveSupport
+
 var0.each do |var1, var2|
   var3[var1.to_s] = var2
 end
