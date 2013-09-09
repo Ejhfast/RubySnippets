@@ -1178,6 +1178,20 @@ end
 
 var0.bytes.to_a
 
+# 74.
+#
+# Title: Value from a hash using an array element
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value an a index (0) in the array var2,
+#  and use it as the key to get the value from the hash var1.
+#  Assign the obtained value to var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1[var2[0]]
 
 Thread.current[:sym0] = var0
