@@ -855,6 +855,18 @@ path.sub(/str0/, "str1")
 
 var0[var1, var2 - var1]
 
+# 53.
+#
+# Title: Check if a hash element is not equal to a string
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if element keyed with :sym0 in hash 'var0' is un-equal to "str0"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[:sym0] != "str0"
 
 $3[0, 1].downcase
