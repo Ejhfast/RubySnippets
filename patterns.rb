@@ -884,6 +884,18 @@ var0[:sym0] != "str0"
 
 $3[0, 1].downcase
 
+# 55.
+#
+# Title: Element from an array converted as Float
+# Category: [ Standard lib ]
+#
+# Description:
+# The element at an index (0) in the array 'var0' is being type-casted to Float type
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0].to_f
 
 
