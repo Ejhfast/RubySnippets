@@ -1272,6 +1272,21 @@ type != :sym0
 
 var0.abs / 0
 
+# 80.
+#
+# Title: Subarray using negative indexes
+# Category: [ Standard lib ]
+#
+# Description:
+# This will obtain a sub-array of array var0
+#  by picking values between indexes -var1 and a fixed number (0 here)
+#  Referring by negative indexes is useful when values at the end of the array are needed
+#  For example: var0[-3,-1] gets the last three values
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[-var1..0]
 
 var0.value == var1
