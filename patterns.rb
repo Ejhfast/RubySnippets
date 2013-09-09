@@ -825,6 +825,19 @@ var0.keys.collect do |var1|
   var1.to_s
 end
 
+# 51.
+#
+# Title: Substitute first occurance of a pattern with given string
+# Category: [ Standard lib ]
+#
+# Description:
+# Substitutes the first occurance of the pattern /str0/ in 'path' with "str1"
+#  Returns a new substituted string, and doesn't change 'path' itself
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 path.sub(/str0/, "str1")
 
 var0[var1, var2 - var1]
