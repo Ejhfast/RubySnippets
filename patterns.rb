@@ -1424,7 +1424,21 @@ File.exist?(File.join(var0, "str0"))
 
 var0.to_i >= 0
 
+# 90.
+#
+# Title: Remove leading and trailing whilespaces
+# Category: [ Standard lib ]
+#
+# Description:
+# Removes whitespace characters from the start and end of var0
+#  Whitespace characters are spaces, line-ends, tabs etc.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var0.to_s.strip
+
 
 var0.close
 var1.close
