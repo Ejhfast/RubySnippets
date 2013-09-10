@@ -1547,6 +1547,19 @@ if ((var0.nil?) || (var0.empty?))
   raise(EOFError, "str0")
 end
 
+# 98.
+#
+# Title: Sub array
+# Category: [ Standard lib]
+#
+# Description:
+# Get a sub array from var1 by slicing out elements between indexes 0 and var2,
+#  and append it to another array var0. var1 is modified in the process.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << var1.slice!(0, var2)
 
 var0.size > 0
