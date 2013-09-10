@@ -1576,6 +1576,20 @@ var0 << var1.slice!(0, var2)
 
 var0.size > 0
 
+# 100.
+#
+# Title: check type of a variable
+# Category: [ Standard lib ]
+#
+# Description:
+# Is str0 the type/class-name of var0?
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var0.class.to_s == "str0"
+
 var0.type == "str0"
 
 var0.version == var1
