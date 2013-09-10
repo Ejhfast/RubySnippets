@@ -1439,6 +1439,17 @@ var0.to_i >= 0
 
 var0 = var0.to_s.strip
 
+# 91.
+#
+# Title: Close files
+# Category: [ Standard lib ]
+#
+# Description:
+# Close the file/IO objects referenced by var0 and var1
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 var0.close
 var1.close
