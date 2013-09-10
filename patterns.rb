@@ -1407,6 +1407,21 @@ File.exist?(File.join(var0, "str0"))
 
 "str0" => var0.size.to_s
 
+# 89.
+#
+# Title: Non-negative check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 is non-negative.
+#  Converts it to an integer before the comparison.
+#  When var0 is a string, it will be considered non-negative because
+#  the integer version will be 0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_i >= 0
 
 var0 = var0.to_s.strip
