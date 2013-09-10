@@ -1303,6 +1303,20 @@ var0[-var1..0]
 
 var0.value == var1
 
+# 82.
+#
+# Title: File path construction
+# Category: [ Standard lib ]
+#
+# Description:
+# Constructs a path by getting the directory-name from the path str0,
+#   and adding str1 to it. Can also be used to construct wildcard paths,
+#   eg- File.dirname("/etc/nginx/nginx.conf", "*.conf")
+#
+# Useful programming task or idiom: [ Yes]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.dirname("str0") + "str1"
 
 Rails.application.config
