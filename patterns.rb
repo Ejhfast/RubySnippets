@@ -1606,6 +1606,18 @@ var0.type == "str0"
 
 var0.version == var1
 
+# 102.
+#
+# Title: Pre/suffix value in params hash
+# Category: [ Standard lib ]
+#
+# Description: TODO- usecase
+# Stringify the value of :sym0 in params hash, and add str0 and str1 as prefix and suffix
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0#{params[:sym0]}str1"
 
 var0 = var1 - var2.size
