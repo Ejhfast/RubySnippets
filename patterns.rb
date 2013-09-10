@@ -1634,6 +1634,18 @@ var0.version == var1
 
 var0 = var1 - var2.size
 
+# 104.
+#
+# Title: Convert variable to array
+# Category: [ Standard lib ]
+#
+# Description:
+# Creates an array from var0 (by calling Kernel.to_a on it) and then iterate over it
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Array(var0).each
 
 var0.body=(var1.body)
