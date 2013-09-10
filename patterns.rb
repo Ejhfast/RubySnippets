@@ -1530,6 +1530,19 @@ end
 
 var0[0].each
 
+# 97.
+#
+# Title: End-of-file error
+# Category: [ Standard lib ]
+#
+# Description:
+# If var0 doesn't contain anything, raise EOFError.
+#  Useful to locate end of an IO stream while reading.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if ((var0.nil?) || (var0.empty?))
   raise(EOFError, "str0")
 end
