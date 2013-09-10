@@ -1377,6 +1377,20 @@ Rails.application.config
 
 var0[:sym0].each
 
+# 87.
+#
+# Title: File existence check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if a file exists,
+#  after getting the file-path by (file) joining the directory (var0)
+#  and the file-name str0
+#
+# Useful programming task or idiom: [ Yes]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.exist?(File.join(var0, "str0"))
 
 "str0" => var0.size.to_s
