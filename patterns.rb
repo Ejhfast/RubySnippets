@@ -1393,6 +1393,18 @@ var0[:sym0].each
 
 File.exist?(File.join(var0, "str0"))
 
+# 88.
+#
+# Title: Passing size argument as hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Pass hash arguments to a function, where the (stringified) size of var0 is keyed by str0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0" => var0.size.to_s
 
 var0.to_i >= 0
