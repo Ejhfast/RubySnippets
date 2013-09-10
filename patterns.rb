@@ -1665,6 +1665,25 @@ Array(var0).each
 
 var0.body=(var1.body)
 
+# 106.
+#
+# Title: Join arrays in a list
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterates over a list of arrays var0, and joins each array
+#  This doesn't actually return the joined array, nor does it modify the exising array,
+#  so the snippet in the current form is not very useful
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var0.map do |var1|
+#      var1.join
+#    end
+
+
 var0.each do |var1|
   var1.join
 end
