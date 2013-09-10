@@ -1319,6 +1319,18 @@ var0.value == var1
 
 File.dirname("str0") + "str1"
 
+# 83.
+#
+# Title: Ruby on Rails application configuration
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives a reference to the configuration object for the current Ruby on Rails application
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Rails.application.config
 
 (0 * 1) + 2
