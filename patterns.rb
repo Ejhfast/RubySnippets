@@ -1454,6 +1454,19 @@ var0 = var0.to_s.strip
 var0.close
 var1.close
 
+# 92.
+#
+# Title: Array value at offset-ed index
+# Category: [ Standard lib ]
+#
+# Description:
+# Get the element in array var1 at index var2 offset by an number (0 here)
+#  The element is then assigned to var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1[var2 + 0]
 
 children.each
