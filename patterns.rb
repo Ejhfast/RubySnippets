@@ -1469,6 +1469,19 @@ var1.close
 
 var0 = var1[var2 + 0]
 
+# 93.
+#
+# Title: Iterate over child objects
+# Category: [ Standard lib ]
+#
+# Description:
+# As a part of Pathname (or similar) library, this gives an enumerator that can
+#  iterate over the children of a directory - files and subdirectories
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 children.each
 
 var0.name == var1.to_s
