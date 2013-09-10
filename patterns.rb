@@ -1648,6 +1648,21 @@ var0 = var1 - var2.size
 
 Array(var0).each
 
+# 105.
+#
+# Title: Set the response body of HTTP request
+# Category: [ External lib ]
+#
+# Description:
+# Sets the response (var0) body to var1.body.
+#  var1 could itself be containing an Http body -
+#  perhaps it is the response from an Http request to a third party.
+#  Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.body=(var1.body)
 
 var0.each do |var1|
