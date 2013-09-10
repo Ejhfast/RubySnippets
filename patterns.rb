@@ -1498,6 +1498,20 @@ children.each
 
 var0.name == var1.to_s
 
+# 95.
+#
+# Title: Xml response to Http request
+# Category: [ External lib ]
+#
+# Description:
+# When the response is required as xml (var0.xml),
+#  render :sym0, var1 as the key-value pair
+#  (Used in Ruby on Rails rendering)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.xml do
   render({:sym0 => var1})
 end
