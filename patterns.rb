@@ -1349,6 +1349,18 @@ Rails.application.config
 
 (0 * 1) + 2
 
+# 85.
+#
+# Title: Concatenate strings
+# Category: [ Standard lib ]
+#
+# Description:
+# Add str0 to var0, then add var1 to its end, and then var2
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0 + "str0") + var1) + var2
 
 var0[:sym0].each
