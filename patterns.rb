@@ -1322,7 +1322,7 @@ File.dirname("str0") + "str1"
 # 83.
 #
 # Title: Ruby on Rails application configuration
-# Category: [ Standard lib ]
+# Category: [ External lib ]
 #
 # Description:
 # Gives a reference to the configuration object for the current Ruby on Rails application
