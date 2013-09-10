@@ -1289,6 +1289,18 @@ var0.abs / 0
 
 var0[-var1..0]
 
+# 81.
+#
+# Title: Compare variable's value property with another variable
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the value of the property 'value' of var0 is equal to var1
+#
+# Useful programming task or idiom: [ Yes]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.value == var1
 
 File.dirname("str0") + "str1"
