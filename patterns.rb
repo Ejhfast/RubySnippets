@@ -1333,6 +1333,20 @@ File.dirname("str0") + "str1"
 
 Rails.application.config
 
+# 84.
+#
+# Title: Product and summation
+# Category: [ Standard lib ]
+#
+# Description:
+# Multiply two numbers (0 and 1 here) and add another number (2 here) to the product
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+#
+# => 0 * 1 + 2  # parenthesis can be removed
+
 (0 * 1) + 2
 
 ((var0 + "str0") + var1) + var2
