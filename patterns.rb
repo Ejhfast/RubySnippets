@@ -1935,6 +1935,19 @@ Post.find(params[:sym0])
 
 var0.message.split("str0")
 
+# 123.
+#
+# Title: Sub array
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets a sub-array from var0 that contains elements between indexes 0 and var1.length,
+#  where var1 is another variable
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0, var1.length]
 
 (var0 & 0) != 1
