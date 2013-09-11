@@ -2140,6 +2140,18 @@ else
   end
 end
 
+# 135.
+#
+# Title: Compare variable sizes
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the size of var0 isn't equal to the size of var1
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.size != var1.size
 
 var0.flatten.join("str0")
