@@ -1732,6 +1732,18 @@ end
 
 return(var0[var1][var2])
 
+# 110.
+#
+# Title: Class name of an array element
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the class-name of an element (first here) in the array var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0].class
 
 File.expand_path("str0", File.dirname("str1"))
