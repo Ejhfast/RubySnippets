@@ -2229,6 +2229,19 @@ var0.delete(Thread.current)
 
 require(File.expand_path(var0))
 
+# 141.
+#
+# Title: Mode of a file
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the mode of the file var0 using File.stat
+#  File.stat returns a File::Stat object that has mode as a property
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.stat(var0).mode
 
 var0[var1].length
