@@ -2277,6 +2277,18 @@ def method
   Thread.current[:sym0]
 end
 
+# 144.
+#
+# Title: Last element of array within a hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the last element of an array keyed at :sym0 in hash var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[:sym0].last
 
 URI.parse(var0["str0"])
