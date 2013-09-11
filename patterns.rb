@@ -2046,6 +2046,20 @@ flash.now
 
 var0.size <= var1
 
+# 130.
+#
+# Title: Invoke method using send
+# Category: [ Standard lib ]
+#
+# Description:
+# Invoke the method nameed var1 on var0. var1 is converted to symbol first.
+#  This may be used to invoke methods dynamically, i.e, method name can be
+#  based on a user input or result of an expression. Also invokes private methods.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.send(var1.to_sym)
 
 [var0[0..0], format_datetime(var1), var2, var0, var3, msg2str(var4)]
