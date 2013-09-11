@@ -2306,6 +2306,19 @@ var0[:sym0].last
 
 URI.parse(var0["str0"])
 
+# 146.
+#
+# Title: Boolean AND and right shift operations
+# Category: [ Standard lib ]
+#
+# Description:
+# Performs a boolean AND between var0 and a number (0 here)
+#  and then (boolean) right shifts the result by another number (1)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 & 0) >> 1
 
 if var0.user
