@@ -1702,6 +1702,18 @@ end
 
 var0[var1 + 0..1]
 
+# 108.
+#
+# Title: Convert array elements to symbols
+# Category: [ Standard lib ]
+#
+# Description:
+# Converts each element in a list to its symbol representation and returns the new list
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.map do |var1|
   var1.to_sym
 end
