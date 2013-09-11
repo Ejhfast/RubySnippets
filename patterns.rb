@@ -2062,6 +2062,24 @@ var0.size <= var1
 
 var0.send(var1.to_sym)
 
+# 131.
+#
+# Title: Formatting log message
+# Category: [ Standard lib ]
+#
+# Description:
+# This sets the format in which logs must be written to the log file.
+#  It may be from the the 'logger' library, where the components are -
+#  var0 : severity
+#  var1 : time
+#  var2 : process-id of current program
+#  var3 : progname
+#  var4 : message
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 [var0[0..0], format_datetime(var1), var2, var0, var3, msg2str(var4)]
 
 var0.to_s.gsub(/str0/, "str1").gsub(/str2/, "str3").gsub(/str4/, "str5")
