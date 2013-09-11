@@ -2185,6 +2185,18 @@ var0.flatten.join("str0")
 
 params["str0"]
 
+# 138.
+#
+# Title: Variable's length
+# Category: [ Standard lib ]
+#
+# Description:
+# Tells how much is the length of var0 more than a number (0 here)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.length - 0
 
 var0.delete(Thread.current)
