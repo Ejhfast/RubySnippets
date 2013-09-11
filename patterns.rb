@@ -1811,6 +1811,22 @@ Time.now.to_f
 
 caller.join("str0")
 
+# 115.
+#
+# Title: Add current method to execution stack
+# Category: [ Standard lib ]
+#
+# Description:
+# This adds var0 to caller, which gives the current execution stack as an array
+#  In common usage, var0 may contain the details of the current method,
+#  because the what caller gives doesn't contain the curernt method.
+#  Eg -
+#  [__method__] + caller  # __method__ gives the name of the current method
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 + caller
 
 var0[:sym0]["str0"]
