@@ -2321,6 +2321,21 @@ URI.parse(var0["str0"])
 
 (var0 & 0) >> 1
 
+# 147.
+#
+# Title: Http basic auth
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# Sets the basic-auth parameters (username and password),
+#  before making an Http request, perhaps using Net::HTTP.
+#  username and password are obtained from var0, as var0.user and var0.password
+#  Done only when the username (var0.user) is available.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0.user
   var1.basic_auth(var0.user, var0.password)
 end
