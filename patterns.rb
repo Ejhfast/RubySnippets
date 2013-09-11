@@ -1983,6 +1983,19 @@ var0[0, var1.length]
 
 var0[:sym0] = [var0[:sym0]]
 
+# 126.
+#
+# Title: source_root for generators
+# Category: [ External lib ]
+#
+# Description:
+# Sets the source_root for a generator to the path obtained by
+#  expanding str0 relative to str1. Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 source_root(File.expand_path("str0", "str1"))
 
 if var0.is_a?(Hash)
