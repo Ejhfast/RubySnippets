@@ -2154,6 +2154,21 @@ end
 
 var0.size != var1.size
 
+# 136.
+#
+# Title: Flatten array and join
+# Category: [ Standard lib ]
+#
+# Description:
+# Flattens the array var0 into a one-dimensional array,
+#  and joins the elements into a string using str0 as separator.
+#  Flatten extracts the elements of any sub-arrays, and replaces them with the their elements,
+#  and this happens recurisively
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.flatten.join("str0")
 
 params["str0"]
