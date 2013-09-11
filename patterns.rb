@@ -2114,6 +2114,22 @@ var0.to_s.gsub(/str0/, "str1").gsub(/str2/, "str3").gsub(/str4/, "str5")
 
 "str0" + var0.inspect
 
+# 134.
+#
+# Title: Determine Rails gem version
+# Category: [ External lib ]
+#
+# Description:
+# Determines the version of the Rails gem.
+#  If defined as the constant RAILS_GEM_VERSION, use it,
+#  otherwise get it from the environment (ENV) if present,
+#  or else parse it using parse_gem_version method using the ruby from the environment.
+#  This is a part of boot.rb from pre-bundler versions of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if defined?(RAILS_GEM_VERSION)
   RAILS_GEM_VERSION
 else
