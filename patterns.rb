@@ -2355,7 +2355,23 @@ end
 
 !File.exists?(var0)
 
+# 149.
+#
+# Title: Rails action_controller.consider_all_requests_local config
+# Category: [ External lib ]
+#
+# Description:
+# Sets the consider_all_requests_local config in action_controller to true.
+#  This makes sure that error messages contain debugging details (exception backtrace etc)
+#  When it is set to false, the error messages are more user focussed, with fewer details
+#  Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.action_controller.consider_all_requests_local=(true)
+
 
 Thread.current[:sym0] = []
 
