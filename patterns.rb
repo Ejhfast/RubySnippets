@@ -2199,6 +2199,19 @@ params["str0"]
 
 var0.length - 0
 
+# 139.
+#
+# Title: Delete current thread's entry from a hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Removes the reference of the current thread from the hash var0
+#  The hash may in use for some kind of thread book-keeping here.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.delete(Thread.current)
 
 require(File.expand_path(var0))
