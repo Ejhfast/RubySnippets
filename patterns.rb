@@ -2259,6 +2259,20 @@ File.stat(var0).mode
 
 var0[var1].length
 
+# 143.
+#
+# Title: Current thread's local variable
+# Category: [ Standard lib ]
+#
+# Description:
+# The 'method' gives the value of the local variable :sym0 in the current thread
+#  Thread.current refers to the currently running thread,
+#  and the [:sym0] operation on a thread object gives the value of local variable :sym0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 def method
   Thread.current[:sym0]
 end
