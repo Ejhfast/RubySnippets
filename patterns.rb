@@ -1763,6 +1763,19 @@ var0[0].class
 
 File.expand_path("str0", File.dirname("str1"))
 
+# 112.
+#
+# Title: Logical And (&&)
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if varaibles var0 and var1 are both 0.
+#  If the var0 is not 0 it returns false and the second comparison is not performed
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0 == 0) && (var1 == 0))
 
 Time.now.to_f
