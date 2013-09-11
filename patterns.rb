@@ -1843,6 +1843,19 @@ var0 + caller
 
 var0[:sym0]["str0"]
 
+# 117.
+#
+# Title: Value in data hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value at 'str0' in the hash returned by var0.data
+#  The data method gives hash of some kind of data, for eg, an HTTP request payload
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.data["str0"]
 
 config.action_view.debug_rjs=(true)
