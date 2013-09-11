@@ -2214,6 +2214,19 @@ var0.length - 0
 
 var0.delete(Thread.current)
 
+# 140.
+#
+# Title: Load ruby script
+# Category: [ Standard lib ]
+#
+# Description:
+# Load (require) a ruby file using its full path.
+#  The path is constructed by applying File.expand_path on var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 require(File.expand_path(var0))
 
 File.stat(var0).mode
