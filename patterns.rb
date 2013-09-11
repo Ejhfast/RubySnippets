@@ -2244,6 +2244,19 @@ require(File.expand_path(var0))
 
 File.stat(var0).mode
 
+# 142.
+#
+# Title: Length of a hash element
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the length of the object keyed at 'var1' in hash 'var0'
+#  If var0 is an array and var1 refers to the index
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1].length
 
 def method
