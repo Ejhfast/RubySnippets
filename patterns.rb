@@ -1793,6 +1793,22 @@ File.expand_path("str0", File.dirname("str1"))
 
 Time.now.to_f
 
+# 114.
+#
+# Title: Current execution stack
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the current execution stack using 'caller',
+#  and joins the array holding it using str0 as separator.
+#  The separator is generally the new line character(\n)
+#  The current execution stack will list all the method calls
+#  that lead to the current method.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 caller.join("str0")
 
 var0 + caller
