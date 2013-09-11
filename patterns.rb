@@ -2016,6 +2016,20 @@ if var0.is_a?(Hash)
   var1.merge!(var0)
 end
 
+# 128.
+#
+# Title: flash for current action
+# Category: [ External lib ]
+#
+# Description:
+# Creats the flash object such that it is available only to the current action
+#  and not to the next one, which is the normal behavior of flashes
+#  Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 flash.now
 
 var0.size <= var1
