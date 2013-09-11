@@ -1718,6 +1718,18 @@ var0.map do |var1|
   var1.to_sym
 end
 
+# 109.
+#
+# Title: Get element from 2-d array
+# Category: [ Standard lib ]
+#
+# Description:
+# Returns the value at var1, var2 from the two-dimensional array var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 return(var0[var1][var2])
 
 var0[0].class
