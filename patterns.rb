@@ -1998,6 +1998,20 @@ var0[:sym0] = [var0[:sym0]]
 
 source_root(File.expand_path("str0", "str1"))
 
+# 127.
+#
+# Title: Merge hashes
+# Category: [ Standard lib ]
+#
+# Description:
+# Merges var0 with hash var1 if var0 is a hash.
+#  This will include all the key-value pairs from var0 to var1, and
+#  for keys that are common, values from var0 will be used.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0.is_a?(Hash)
   var1.merge!(var0)
 end
