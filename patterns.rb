@@ -1921,6 +1921,18 @@ var0.reverse.join("str0")
 
 Post.find(params[:sym0])
 
+# 122.
+#
+# Title: Split message string
+# Category: [ Standard lib ]
+#
+# Description:
+# Splits the message property of var0 on the occurances of str0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.message.split("str0")
 
 var0[0, var1.length]
