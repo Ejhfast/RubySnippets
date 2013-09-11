@@ -1891,6 +1891,18 @@ config.action_view.debug_rjs=(true)
 
 config.assets.digest=(true)
 
+# 120.
+#
+# Title: Reverse and join array
+# Category: [ Standard lib ]
+#
+# Description:
+# Reverses the array var0 and join its elements with str0 as separator
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.reverse.join("str0")
 
 Post.find(params[:sym0])
