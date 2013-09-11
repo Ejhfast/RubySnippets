@@ -1746,6 +1746,21 @@ return(var0[var1][var2])
 
 var0[0].class
 
+# 111.
+#
+# Title: Construct full path
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets full path using path 'str0', relative to the directory in path 'str1'
+#  eg:-
+#   File.expand_path("../sites-available/default", File.dirname("/etc/nginx/nginx.conf"))
+#  gets the file /etc/nginx/site-available/default
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.expand_path("str0", File.dirname("str1"))
 
 ((var0 == 0) && (var1 == 0))
