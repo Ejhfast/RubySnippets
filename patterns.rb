@@ -2372,6 +2372,18 @@ end
 
 config.action_controller.consider_all_requests_local=(true)
 
+# 150.
+#
+# Title: Set local variable in current thread
+# Category: [ Standard lib ]
+#
+# Description:
+# Assign an empty array to the local variable :sym0 within the current thread.
+#  The variable will be local to the root fiber.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 Thread.current[:sym0] = []
 
