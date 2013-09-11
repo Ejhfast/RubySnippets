@@ -2340,6 +2340,19 @@ if var0.user
   var1.basic_auth(var0.user, var0.password)
 end
 
+# 148.
+#
+# Title: File existence check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the file var0 (doesn't) exist?
+#  Gives false if it does, true if it doesn't
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !File.exists?(var0)
 
 config.action_controller.consider_all_requests_local=(true)
