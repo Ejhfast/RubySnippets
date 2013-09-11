@@ -2082,6 +2082,20 @@ var0.send(var1.to_sym)
 
 [var0[0..0], format_datetime(var1), var2, var0, var3, msg2str(var4)]
 
+# 132.
+#
+# Title: Chained pattern substitution
+# Category: [ Standard lib ]
+#
+# Description:
+# Substitute all the occurances of pattern /str0/ with str1,
+#  /str2/ with str3 and /str4/ with str5 in var0.
+#  Stringifies var0 first. Gives the substituted string, doesn't modify var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_s.gsub(/str0/, "str1").gsub(/str2/, "str3").gsub(/str4/, "str5")
 
 "str0" + var0.inspect
