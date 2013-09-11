@@ -1875,6 +1875,20 @@ var0.data["str0"]
 
 config.action_view.debug_rjs=(true)
 
+# 119.
+#
+# Title: Rails assets.digest config
+# Category: [ External lib ]
+#
+# Description:
+# Sets the assets.digest config to true.
+#  This enables generation of digest Url for assets (images/stylesheets/javascripts)
+#  Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.assets.digest=(true)
 
 var0.reverse.join("str0")
