@@ -1858,6 +1858,21 @@ var0[:sym0]["str0"]
 
 var0.data["str0"]
 
+# 118.
+#
+# Title: Rails action_view.debug_rjs config
+# Category: [ External lib ]
+#
+# Description:
+# Sets the debug_rjs configuration in action_view to true.
+#  This config enables a feature where Javascript generated in by Rjs
+#  shows any exceptions as an alert and re-raises them.
+#  Part of Ruby on Rails, removed from 3.1 onwards
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.action_view.debug_rjs=(true)
 
 config.assets.digest=(true)
