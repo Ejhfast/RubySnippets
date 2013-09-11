@@ -1683,10 +1683,22 @@ var0.body=(var1.body)
 #      var1.join
 #    end
 
-
 var0.each do |var1|
   var1.join
 end
+
+# 107.
+#
+# Title: Getting sub-array
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets a sub-array from the array var0,
+#  where the chosen indexes are between var0+0 and 1
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
 
 var0[var1 + 0..1]
 
