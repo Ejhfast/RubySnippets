@@ -1905,6 +1905,20 @@ config.assets.digest=(true)
 
 var0.reverse.join("str0")
 
+# 121.
+#
+# Title: Find an ActiveRecord object
+# Category: [ External lib ]
+#
+# Description:
+# Find the ActiveRecord Post object using the value of :sym0 in params hash
+#  Find expects the argument to be the primary_key - generally the id.
+#  Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Post.find(params[:sym0])
 
 var0.message.split("str0")
