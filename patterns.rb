@@ -1778,6 +1778,19 @@ File.expand_path("str0", File.dirname("str1"))
 
 ((var0 == 0) && (var1 == 0))
 
+# 113.
+#
+# Title: Epoch time as float
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the Epoch time right now as a floating point number
+#  Epoch time is the number of seconds since 1 Jan 1970, 00:00:00
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Time.now.to_f
 
 caller.join("str0")
