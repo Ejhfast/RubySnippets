@@ -1950,6 +1950,18 @@ var0.message.split("str0")
 
 var0[0, var1.length]
 
+# 124.
+#
+# Title: Bitwise AND
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if bitwise AND of var0 and a number (0 here) is not equal to 1.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 & 0) != 1
 
 var0[:sym0] = [var0[:sym0]]
