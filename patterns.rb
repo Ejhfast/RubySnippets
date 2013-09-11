@@ -2171,6 +2171,18 @@ var0.size != var1.size
 
 var0.flatten.join("str0")
 
+# 137.
+#
+# Title: Value from params hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value keyed by 'str0' in the 'params' hash
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 params["str0"]
 
 var0.length - 0
