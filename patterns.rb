@@ -1964,6 +1964,23 @@ var0[0, var1.length]
 
 (var0 & 0) != 1
 
+# 125.
+#
+# Title: Enclose a hash element with an array
+# Category: [ Standard lib ]
+#
+# Description:
+# Builds an array by enclosing the value at :sym0 in var0 and
+#  assign it to the same key :sym0 in var0.
+#  Useful in situations where external inputs are available as list of items, but
+#  some inputs are singular items, so not represented as array.
+#  Data store here would need to make the singular values consistent with the
+#  other values
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[:sym0] = [var0[:sym0]]
 
 source_root(File.expand_path("str0", "str1"))
