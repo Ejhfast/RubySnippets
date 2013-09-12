@@ -2591,6 +2591,19 @@ each do |var0|
   var1 << yield(var0)
 end
 
+# 164.
+#
+# Title: Convert to array and iterate
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives an enumerator that can iterate over the array version of var0.
+#  The enumerator returned here can produce a new array
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_a.collect
 
 var0 << var1.to_s
