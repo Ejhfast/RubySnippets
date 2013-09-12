@@ -2573,6 +2573,20 @@ var0.text == var1
 
 !var0.respond_to?(:sym0)
 
+# 163.
+#
+# Title: Execute block within iterator
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterate over the current object and execute the passed block in each iteration.
+#  The iterator is passed as an argument to the block in each iteration, and the
+#  result of the block is pushed to the array var1.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 each do |var0|
   var1 << yield(var0)
 end
