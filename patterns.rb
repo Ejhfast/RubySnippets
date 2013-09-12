@@ -2799,6 +2799,19 @@ send(position_column).to_i
 
 ((var0 == true) || (var0 == false))
 
+# 177.
+#
+# Title: Globally substitute patterns
+# Category: [ Standard lib ]
+#
+# Description:
+# Substitute all occurances of pattern /str0/ with 'str1' and /str2/ with 'str1'
+#  in var0. Returns a newly substituted string without modifying var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.gsub(/str0/, "str1").gsub(/str2/, "str1")
 
 raise(StandardError.new("str0"))
