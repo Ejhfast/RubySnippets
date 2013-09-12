@@ -3086,6 +3086,18 @@ var0.split(/str0/).map do |var1|
   var1.capitalize
 end
 
+# 195.
+#
+# Title: Append string to name
+# Category: [ Standard lib ]
+#
+# Description:
+# Append "str0" to name.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 name + "str0"
 
 File.basename(var0.path)
