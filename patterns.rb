@@ -3007,6 +3007,18 @@ var0[var1.type]
 
 ("str0" + var0.join("str1")) + "str2"
 
+# 191.
+#
+# Title: Process id
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the process id of the current ruby process as a string
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Process.pid.to_s
 
 var0.to_s.humanize
