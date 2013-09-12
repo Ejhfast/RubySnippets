@@ -2768,6 +2768,20 @@ config.action_dispatch
 
 var0 = var1.to_i * 0
 
+# 175.
+#
+# Title: Get position_column
+# Category: [ External lib ]
+#
+# Description:
+# Gets the position_column by invoking the position_column method on
+#  the current object using send, and converts the result to integer.
+#  Most probably a part of the acts_as_list library.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 send(position_column).to_i
 
 ((var0 == true) || (var0 == false))
