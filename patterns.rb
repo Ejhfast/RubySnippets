@@ -3100,6 +3100,20 @@ end
 
 name + "str0"
 
+# 196.
+#
+# Title: Last part of pathname
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the last component of a file path.
+#  eg-
+#  File.basename '/var/code/project/config.rb'  # =>  'config.rb'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.basename(var0.path)
 
 require(File.expand_path("str0", "str1"))
