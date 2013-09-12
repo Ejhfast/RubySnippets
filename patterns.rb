@@ -2651,6 +2651,20 @@ var0 << var1.to_s
 
 ((var0[:sym0]) && (!var0[:sym1]))
 
+# 168.
+#
+# Title: update_attribute
+# Category: [ External lib ]
+#
+# Description:
+# The 'method' when invoked changes the position_column attribute to a number (0 here)
+#  It calls the ActiveRecord update_attribute method, which changes a single attribute
+#  and saves the change, without performing any validations.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 def method
   update_attribute(position_column, 0)
 end
