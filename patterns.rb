@@ -2962,6 +2962,18 @@ var0.body.to_s
 
 var0[0].is_a?(String)
 
+# 188.
+#
+# Title: Check zero length
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the length of var0 is 0 - whether it is an empty array or hash
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.length == 0
 
 var0[var1.type]
