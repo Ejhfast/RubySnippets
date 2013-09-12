@@ -2418,6 +2418,18 @@ var0 = var1[0].to_s
 
 var0[var1] = var2.clone
 
+# 153.
+#
+# Title: Split at pattern
+# Category: [ Standard lib ]
+#
+# Description:
+# Splits var0 on the occurances of pattern /str0/, after converting it to a string
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_s.split(/str0/)
 
 "str0#{Time.now - var0}str1"
