@@ -2493,6 +2493,21 @@ var0 = (var1 - var2).abs
 
 Time.parse(var0["str0"])
 
+# 158.
+#
+# Title: convert to camel-case
+# Category: [ External lib ]
+#
+# Description:
+# Stringify var0 and then convert it to camel-case.
+#  The string is converted to UpperCamelCase, where each part of the string separated
+#  by underscore is capitalized. (first letter to uppercase and the rest to lowercase).
+#  Needs Rails active_support/inflector
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_s.camelize
 
 var0 = Post.new(var1.path)
