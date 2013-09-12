@@ -2478,6 +2478,19 @@ var0.last << var1
 
 var0 = (var1 - var2).abs
 
+# 157.
+#
+# Title: parsing Time
+# Category: [ External lib ]
+#
+# Description:
+# Parses the time from given params hash var0, using the value at key str0.
+#  Uses Rails active_support/time for the parse method.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Time.parse(var0["str0"])
 
 var0.to_s.camelize
