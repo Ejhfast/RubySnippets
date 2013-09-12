@@ -2905,6 +2905,19 @@ var0.times.map
 
 RbConfig::CONFIG["str0"] + RbConfig::CONFIG["str1"]
 
+# 184.
+#
+# Title: Array element to Float
+# Category: [ Standard lib ]
+#
+# Description: TODO-usecase
+# Gives the float version of an element (at index 0) from array var1.
+#  If the element is nil, it returns 1.0. Assigns the result to var0.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = ((var1[0]) || (1)).to_f
 
 var0 + var1[:sym0]
