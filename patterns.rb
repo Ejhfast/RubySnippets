@@ -2976,6 +2976,20 @@ var0[0].is_a?(String)
 
 var0.length == 0
 
+# 189.
+#
+# Title: Hash using (data) types
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value in the hash keyed by the type of var1
+#  Perhaps the hash here stores entries for objects keyed by their types,
+#  to do some kind of book-keeping on objects
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1.type]
 
 ("str0" + var0.join("str1")) + "str2"
