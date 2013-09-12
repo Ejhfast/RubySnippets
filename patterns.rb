@@ -2948,6 +2948,18 @@ var0 + var1[:sym0]
 
 var0.body.to_s
 
+# 187.
+#
+# Title: String type check for array element
+# Category: [ Standard lib ]
+#
+# Description:
+# Check if an element (at index 0) of array var0 is a string
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0].is_a?(String)
 
 var0.length == 0
