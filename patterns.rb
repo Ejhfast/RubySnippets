@@ -2830,6 +2830,18 @@ var0.gsub(/str0/, "str1").gsub(/str2/, "str1")
 
 raise(StandardError.new("str0"))
 
+# 179.
+#
+# Title: String type check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 is (not) an instance of String.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !var0.is_a?(String)
 
 var0.to_s.size
