@@ -3116,6 +3116,20 @@ name + "str0"
 
 File.basename(var0.path)
 
+# 197.
+#
+# Title: load ruby script
+# Category: [ Standard lib ]
+#
+# Description:
+# Load (using require) a ruby script by using its full path.
+#  The full path is constructed using File.expand_path, which
+#  expands the path 'str0' relative to 'str1'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 require(File.expand_path("str0", "str1"))
 
 object.class
