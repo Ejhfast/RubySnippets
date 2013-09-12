@@ -2510,6 +2510,18 @@ Time.parse(var0["str0"])
 
 var0.to_s.camelize
 
+# 159.
+#
+# Title: Create new object
+# Category: [ Standard lib ]
+#
+# Description:
+# Creates a new Post object using path property of var1, and assign it to var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = Post.new(var1.path)
 
 if var0.is_a?(Hash)
