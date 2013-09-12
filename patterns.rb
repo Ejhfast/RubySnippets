@@ -2432,6 +2432,20 @@ var0[var1] = var2.clone
 
 var0.to_s.split(/str0/)
 
+# 154.
+#
+# Title: Time difference as a string
+# Category: [ Standard lib ]
+#
+# Description:
+# Reduce var0 seconds from current time,
+#  and add the prefix/suffix of str0/str1 to its string version.
+#  If var0 is another Time object, this uses the difference in times.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0#{Time.now - var0}str1"
 
 var0.last << var1
