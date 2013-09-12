@@ -2934,6 +2934,18 @@ var0 = ((var1[0]) || (1)).to_f
 
 var0 + var1[:sym0]
 
+# 186.
+#
+# Title: Stringify body
+# Category: [ Standard lib ]
+#
+# Description:
+# Convert body property of var0 to string.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.body.to_s
 
 var0[0].is_a?(String)
