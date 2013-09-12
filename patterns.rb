@@ -2858,6 +2858,21 @@ raise(StandardError.new("str0"))
 
 var0.to_s.size
 
+# 181.
+#
+# Title: key-value pair
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives a key-value pair where key :sym0 points the class-name of var0.
+#  This could be an argument to a method, eg -
+#   def foo(x, y={}); end
+#   foo(2, :sym0 => var0.class.name)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 :sym0 => var0.class.name
 
 var0.times.map
