@@ -3146,6 +3146,19 @@ require(File.expand_path("str0", "str1"))
 
 object.class
 
+# 199.
+#
+# Title: Conditional assignment
+# Category: [ Standard lib ]
+#
+# Description:
+# If var0 exists and its size is greater than 0, (non empty array/hash)
+#  then assign var0 to var1 and set var0 to nil
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if ((var0) && (var0.size > 0))
   var1 = var0
   var0 = nil
