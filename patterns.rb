@@ -2721,6 +2721,20 @@ var0.sort_by do |var1, var2|
   -var2
 end
 
+# 172.
+#
+# Title: Array type and size check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 is an instance of Array (or a subclass) and if it is empty
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var0.is_a?(Array) && var0.empty?  # uses empty? instead of var0.size==0
+
 ((var0.is_a?(Array)) && (var0.size == 0))
 
 config.action_dispatch
