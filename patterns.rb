@@ -2558,6 +2558,19 @@ end
 
 var0.text == var1
 
+# 162.
+#
+# Title: !respond_to
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 can respond to the method :sym0, and reverses the result.
+#  Gives false if it can, true if it can't.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !var0.respond_to?(:sym0)
 
 each do |var0|
