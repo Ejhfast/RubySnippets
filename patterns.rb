@@ -2737,6 +2737,20 @@ end
 
 ((var0.is_a?(Array)) && (var0.size == 0))
 
+# 173.
+#
+# Title: action_dispatch config
+# Category: [ External lib ]
+#
+# Description:
+# Refers to the action_dispatch config hash.
+#  This hash contains configuration related to the http request, cookies and sessions.
+#  Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.action_dispatch
 
 var0 = var1.to_i * 0
