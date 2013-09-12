@@ -2401,6 +2401,21 @@ Thread.current[:sym0] = []
 
 var0 = var1[0].to_s
 
+# 152.
+#
+# Title: clone an object
+# Category: [ Standard lib ]
+#
+# Description:
+# Clone var2 and assign it to the hash var0 at key var1.
+#  The clone method used produces a 'shallow' copy of var2,
+#  where all the instance variables of var2 are copied, but not
+#  the objects they reference.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1] = var2.clone
 
 var0.to_s.split(/str0/)
