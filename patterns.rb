@@ -2890,6 +2890,19 @@ var0.to_s.size
 
 var0.times.map
 
+# 183.
+#
+# Title: operations on RbConfig
+# Category: [ Standard lib ]
+#
+# Description:
+# Concatenates two RbConfig::CONFIG values - at keys str0 and str1.
+#  RbConfig::CONFIG contains info on the current ruby installation, like the host_os
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 RbConfig::CONFIG["str0"] + RbConfig::CONFIG["str1"]
 
 var0 = ((var1[0]) || (1)).to_f
