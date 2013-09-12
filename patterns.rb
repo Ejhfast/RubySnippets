@@ -2669,6 +2669,19 @@ def method
   update_attribute(position_column, 0)
 end
 
+# 169.
+#
+# Title: Compare object size
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the size of var1 is greater than or equal to var0.
+#  Gives false if var1 is nil.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0) && (var1.size >= var0))
 
 h(var0.name)
