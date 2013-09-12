@@ -3021,6 +3021,23 @@ var0[var1.type]
 
 Process.pid.to_s
 
+# 192.
+#
+# Title: Pretty print using humanize
+# Category: [ External lib ]
+#
+# Description:
+# Convert var0 to string, and then print it in pretty form using 'humanize':
+#  humanize capitalizes the first letter; turns underscores into spaces and
+#  strips the trailing '_id' if any.
+#  eg -
+#  'employee_salary_id' becomes 'Employee salary'
+#  Part of the Rails - active_support/inflector
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_s.humanize
 
 self.class.load_rubygems
