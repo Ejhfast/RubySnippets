@@ -3164,6 +3164,27 @@ if ((var0) && (var0.size > 0))
   var0 = nil
 end
 
+# 200.
+#
+# Title: Custom inspect for hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterates over the hash var0 to get an array of strings composed by
+#  concatenating the hash key and value with str0 and str1. Then joins
+#  the resulting array using str2. This may be a custom inspect for the
+#  hash - to define an alternate way of printing the hash.
+#  eg,
+#   var0.map do |var1, var2|
+#     "@#{var1}-->#{var2}"    # str0: '@', str1: '-->', str2: ';'
+#   end.join("str2")
+#
+#  gets: "@a-->23; @b-->45" for var0 = {:a=>23, :b=>45}
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.map do |var1, var2|
   "str0#{var1}str1#{var2}"
 end.join("str2")
