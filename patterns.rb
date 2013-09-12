@@ -2784,6 +2784,19 @@ var0 = var1.to_i * 0
 
 send(position_column).to_i
 
+# 176.
+#
+# Title: Check if variable is a boolean (true/false)
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if a variable is equal to the boolean values true or false.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
+
 ((var0 == true) || (var0 == false))
 
 var0.gsub(/str0/, "str1").gsub(/str2/, "str1")
