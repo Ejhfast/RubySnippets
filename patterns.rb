@@ -2636,6 +2636,19 @@ var0 << var1.to_s
 
 ((options[:sym0]) || (options[:sym1]))
 
+# 167.
+#
+# Title: Logical && and ! on hash values
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if there is a non-nil element at key :sym0, and
+#  the key :sym1 doesn't exist or its value is nil/false
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0[:sym0]) && (!var0[:sym1]))
 
 def method
