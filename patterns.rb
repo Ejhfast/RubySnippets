@@ -3066,6 +3066,22 @@ self.class.load_rubygems
 load_rails_gem
 require("str0")
 
+# 194.
+#
+# Title: Split and capitalize parts
+# Category: [ Standard lib ]
+#
+# Description:
+# Split var0 at pattern /str0/ and build an array with each part capitalized.
+#  The capitalize converts first character of a string to up-case, and the
+#  rest to downcase.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# var0.split(/str0/).map(&:capitalize)   # using & to convert the method to a proc
+
 var0.split(/str0/).map do |var1|
   var1.capitalize
 end
