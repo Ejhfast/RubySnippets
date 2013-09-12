@@ -2448,6 +2448,18 @@ var0.to_s.split(/str0/)
 
 "str0#{Time.now - var0}str1"
 
+# 155.
+#
+# Title: Append to last element
+# Category: [ Standard lib ]
+#
+# Description:
+# Append var1 to the last string/array within var0
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.last << var1
 
 var0 = (var1 - var2).abs
