@@ -3040,6 +3040,28 @@ Process.pid.to_s
 
 var0.to_s.humanize
 
+# 193.
+#
+# Title: Rails application initialization
+# Category: [ External lib ]
+#
+# Description:
+# These are steps in initializing a Rails application (Rails 2.0 to 2.3),
+#  load_rubygems tries loading a Rails compatible version of rubygems library
+#  load_rails_gem tries to load the correct version of rails, and exits with error if it can't
+#  the require step loads the initializer script
+#  This snippet is generally present in the config/boot.rb file of the project, like so -
+#    class GemBoot < Boot
+#       def load_initializer
+#         self.class.load_rubygems
+#         load_rails_gem
+#         require 'initializer'
+#       end
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 self.class.load_rubygems
 load_rails_gem
 require("str0")
