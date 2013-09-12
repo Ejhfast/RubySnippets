@@ -2524,6 +2524,22 @@ var0.to_s.camelize
 
 var0 = Post.new(var1.path)
 
+# 160.
+#
+# Title: update hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Updates hash var1 using var0 if its a Hash
+#  All entries of var0 are copied to var1, and duplicate enties are overwritten with
+#  values from var0.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var1.merge(var0)     # merge and update are the same
+
 if var0.is_a?(Hash)
   var1.update(var0)
 end
