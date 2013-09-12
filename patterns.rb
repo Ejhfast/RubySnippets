@@ -65,11 +65,11 @@ var0.cookies.each
 
 # 5.
 #
-# Title: Get the first element of a list
+# Title: Check if a variable equals the first element of a list
 # Category: [ Standard lib ]
 #
 # Description:
-# Gets the first element of the list 'var1' and assigns it to another variable 'var0'
+# Check if the variable 'var0' is the same as the first element of the list 'var1'
 #
 # Useful programming task or idiom: [ Yes ]
 # Can be encapsulated in standalone function: [ Yes ]
