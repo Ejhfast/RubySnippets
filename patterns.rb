@@ -2544,6 +2544,18 @@ if var0.is_a?(Hash)
   var1.update(var0)
 end
 
+# 161.
+#
+# Title: Compare text property
+# Category: [ Standard lib ]
+#
+# Description:
+# Compare text property of var0 with var1
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.text == var1
 
 !var0.respond_to?(:sym0)
