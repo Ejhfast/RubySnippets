@@ -2462,6 +2462,20 @@ var0.to_s.split(/str0/)
 
 var0.last << var1
 
+# 156.
+#
+# Title: Absolute value of difference
+# Category: [ Standard lib ]
+#
+# Description:
+# Assigns the absolute value of the difference between var1 and var2 to var0.
+#  The abs method is used to get the absolute value. Absolute value here means
+#  difference is always expressed as a positive value.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = (var1 - var2).abs
 
 Time.parse(var0["str0"])
