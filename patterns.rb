@@ -2684,6 +2684,22 @@ end
 
 ((var0) && (var1.size >= var0))
 
+# 170.
+#
+# Title: Escape html/javascript
+# Category: [ External lib ]
+#
+# Description:
+# Escapes any html/javascipt from var0.name
+#  Escaping replaces characters looking like html/javascript with their
+#  equivalent escape codes.
+#  This method is used in Rails views (versions older than 3.0) to
+#  negotiate cross-site scripting attacks
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 h(var0.name)
 
 var0.sort_by do |var1, var2|
