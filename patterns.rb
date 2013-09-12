@@ -2702,6 +2702,21 @@ end
 
 h(var0.name)
 
+# 171.
+#
+# Title: Sort hash on values
+# Category: [ Standard lib ]
+#
+# Description:
+# Sorts the hash var0 in reverse order of its values.
+#  This works by passing a block to the sort_by method whose return value
+#  decides what to use for the sorting. The sort does't return a hash but a
+#  sorted two dimenstional array similar to the hash.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.sort_by do |var1, var2|
   -var2
 end
