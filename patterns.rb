@@ -2875,6 +2875,19 @@ var0.to_s.size
 
 :sym0 => var0.class.name
 
+# 182.
+#
+# Title: Iterate var0 times
+# Category: [ Standard lib ]
+#
+# Description:
+# Creates an enumerator that iterates var0 times with values 0 through var0-1.
+#  The map makes enumerator return an array.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.times.map
 
 RbConfig::CONFIG["str0"] + RbConfig::CONFIG["str1"]
