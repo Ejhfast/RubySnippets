@@ -2620,6 +2620,20 @@ var0.to_a.collect
 
 var0 << var1.to_s
 
+# 166.
+#
+# Title: Check if hash contains keys :sym0/:sym1
+# Category: [ Standard lib ]
+#
+# Description:
+# Tells if the options hash contains either of the keys :sym0 and :sym1,
+#  and at least one of them has non-nil values.
+#  Usecase: may be done before assigning a value to one of the keys
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((options[:sym0]) || (options[:sym1]))
 
 ((var0[:sym0]) && (!var0[:sym1]))
