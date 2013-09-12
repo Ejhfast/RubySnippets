@@ -2753,6 +2753,19 @@ end
 
 config.action_dispatch
 
+# 174.
+#
+# Title: Integer-ify and multiply
+# Category: [ Standard lib ]
+#
+# Description:
+# Multiply integer version of var1 with a number (0 here) and assign it to var0
+#  Multiplication with 0 will always give 0, so this snippet is of little use.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1.to_i * 0
 
 send(position_column).to_i
