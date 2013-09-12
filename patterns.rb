@@ -2844,6 +2844,18 @@ raise(StandardError.new("str0"))
 
 !var0.is_a?(String)
 
+# 180.
+#
+# Title: Stringify and get size
+# Category: [ Standard lib ]
+#
+# Description:
+# Convert var0 to a string and get its size
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_s.size
 
 :sym0 => var0.class.name
