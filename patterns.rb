@@ -2814,6 +2814,20 @@ send(position_column).to_i
 
 var0.gsub(/str0/, "str1").gsub(/str2/, "str1")
 
+# 178.
+#
+# Title: raise StandardError
+# Category: [ Standard lib ]
+#
+# Description:
+# Raise the StandardError exception using "str0" as exception message
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => raise StandardError, "str0"
+
 raise(StandardError.new("str0"))
 
 !var0.is_a?(String)
