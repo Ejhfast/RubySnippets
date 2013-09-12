@@ -2920,6 +2920,18 @@ RbConfig::CONFIG["str0"] + RbConfig::CONFIG["str1"]
 
 var0 = ((var1[0]) || (1)).to_f
 
+# 185.
+#
+# Title: Add hash element to variable
+# Category: [ Standard lib ]
+#
+# Description:
+# Add the element at :sym0 in hash var1 to var0
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 + var1[:sym0]
 
 var0.body.to_s
