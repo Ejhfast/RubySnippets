@@ -2606,6 +2606,18 @@ end
 
 var0.to_a.collect
 
+# 165.
+#
+# Title: Stringify and push
+# Category: [ Standard lib ]
+#
+# Description:
+# Append the stringified version of var1 to array/string var0
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << var1.to_s
 
 ((options[:sym0]) || (options[:sym1]))
