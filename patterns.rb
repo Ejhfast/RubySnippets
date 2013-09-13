@@ -34,7 +34,7 @@ var0.to_s.split("str0").last
 # 3.
 #
 # Title: Access a Hash elemeny by symbol or string key
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Gets the element at key :sym0 from the hash 'var0'. If the symbol key :sym0 is not present, it fetches the value at the string key "str0"
@@ -977,7 +977,7 @@ end
 # 60.
 #
 # Title: Check if an element in the array equals given string
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Checks if the array 'var0' exists, and if it does,
@@ -1766,7 +1766,7 @@ File.expand_path("str0", File.dirname("str1"))
 # 112.
 #
 # Title: Logical And (&&)
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Checks if varaibles var0 and var1 are both 0.
@@ -2623,7 +2623,7 @@ var0 << var1.to_s
 # 166.
 #
 # Title: Check if hash contains keys :sym0/:sym1
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Tells if the options hash contains either of the keys :sym0 and :sym1,
@@ -2639,7 +2639,7 @@ var0 << var1.to_s
 # 167.
 #
 # Title: Logical && and ! on hash values
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Checks if there is a non-nil element at key :sym0, and
@@ -2672,7 +2672,7 @@ end
 # 169.
 #
 # Title: Compare object size
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Checks if the size of var1 is greater than or equal to var0.
@@ -2724,7 +2724,7 @@ end
 # 172.
 #
 # Title: Array type and size check
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Checks if var0 is an instance of Array (or a subclass) and if it is empty
@@ -2787,7 +2787,7 @@ send(position_column).to_i
 # 176.
 #
 # Title: Check if variable is a boolean (true/false)
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Checks if a variable is equal to the boolean values true or false.
@@ -2908,7 +2908,7 @@ RbConfig::CONFIG["str0"] + RbConfig::CONFIG["str1"]
 # 184.
 #
 # Title: Array element to Float
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description: TODO-usecase
 # Gives the float version of an element (at index 0) from array var1.
