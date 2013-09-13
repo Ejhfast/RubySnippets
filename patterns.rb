@@ -2,7 +2,7 @@
 # 1.
 #
 # Title: Copy value at an index/key from one array/hash to another
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # If an element exists at key 'var1' in the hash 'var0', it is copied to another hash var2 with the same key.
@@ -416,7 +416,7 @@ var0.class.to_s
 # 26.
 #
 # Title: Chooses between str0 and str1 based on the presence of :sym0 in options
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Checks if the options hash contains :sym0, and gives "str0" if it does,
@@ -479,7 +479,7 @@ var0[0] != "str0"
 # 30.
 #
 # Title: Join elements of a non-empty array in to a string
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Concatenates elements of the array 'var0' with "str0" as the separator,
@@ -558,7 +558,7 @@ var0 = File.join(File.dirname("str0"), "str1")
 # 35.
 #
 # Title: Raise exception if pattern doesn't match
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Matches the 'var0' with the pattern /str0/, and raises the EOFError
@@ -677,7 +677,7 @@ end
 # 42.
 #
 # Title: pop the last element from a list if its a hash
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Pops the last element from the list 'var0' if it is a Hash
@@ -960,7 +960,7 @@ var0.sub(/str0/n, "str1").downcase
 # 59.
 #
 # Title: Close an IO stream if open
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Checks if the IO object/file-descriptor 'var0' exists,
@@ -1149,7 +1149,7 @@ end
 # 72.
 #
 # Title: Close IO stream conditionally
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Closes the IO object var0 if it can respond to the method sym0
@@ -1533,7 +1533,7 @@ var0[0].each
 # 97.
 #
 # Title: End-of-file error
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # If var0 doesn't contain anything, raise EOFError.
@@ -2001,7 +2001,7 @@ source_root(File.expand_path("str0", "str1"))
 # 127.
 #
 # Title: Merge hashes
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Merges var0 with hash var1 if var0 is a hash.
@@ -2527,7 +2527,7 @@ var0 = Post.new(var1.path)
 # 160.
 #
 # Title: update hash
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # Updates hash var1 using var0 if its a Hash
@@ -3149,7 +3149,7 @@ object.class
 # 199.
 #
 # Title: Conditional assignment
-# Category: [ Standard lib ]
+# Category: [ Data or Control Flow ]
 #
 # Description:
 # If var0 exists and its size is greater than 0, (non empty array/hash)
