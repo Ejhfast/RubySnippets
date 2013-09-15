@@ -3749,6 +3749,19 @@ var0["str0"] == false
 
 cache[var0]
 
+# 236.
+#
+# Title: load (require) ruby script
+# Category: [ Standard lib ]
+#
+# Description:
+# Loads a ruby file by constructing its path using the directory name from str0,
+# and then joining it with str1, str3 and str3; and then expanding to a full path name.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 require(File.expand_path(File.join(File.dirname("str0"), "str1", "str2", "str3")))
 
 var0 == var1.size
