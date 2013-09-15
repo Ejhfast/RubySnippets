@@ -3952,6 +3952,18 @@ var0.size - var1
 
 name.pluralize
 
+# 250.
+#
+# Title: Prefix joined array
+# Category: [ Standard lib ]
+#
+# Description:
+# Prefix str0 to the string obtained by joining array var0 using str1
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0" + var0.join("str1")
 
 self.class.primary_key
