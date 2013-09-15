@@ -3878,6 +3878,18 @@ var0 == var1.length - 0
 
 var0.split("str0").last
 
+# 245.
+#
+# Title: respond_to check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the current object does not respond_to var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !respond_to?(var0)
 
 var0[var0.keys.first]
