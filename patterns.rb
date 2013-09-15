@@ -3431,6 +3431,20 @@ config.whiny_nils=(true)
 
 ((var0.nil?) && (var1.nil?))
 
+# 216.
+#
+# Title: Rails find object
+# Category: [ External lib ]
+#
+# Description:
+# Finds an object in a collection using the block. The block checks if
+#  the name property of compared object equals 'var2'.
+#  Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.find do |var1|
   var1.name == var2
 end
