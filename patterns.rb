@@ -3704,6 +3704,20 @@ var0 = var1[:sym0].to_s
 
 var0["str0"] == false
 
+# 233.
+#
+# Title: String equality checks
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 equals either of 'str0' or 'str1' or 'str2'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# var0.in?("str0", "str1", "str2")  # Uses Rails active_support/core_ext
+
 ((((var0 == "str0") || (var0 == "str1"))) || (var0 == "str2"))
 
 "str0#{params[:sym0]}"
