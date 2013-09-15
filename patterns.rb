@@ -3415,6 +3415,20 @@ end
 
 config.whiny_nils=(true)
 
+# 215.
+#
+# Title: nil check on two variables
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if both var0 and var1 are nil
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => (var0 && var1).nil?
+
 ((var0.nil?) && (var1.nil?))
 
 var0.find do |var1|
