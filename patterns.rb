@@ -3463,6 +3463,18 @@ end
 
 var0[var1] + var2
 
+# 218.
+#
+# Title: Stringify Symbol
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# Convert var0 to string if it is a Symbol
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0.kind_of?(Symbol)
   var0 = var0.to_s
 end
