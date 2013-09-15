@@ -3676,6 +3676,18 @@ config.action_controller.consider_all_requests_local=(false)
 
 var0 << ("str0" + var1) + "str1"
 
+# 231.
+#
+# Title: Stringify hash value
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value at :sym0 in hash var1, stringifies it, and then assigns it to var0
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1[:sym0].to_s
 
 var0["str0"] == false
