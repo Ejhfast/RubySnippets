@@ -3596,6 +3596,19 @@ def method
   end
 end
 
+# 226.
+#
+# Title: log info
+# Category: [ Standard lib ]
+#
+# Description:
+# Logs 'str0' as info (log-level) using logger.
+#  This is using the 'logger' standard library
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 logger.info("str0")
 
 ["#{var0}str0#{var1}"].pack("str1").delete("str2")
