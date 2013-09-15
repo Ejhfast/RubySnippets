@@ -3611,6 +3611,21 @@ end
 
 logger.info("str0")
 
+# 227.
+#
+# Title: Packing an array
+# Category: [ Standard lib ]
+#
+# Description: TODO - details of pack
+# Packs the array into a binary sequence using template string str1, and then
+# removes occurances of characters of str2 from the sequence string. The array
+# is constructed by interpolating var0, str0 and var1 into a string, and then
+# wrapping the string with an array
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ["#{var0}str0#{var1}"].pack("str1").delete("str2")
 
 if var0 <= 0
