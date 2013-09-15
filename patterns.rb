@@ -3806,6 +3806,18 @@ var0.kind_of?(self.class)
 
 var0 < var1 + var2
 
+# 240.
+#
+# Title: nil and empty check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 is nil/false or empty (array/hash/string)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((!var0) || (var0.empty?))
 
 var0.dup.delete_if
