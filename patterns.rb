@@ -3309,6 +3309,20 @@ request.fullpath
 
 (var0 - var1) + var2
 
+# 209.
+#
+# Title: Blank check for hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the object at 'str0' in 'var0' is blank?
+#  It will be considered blank if it is false, empty (array/string/hash) or a
+#  whitespaced string. Part of Rails activesupport/core_ext
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0["str0"].blank?
 
 Rational(utc_offset, 0)
