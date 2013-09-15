@@ -3479,6 +3479,19 @@ if var0.kind_of?(Symbol)
   var0 = var0.to_s
 end
 
+# 219.
+#
+# Title: Empty check on array element
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if an element in array 'var0' is empty?
+#  A value is empty when it is a zero length string or an empty array or an empty hash
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0].empty?
 
 var0[var0.size - 0, 0]
