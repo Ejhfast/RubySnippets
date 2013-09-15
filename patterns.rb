@@ -3524,6 +3524,18 @@ var0[var0.size - 0, 0]
 
 type.to_s
 
+# 222.
+#
+# Title: Integer-ified params hash value
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value at :sym0 in the params hash, converts to integer and assigns it to 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = params[:sym0].to_i
 
 if ((defined?(MOD_RUBY)) && (!ENV.key?("str0")))
