@@ -3510,6 +3510,18 @@ var0[0].empty?
 
 var0[var0.size - 0, 0]
 
+# 221.
+#
+# Title: Stringify type
+# Category: [ Standard lib ]
+#
+# Description:
+# Stringifies type- where type is a constant (a class name), converts it to string
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 type.to_s
 
 var0 = params[:sym0].to_i
