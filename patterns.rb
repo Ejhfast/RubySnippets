@@ -3864,6 +3864,18 @@ var0.default.nil?
 
 var0 == var1.length - 0
 
+# 244.
+#
+# Title: Last part of split variable
+# Category: [ Standard lib ]
+#
+# Description:
+# Split the var0 at 'str0' and get the last part
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.split("str0").last
 
 !respond_to?(var0)
