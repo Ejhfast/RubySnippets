@@ -3218,6 +3218,19 @@ var0 = var1["str0"].to_s
 
 headers[var0]
 
+# 203.
+#
+# Title: Key exists in any of the hashes
+# Category: [ Standard lib  ]
+#
+# Description:
+# Checks if the key var1 exists in any of the hashes var1 or var2.
+#  Gives false only if it exists in none.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0[var1]) || (var2[var1]))
 
 raise(Exception.new("str0"))
