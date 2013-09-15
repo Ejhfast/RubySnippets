@@ -3325,6 +3325,20 @@ request.fullpath
 
 var0["str0"].blank?
 
+# 210.
+#
+# Title: Rational number using utc_offset
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives a rational number where utc_offset is the numerator and a number (0 here)
+#  is the denominator. In this case it will cause a ZeroDivisionError.
+#  The utc_offset gives the difference of current time's zone from utc in seconds
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Rational(utc_offset, 0)
 
 var0.first.to_s
