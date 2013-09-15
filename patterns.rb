@@ -3281,6 +3281,18 @@ raise(Exception.new("str0"))
 
 request.fullpath
 
+# 207.
+#
+# Title: Array type check
+# Category: [ Standard lib ]
+#
+# Description:
+# checks if var0 is not an instance of Array
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !var0.is_a?(Array)
 
 (var0 - var1) + var2
