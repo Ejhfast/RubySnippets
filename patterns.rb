@@ -3892,6 +3892,20 @@ var0.split("str0").last
 
 !respond_to?(var0)
 
+# 246.
+#
+# Title: First value in a hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value at the first key of hash var0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var0.first[1]  # Hash#first gives the first key-value pair as an array.
+
 var0[var0.keys.first]
 
 var0.size - var1
