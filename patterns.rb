@@ -3570,6 +3570,22 @@ end
 
 ((var0 + var1) + var2) + var3
 
+# 225.
+#
+# Title: Swap position in acts_as_list
+# Category: [ External lib ]
+#
+# Description:
+# As a part of the acts_as_list gem,
+# this swaps the position of the current item with the next lower-item.
+# Performs an increament-position for the current object, and a decrement-position
+# for the 'lower_item' object. The two steps are wrapped within a transaction.
+# Does nothing if lower_item doesn't exist.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 def method
   unless lower_item
     return
