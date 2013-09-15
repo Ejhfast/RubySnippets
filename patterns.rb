@@ -3820,6 +3820,19 @@ var0 < var1 + var2
 
 ((!var0) || (var0.empty?))
 
+# 241.
+#
+# Title: Delete elements from duplicate of an array/hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterates over the duplicate of an array/hash, and based on result of the block applied,
+# elements are deleted from it
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.dup.delete_if
 
 var0.default.nil?
