@@ -3538,6 +3538,20 @@ type.to_s
 
 var0 = params[:sym0].to_i
 
+# 223.
+#
+# Title: webrick cgi initialization
+# Category: [ Standard lib ]
+#
+# Description:
+# Does setup_cgi_env for Apache if the constant MOD_RUBY exists and the environment
+#  contains a value for 'str0'. This is part of the Webrick::Cgi initialization
+#  in 'webrick' library.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if ((defined?(MOD_RUBY)) && (!ENV.key?("str0")))
   Apache.request.setup_cgi_env
 end
