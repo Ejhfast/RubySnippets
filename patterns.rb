@@ -3835,6 +3835,19 @@ var0 < var1 + var2
 
 var0.dup.delete_if
 
+# 242.
+#
+# Title: Hash default value check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the default value of the hash var0 is nil. Default value is the value
+# the hash gives for a key if its value is not set
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.default.nil?
 
 var0 == var1.length - 0
