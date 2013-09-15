@@ -3341,6 +3341,18 @@ var0["str0"].blank?
 
 Rational(utc_offset, 0)
 
+# 211.
+#
+# Title: Stringified first element of array
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the first element of array var0 stringified.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.first.to_s
 
 var0.to_s.gsub(/str0/) do
