@@ -3383,6 +3383,19 @@ end.gsub(/str2/) do
   $1.upcase
 end
 
+# 213.
+#
+# Title: Check for values in ENV
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the environment (ENV hash) contains certain elements (str0 and str1) or not
+# True only if both the needed elements exists
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((ENV["str0"]) && (ENV["str1"]))
 
 config.whiny_nils=(true)
