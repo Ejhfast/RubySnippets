@@ -3734,6 +3734,19 @@ var0["str0"] == false
 
 "str0#{params[:sym0]}"
 
+# 235.
+#
+# Title: cache retrieval
+# Category: [ External lib ]
+#
+# Description:
+# Obtains the value at key var0 from the cache 'cache'.
+# Uses some external caching library.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 cache[var0]
 
 require(File.expand_path(File.join(File.dirname("str0"), "str1", "str2", "str3")))
