@@ -3778,6 +3778,18 @@ require(File.expand_path(File.join(File.dirname("str0"), "str1", "str2", "str3")
 
 var0 == var1.size
 
+# 238.
+#
+# Title: variable type check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 is in instance of the class of the current object (self).
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.kind_of?(self.class)
 
 var0 < var1 + var2
