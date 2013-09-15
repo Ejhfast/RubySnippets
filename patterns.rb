@@ -3764,6 +3764,18 @@ cache[var0]
 
 require(File.expand_path(File.join(File.dirname("str0"), "str1", "str2", "str3")))
 
+# 237.
+#
+# Title: Variable size comparison
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 is equal to var1.size
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 == var1.size
 
 var0.kind_of?(self.class)
