@@ -3398,6 +3398,21 @@ end
 
 ((ENV["str0"]) && (ENV["str1"]))
 
+# 214.
+#
+# Title: Rails : enable whiny nils
+# Category: [ External lib ]
+#
+# Description:
+# Configuration to enable whiny_nils.
+# This feature adds a warning (as an exception) when 'id' is invoked on nil,
+#  which gives 4 otherwise. The behavior has changed Ruby 1.93 onwards,
+#  (nil.id now throws error), so whiny_nil too is deprecated from Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.whiny_nils=(true)
 
 ((var0.nil?) && (var1.nil?))
