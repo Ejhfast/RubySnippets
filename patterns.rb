@@ -3556,6 +3556,18 @@ if ((defined?(MOD_RUBY)) && (!ENV.key?("str0")))
   Apache.request.setup_cgi_env
 end
 
+# 224.
+#
+# Title: Addition on variables
+# Category: [ Standard lib ]
+#
+# Description:
+# Add variables var0, var1, var2, var3
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0 + var1) + var2) + var3
 
 def method
