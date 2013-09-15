@@ -3690,6 +3690,18 @@ var0 << ("str0" + var1) + "str1"
 
 var0 = var1[:sym0].to_s
 
+# 232.
+#
+# Title: Hash value false check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the value at str0 in hash var0 is false
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0["str0"] == false
 
 ((((var0 == "str0") || (var0 == "str1"))) || (var0 == "str2"))
