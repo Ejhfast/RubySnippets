@@ -3792,6 +3792,18 @@ var0 == var1.size
 
 var0.kind_of?(self.class)
 
+# 239.
+#
+# Title: Summation and comparison
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 is less than the sum of var1 and var2
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 < var1 + var2
 
 ((!var0) || (var0.empty?))
