@@ -3266,6 +3266,19 @@ raise(Exception.new("str0"))
 
 ((var0 == :sym0) || (var0 == :sym1))
 
+# 206.
+#
+# Title: full-path of current Http request
+# Category: [ External lib ]
+#
+# Description:
+# Gives the full path string of the requested URl (includes params too)
+#  Here request is an ActionDispatch::Request, and the code may be used in a Rails controller
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 request.fullpath
 
 !var0.is_a?(Array)
