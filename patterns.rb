@@ -3494,6 +3494,20 @@ end
 
 var0[0].empty?
 
+# 220.
+#
+# Title: Subarray
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets a subarray from 'var0' such that it contains element var0.size-num through num,
+#  where num is 0 here. So the elements in the sub-array depend on the size of the array
+#  and the number num
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var0.size - 0, 0]
 
 type.to_s
