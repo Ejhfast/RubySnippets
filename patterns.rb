@@ -3922,6 +3922,19 @@ var0[var0.keys.first]
 
 var0.size - var1
 
+# 248.
+#
+# Title: String concatenation
+# Category: [ Standard lib ]
+#
+# Description:
+# Concatenate strings "str0", "str1" and "str2".
+# The presence/position of parenthesis doesn't make any difference to the final result
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ("str0" + "str1") + "str2"
 
 name.pluralize
