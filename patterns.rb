@@ -3295,6 +3295,18 @@ request.fullpath
 
 !var0.is_a?(Array)
 
+# 208.
+#
+# Title: Subtract and add
+# Category: [ Standard lib ]
+#
+# Description:
+# Subtracts 'var1' from 'var0' and add 'var2' to the difference.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 - var1) + var2
 
 var0["str0"].blank?
