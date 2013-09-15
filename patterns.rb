@@ -3720,6 +3720,18 @@ var0["str0"] == false
 
 ((((var0 == "str0") || (var0 == "str1"))) || (var0 == "str2"))
 
+# 234.
+#
+# Title: Stringified, prefixed params hash value
+# Category: [ Standard lib ]
+#
+# Description:
+# Prefixes str0 to stringified params[:sym0] value
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0#{params[:sym0]}"
 
 cache[var0]
