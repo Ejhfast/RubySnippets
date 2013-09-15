@@ -3249,6 +3249,21 @@ headers[var0]
 
 raise(Exception.new("str0"))
 
+# 205.
+#
+# Title: Is variable equal to symbols
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if var0 equals either one of :sym0 or :sym1
+#  Gives false if it doesn't equal either.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes/No ]
+# There's a more common way to write the code snippet: [ Yes/No ]
+#
+# var0.in?(:sym0, :sym1)  # using Rails active_support/core_ext
+
 ((var0 == :sym0) || (var0 == :sym1))
 
 request.fullpath
