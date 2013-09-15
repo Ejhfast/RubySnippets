@@ -3449,6 +3449,18 @@ var0.find do |var1|
   var1.name == var2
 end
 
+# 217.
+#
+# Title: Add Hash element to another variable
+# Category: [ Standard lib ]
+#
+# Description:
+# Adds hash element at key 'var1' to another variable 'var2'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1] + var2
 
 if var0.kind_of?(Symbol)
