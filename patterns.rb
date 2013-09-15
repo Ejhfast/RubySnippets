@@ -3937,6 +3937,19 @@ var0.size - var1
 
 ("str0" + "str1") + "str2"
 
+# 249.
+#
+# Title: pluralize string
+# Category: [ External lib ]
+#
+# Description:
+# Returns the plural form of the word in the string.
+# Part of Rails active_support/inflector
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 name.pluralize
 
 "str0" + var0.join("str1")
