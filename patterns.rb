@@ -3908,6 +3908,18 @@ var0.split("str0").last
 
 var0[var0.keys.first]
 
+# 247.
+#
+# Title: size difference
+# Category: [ Standard lib ]
+#
+# Description:
+# Difference of size of var0 and another variable var1
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.size - var1
 
 ("str0" + "str1") + "str2"
