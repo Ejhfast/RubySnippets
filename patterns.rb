@@ -3189,6 +3189,18 @@ var0.map do |var1, var2|
   "str0#{var1}str1#{var2}"
 end.join("str2")
 
+# 201.
+#
+# Title: Stringified hash element
+# Category: [ Standard lib ]
+#
+# Description:
+# Value at the key 'str0' in hash 'var1' converted to string and assigned to 'var0'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1["str0"].to_s
 
 headers[var0]
