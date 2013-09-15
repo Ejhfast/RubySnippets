@@ -3355,6 +3355,28 @@ Rational(utc_offset, 0)
 
 var0.first.to_s
 
+# 212.
+#
+# Title: gsub using $1
+# Category: [ Standard lib ]
+#
+# Description:
+# Substitutes in var0 (stringified), all occurances of pattern /str0/ with
+# a replacement string. The replacement string here is the 'str1' prefixed, upcased
+# version of the first capture from the pattern match in gsub. The first value that
+# matches the parenthesized part of the pattern (/str0/) is stored in $1.
+# eg -
+# 	"abc-123".match(/abc-(\d+)/) # => $1 is '123'
+#
+# A similar substitution is carried out again on the resulting string, using another
+# pattern /str2/.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# var0.to_s.gsub(/str0/, "str1#{$1.upcase}").gsub(/str2/, $1.upcase)
+
 var0.to_s.gsub(/str0/) do
   "str1#{$1.upcase}"
 end.gsub(/str2/) do
