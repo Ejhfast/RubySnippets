@@ -3203,6 +3203,19 @@ end.join("str2")
 
 var0 = var1["str0"].to_s
 
+# 202.
+#
+# Title: headers
+# Category: [ External lib ]
+#
+# Description:
+# Get a particular header 'var0' value from the 'headers' hash.
+#  The headers hash contains the request's Http headers.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 headers[var0]
 
 ((var0[var1]) || (var2[var1]))
