@@ -3662,6 +3662,18 @@ end
 
 config.action_controller.consider_all_requests_local=(false)
 
+# 230.
+#
+# Title: Add strings and variables, and append
+# Category: [ Standard lib ]
+#
+# Description:
+# Adds str0 with var1 and str1, and then append the result to var0
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << ("str0" + var1) + "str1"
 
 var0 = var1[:sym0].to_s
