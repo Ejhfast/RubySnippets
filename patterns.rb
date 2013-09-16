@@ -4191,6 +4191,18 @@ if ((var0[0, 1] == "str0") || (var0.size > 2))
   var1, var0, var2 = var0, var2, var1
 end
 
+# 266.
+#
+# Title: Hash element type check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the value at key 'var1' in the hash 'var0' is an array
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1].is_a?(Array)
 
 var0.delete("str0").to_s
