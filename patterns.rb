@@ -4023,6 +4023,18 @@ var0[0] != :sym0
 
 rand(0).to_s(1)
 
+# 255.
+#
+# Title: Hash element for lowercased key
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the hash element at key obtained by converting var1 to lowercase.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1.downcase]
 
 unless String === var0
