@@ -4141,6 +4141,18 @@ options[var0]
 
 var0.new(var1.request_uri)
 
+# 263.
+#
+# Title: Element from array within hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets an element (first here) from the array at key 'var1' within hash 'var0'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1][0]
 
 if block_given?
