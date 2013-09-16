@@ -4127,6 +4127,18 @@ config.action_mailer.delivery_method=(:sym0)
 
 options[var0]
 
+# 262.
+#
+# Title: Instantiate a new object
+# Category: [ Standard lib ]
+#
+# Description:
+# Creats a new object of the class 'var0' by passing 'var1.request_uri' as parameter
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.new(var1.request_uri)
 
 var0[var1][0]
