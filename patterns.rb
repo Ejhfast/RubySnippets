@@ -4220,6 +4220,18 @@ var0[var1].is_a?(Array)
 
 var0.delete("str0").to_s
 
+# 268.
+#
+# Title: Compare variable's length
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the length of 'var0' is greater than or equal to 'var1'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.length >= var1
 
 var0.delete(var1.object_id)
