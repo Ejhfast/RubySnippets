@@ -4081,6 +4081,18 @@ var0[var1] = var2.first
 
 var0.size != var1
 
+# 259.
+#
+# Title: nil or empty? check
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# Return if var0 is nil or empty (array/hash/string)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if ((var0.nil?) || (var0.empty?))
   return
 end
