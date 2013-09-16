@@ -4113,6 +4113,18 @@ end
 
 config.action_mailer.delivery_method=(:sym0)
 
+# 261.
+#
+# Title: Value from options hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value at key 'var0' from options hash
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 options[var0]
 
 var0.new(var1.request_uri)
