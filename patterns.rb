@@ -4053,6 +4053,18 @@ unless String === var0
   var0 = var0.to_s
 end
 
+# 257.
+#
+# Title: Assign hash element from array
+# Category: [ Standard lib ]
+#
+# Description:
+# Assigns the first element of 'var2' to key 'var1' in hash 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1] = var2.first
 
 var0.size != var1
