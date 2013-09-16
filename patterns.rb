@@ -4287,6 +4287,20 @@ var0.delete(var1.object_id)
 
 Bundler.require(*Rails.groups({:sym0 => ["str0", "str1"]}))
 
+# 272.
+#
+# Title: Move to bottom in acts_as_list
+# Category: [ External lib ]
+#
+# Description:
+# As a part of the acts_as_list gem, this snippet attempts to move the current item
+# to the bottom of the list. It does that by decreamenting positions of all the lower items,
+# so they are moved up the list, and then assign the bottom position to the current item.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 decrement_positions_on_lower_items
 assume_bottom_position
 
