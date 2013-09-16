@@ -4234,6 +4234,19 @@ var0.delete("str0").to_s
 
 var0.length >= var1
 
+# 269.
+#
+# Title: Delete from hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Removes the element referred by object_id of 'var1' from the hash 'var0' and
+# returns its value.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.delete(var1.object_id)
 
 ("str0#{var0}str1" + "str2") + "str3"
