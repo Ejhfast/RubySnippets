@@ -3980,6 +3980,18 @@ name.pluralize
 
 self.class.primary_key
 
+# 252.
+#
+# Title: Compare array element with a symbol
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if an element (first here) in array var0 does not equal :sym0
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+
 var0[0] != :sym0
 
 ("str0" * var0) + var1
