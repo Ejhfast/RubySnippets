@@ -3966,6 +3966,18 @@ name.pluralize
 
 "str0" + var0.join("str1")
 
+# 251.
+#
+# Title: Primary key
+# Category: [ External lib ]
+#
+# Description:
+# Gets the primary key of the current ActiveRecord model object.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 self.class.primary_key
 
 var0[0] != :sym0
