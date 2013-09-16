@@ -4171,6 +4171,22 @@ if block_given?
   var0 << var1
 end
 
+# 265.
+#
+# Title: Interchange variable values based on substring
+# Category: [ Standard lib ]
+#
+# Description:
+# If the substring sliced from var0 (length 1; index 0) equals "str0"
+# and the size of var0 is greater than 2, then assign var0 to var1, var2 to var0
+# and var1 back to var2.
+# This does not swap any pairs of variables here, it could have if the assignments
+# were done as separate expressions
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if ((var0[0, 1] == "str0") || (var0.size > 2))
   var1, var0, var2 = var0, var2, var1
 end
