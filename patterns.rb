@@ -4249,6 +4249,19 @@ var0.length >= var1
 
 var0.delete(var1.object_id)
 
+# 270.
+#
+# Title: Concatenate strings
+# Category: [ Standard lib ]
+#
+# Description:
+# Add 'str2' and 'str3' to a string constructed by interpolating 'var0'
+# within 'str0' and 'str1'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ("str0#{var0}str1" + "str2") + "str3"
 
 Bundler.require(*Rails.groups({:sym0 => ["str0", "str1"]}))
