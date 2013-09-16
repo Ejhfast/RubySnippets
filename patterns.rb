@@ -4037,6 +4037,18 @@ rand(0).to_s(1)
 
 var0[var1.downcase]
 
+# 256.
+#
+# Title: Conditional string type conversion
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# Converts var0 to a string if it is not a String.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 unless String === var0
   var0 = var0.to_s
 end
