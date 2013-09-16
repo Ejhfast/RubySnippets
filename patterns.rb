@@ -4334,6 +4334,19 @@ response["str0"]
 
 var0.exec(var1, var2, edit_path(var0.path))
 
+# 275.
+#
+# Title: Shift array and assign
+# Category: [ Standard lib ]
+#
+# Description:
+# Removes the first element from array var1, and assigns it to the hash var0
+# at key :sym0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[:sym0] = var1.shift
 
 require("str0")
