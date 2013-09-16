@@ -3994,6 +3994,19 @@ self.class.primary_key
 
 var0[0] != :sym0
 
+# 253.
+#
+# Title: String multiplication
+# Category: [ Standard lib ]
+#
+# Description:
+# This constructs a string by repeating "str0" var0 times (var0 should be an integer),
+# and then adds (appends) the string var1 to it
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ("str0" * var0) + var1
 
 rand(0).to_s(1)
