@@ -4009,6 +4009,18 @@ var0[0] != :sym0
 
 ("str0" * var0) + var1
 
+# 254.
+#
+# Title: Pseudo random number
+# Category: [ Standard lib ]
+#
+# Description:
+# Generates a pseudo-random number between 0 and 1, and stringifies it
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 rand(0).to_s(1)
 
 var0[var1.downcase]
