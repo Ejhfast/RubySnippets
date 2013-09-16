@@ -4155,6 +4155,18 @@ var0.new(var1.request_uri)
 
 var0[var1][0]
 
+# 264.
+#
+# Title: Push to array if block given
+# Category: [ Standard lib ]
+#
+# Description:
+# Push var1 to the string/array 'var0' if a block is given
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if block_given?
   var0 << var1
 end
