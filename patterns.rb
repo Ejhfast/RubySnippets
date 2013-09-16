@@ -4264,6 +4264,27 @@ var0.delete(var1.object_id)
 
 ("str0#{var0}str1" + "str2") + "str3"
 
+# 271.
+#
+# Title: Bundler.require in a Rails application
+# Category: [ External lib ]
+#
+# Description:
+# Loads all the gems associated with the mentioned groups ('str0', 'str1' and :sym0)
+# in the Rails application. This is a part of the application load sequence in Rails version
+# 3 and greater.
+# Bundler.require loads all the gems present in the Gemfile. When called with a list of
+# groups, it loads the gems from those groups only. Rails.groups gives a list of all Rails
+# groups based on the current environment and the passed argument hash.
+#
+# So Rails.groups({:sym0 => ["str0", "str1"]}) will load a group :sym0 too when the current
+# environment is either 'str0' or 'str1'. And subsequently Bundler.require will load
+# all the gems from groups 'str0', 'str1' and :sym0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Bundler.require(*Rails.groups({:sym0 => ["str0", "str1"]}))
 
 decrement_positions_on_lower_items
