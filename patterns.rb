@@ -4205,6 +4205,19 @@ end
 
 var0[var1].is_a?(Array)
 
+# 267.
+#
+# Title: Delete from hash and stringify
+# Category: [ Standard lib ]
+#
+# Description:
+# Deletes the element at 'str0' from hash 'var0', and returns the value
+# after converting it to a string
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.delete("str0").to_s
 
 var0.length >= var1
