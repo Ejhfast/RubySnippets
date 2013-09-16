@@ -4304,6 +4304,18 @@ Bundler.require(*Rails.groups({:sym0 => ["str0", "str1"]}))
 decrement_positions_on_lower_items
 assume_bottom_position
 
+# 273.
+#
+# Title: Value from response hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets a value referred by 'str0' from the response hash
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 response["str0"]
 
 var0.exec(var1, var2, edit_path(var0.path))
