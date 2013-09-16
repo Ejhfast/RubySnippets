@@ -4318,6 +4318,20 @@ assume_bottom_position
 
 response["str0"]
 
+# 274.
+#
+# Title: Execute an external command
+# Category: [ Standard lib ]
+#
+# Description:
+# Executes the external command 'var1' using 'var2' and 'edit_path(var0.path)' as
+# the parameters to the command. This execution replaces the current ruby process
+# with the command, so any code after this line is never reached.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.exec(var1, var2, edit_path(var0.path))
 
 var0[:sym0] = var1.shift
