@@ -4067,6 +4067,18 @@ end
 
 var0[var1] = var2.first
 
+# 258.
+#
+# Title: Size check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the size of var0 is not the same as var1
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.size != var1
 
 if ((var0.nil?) || (var0.empty?))
