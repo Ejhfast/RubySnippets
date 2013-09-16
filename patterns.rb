@@ -4097,6 +4097,20 @@ if ((var0.nil?) || (var0.empty?))
   return
 end
 
+# 260.
+#
+# Title: ActionMailer delivery_method
+# Category: [ External lib ]
+#
+# Description:
+# Sets the delivery_method configuration for action_mailer in a Rails application.
+# Determines how emails will be sent from the application - using :smtp, :sendmail,
+# :test, :file or a custom delivery-method.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.action_mailer.delivery_method=(:sym0)
 
 options[var0]
