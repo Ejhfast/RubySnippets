@@ -4943,6 +4943,20 @@ self.class.logger
 
 var0[var1].last
 
+# 315.
+#
+# Title: Check blank?
+# Category: [ External lib ]
+#
+# Description:
+# Checks if the name property on var0 is blank?.
+# It is blank if its nil/false or an empty array/hash/string.
+# Needs active_support/core_ext
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.name.blank?
 
 raise(NotImplementedError.new)
