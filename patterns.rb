@@ -5058,6 +5058,18 @@ if File.exists?(ENV["str1"])
   require("str4")
 end
 
+# 322.
+#
+# Title: Stringify identifier
+# Category: [ Standard lib ]
+#
+# Description:TODO- identifier reference?
+# Gets the identifier property of var0 and stringifies it.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.identifier.to_s
 
 "#{var0[0]}str0#{var0[1]}"
