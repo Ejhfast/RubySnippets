@@ -4674,6 +4674,18 @@ var0.errors.empty?
 
 ((var0.backtrace) || ([])).join("str0")
 
+# 297.
+#
+# Title: Check presence of hash elements
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the hash 'var0' contains elements for keys 'str0' and 'str1'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0["str0"]) && (var0["str1"]))
 
 (var0 << "str0") << var1.to_s
