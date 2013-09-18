@@ -5006,6 +5006,18 @@ raise(NotImplementedError.new("str0"))
 var0 = var1[:sym0]
 var2 = var1[:sym1]
 
+# 319.
+#
+# Title: Compare hash value
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the value at "str0" in hash var0 does not equal "str1".
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0["str0"] != "str1"
 
 "str0" + $1.unpack("str1" * $1.size).join("str0").upcase
