@@ -4625,6 +4625,19 @@ warn("str0#{var0.inspect}str1")
 
 var0[var1].delete(var2)
 
+# 294.
+#
+# Title: Split string and convert parts to integers
+# Category: [ Standard lib ]
+#
+# Description:
+# Splits 'var0' at "str0", converts each part to the integer equivalent,
+# and returns the integer array
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.split("str0").map do |var1|
   var1.to_i
 end
