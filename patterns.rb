@@ -5227,6 +5227,18 @@ var0 - var1.to_i
 
 var0 <= var1.size
 
+# 333.
+#
+# Title: Compare variables on length
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the length of 'var0' is less than or equal to 'var1'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.length <= var1
 
 var0.attributes.empty?
