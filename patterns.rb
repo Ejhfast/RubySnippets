@@ -5116,6 +5116,18 @@ var0 = var1[var2.downcase]
 
 var0.to_i != 0
 
+# 326.
+#
+# Title: exit current ruby script
+# Category: [ Standard lib ]
+#
+# Description:
+# Prints 'var0' to standard output and exits the current ruby script.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 puts(var0)
 exit
 
