@@ -5257,6 +5257,18 @@ var0.length <= var1
 
 var0.attributes.empty?
 
+# 335.
+#
+# Title: Close IO object
+# Category: [ Standard lib ]
+#
+# Description:
+# Closes the IO object 'var0' if it exists and is not already closed
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 def method
   if ((var0) && (!var0.closed?))
     var0.close
