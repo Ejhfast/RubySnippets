@@ -4856,6 +4856,20 @@ update_attribute(position_column, self.send(position_column).to_i - 0)
 
 var0 << "str0#{name}str1"
 
+# 309.
+#
+# Title: nil check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if either of 'var0' and 'var1' is nil.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# var0.nil? || var1.nil?
+
 ((var0 == nil) || (var1 == nil))
 
 var0.class.new
