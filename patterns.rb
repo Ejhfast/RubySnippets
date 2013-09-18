@@ -5102,6 +5102,18 @@ var0.identifier.to_s
 
 var0 = var1[var2.downcase]
 
+# 325.
+#
+# Title: Comparison on integer-ified variable
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the integer converted version of 'var0' doesn't equal a given number (0 here).
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_i != 0
 
 puts(var0)
