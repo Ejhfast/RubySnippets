@@ -5020,6 +5020,21 @@ var2 = var1[:sym1]
 
 var0["str0"] != "str1"
 
+# 320.
+#
+# Title: Unpack, join and uppercase
+# Category: [ Standard lib ]
+#
+# Description: TODO- details of unpack
+# Unpack the value in $1 (recent capture from regular expression match)
+# using a template obtained by repeating "str1" $.size times. The unpacked array
+# is then joined using "str0" and converted to upcase. Then "str0" is added to
+# the beginning of the uppercase string.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0" + $1.unpack("str1" * $1.size).join("str0").upcase
 
 require("str0")
