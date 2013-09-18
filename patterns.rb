@@ -4610,6 +4610,19 @@ var0 >= var1.length
 
 warn("str0#{var0.inspect}str1")
 
+# 293.
+#
+# Title: Delete element from hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Deletes the element 'var2' from the hash/array present at the key 'var1' of hash 'var0'
+# The deleted element is the return value of the expression
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1].delete(var2)
 
 var0.split("str0").map do |var1|
