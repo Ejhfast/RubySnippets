@@ -4825,6 +4825,20 @@ end
 
 File.basename(File.dirname(var0))
 
+# 307.
+#
+# Title: Update position_column
+# Category: [ External lib ]
+#
+# Description:
+# Updates the position_column attribute with the new value. The new value is
+# obtained by reducing a number (0 here) from the current position_column
+# (converted to integer). Most probably a part of acts_as_list gem.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 update_attribute(position_column, self.send(position_column).to_i - 0)
 
 var0 << "str0#{name}str1"
