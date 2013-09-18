@@ -4349,6 +4349,18 @@ var0.exec(var1, var2, edit_path(var0.path))
 
 var0[:sym0] = var1.shift
 
+# 276.
+#
+# Title: require ruby scripts
+# Category: [ Standard lib ]
+#
+# Description:
+# Load (require) ruby scripts by the names 'str0', 'str1', 'str2', 'str3'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 require("str0")
 require("str1")
 require("str2")
