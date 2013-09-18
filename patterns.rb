@@ -4567,6 +4567,18 @@ var0.unshift(File.expand_path(File.dirname("str0") + "str1"))
 
 :sym0 => params[:sym1]
 
+# 290.
+#
+# Title: Comparison on length
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' is greater than the length of 'var1'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 >= var1.length
 
 !block_given?
