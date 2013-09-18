@@ -4791,6 +4791,20 @@ var0.result(binding)
 
 !var0.key?(var1)
 
+# 305.
+#
+# Title: Rails Generator templates
+# Category: [ External lib ]
+#
+# Description:
+# Part of Rails Generators:
+# Generates a template using 'str0' as the source, and the destination is obtained
+# by joining 'str1' with the class_path and the file_name suffixed with 'str2'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 def method
   template("str0", File.join("str1", class_path, "#{file_name}str2"))
 end
