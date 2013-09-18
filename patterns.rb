@@ -4402,6 +4402,20 @@ var0.class.to_s.underscore
 autoload(:sym0, "str0")
 autoload(:sym1, "str1")
 
+# 279.
+#
+# Title: Array element indexed at an expression
+# Category: [ Standard lib ]
+#
+# Description:
+# Get the element from array 'var0' which is at an index obtained by an expression.
+# The expression works by multiplying 'var1' with a number (0) and adding another
+# number (1) to the product.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[(var1 * 0) + 1]
 
 var0 = var1[var2.name]
