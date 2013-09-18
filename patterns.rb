@@ -5150,6 +5150,20 @@ exit
 
 var0 = open(var1, (File::WRONLY | File::APPEND) | File::CREAT)
 
+# 328.
+#
+# Title: Check value property for nil
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the value property of 'var0' is nil.
+# The 'var0' here may be a Thread object, in which case the value method will
+# wait for the thread execution to complete, and then contain its return value.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.value.nil?
 
 var0.sub(/str0#{Regexp.quote(var1)}str1/, "str2")
