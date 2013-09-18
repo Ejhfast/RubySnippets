@@ -5087,6 +5087,19 @@ var0.identifier.to_s
 
 "#{var0[0]}str0#{var0[1]}"
 
+# 324.
+#
+# Title: Access hash with lowercased key
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value from the hash 'var1' referenced by the key 'var2' (lower-cased).
+# Then assigns the result to 'var0'.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1[var2.downcase]
 
 var0.to_i != 0
