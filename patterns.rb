@@ -5199,6 +5199,18 @@ var0.sub(/str0#{Regexp.quote(var1)}str1/, "str2")
 
 var0.split("str0")[0..1].join("str0")
 
+# 331.
+#
+# Title: Subtract integer-ified values
+# Category: [ Standard lib ]
+#
+# Description:
+# Subtracts integer converted version of 'var1' from 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 - var1.to_i
 
 var0 <= var1.size
