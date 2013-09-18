@@ -5319,6 +5319,18 @@ Time.now.to_i.to_s
 
 ((var0) && (var1[:sym0] != false))
 
+# 339.
+#
+# Title: Sliced string as symbol
+# Category: [ Standard lib ]
+#
+# Description:
+# Slices the string 'var0' (index 0 through to 1) and converts it to a symbol
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0..1].to_sym
 
 var0 << sprintf("str0", var1)
