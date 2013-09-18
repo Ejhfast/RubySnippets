@@ -5213,6 +5213,18 @@ var0.split("str0")[0..1].join("str0")
 
 var0 - var1.to_i
 
+# 332.
+#
+# Title: Compare variables on size
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' is less than or equal to the size of 'var1'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 <= var1.size
 
 var0.length <= var1
