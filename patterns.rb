@@ -4595,6 +4595,19 @@ var0 >= var1.length
 
 !block_given?
 
+# 292.
+#
+# Title: display warning
+# Category: [ Standard lib ]
+#
+# Description:
+# Releases a warning message on STDERR. The message is constructed by interpolation the
+# inspect (human readable form) of 'var0' with 'str0' and 'str1'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 warn("str0#{var0.inspect}str1")
 
 var0[var1].delete(var2)
