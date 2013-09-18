@@ -4703,6 +4703,19 @@ var0.errors.empty?
 
 (var0 << "str0") << var1.to_s
 
+# 299.
+#
+# Title: Not-empty check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the current object is (not) empty?
+# It will be empty if its an empty array, hash or string
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !empty?
 
 var0.length != var1
