@@ -4432,6 +4432,18 @@ var0[(var1 * 0) + 1]
 
 var0 = var1[var2.name]
 
+# 281.
+#
+# Title: Instantiate new object
+# Category: [ Standard lib ]
+#
+# Description:
+# Instantiate a new object of the current class (self.class) and assign it to 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = self.class.new
 
 acts_as_list_class.transaction do
