@@ -5383,6 +5383,20 @@ end
 
 ((var0["str0"]) || (var0[:sym0]))
 
+# 343.
+#
+# Title: Parse Date in EU/US/ISO formats
+# Category: [ Standard lib ]
+#
+# Description:
+# Parses the string 'var0' as a date in EU, US and ISO formats. The precendence is
+# EU-format > US-format > ISO. 'var1' is used to specify the parse format.
+# These methods were used in Ruby 1.8 and are depracated 1.9 onwards.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((((_parse_eu(var0, var1)) || (_parse_us(var0, var1)))) || (_parse_iso(var0, var1)))
 
 ((var0) && (var0[0, 1] == "str0"))
