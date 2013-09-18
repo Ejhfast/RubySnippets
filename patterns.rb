@@ -4761,6 +4761,20 @@ var0.length != var1
 
 !var0.success?
 
+# 303.
+#
+# Title: Binding object
+# Category: [ Standard lib ]
+#
+# Description:
+# Passes the current context as a Binding object to the 'result' method.
+# The binding can be applied to arbitrary ruby code being eval-ed, such that
+# all the local/instance variables of the context will be available to the code.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.result(binding)
 
 !var0.key?(var1)
