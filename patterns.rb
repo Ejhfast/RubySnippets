@@ -4659,6 +4659,19 @@ end
 
 var0.errors.empty?
 
+# 296.
+#
+# Title: Exception backtrace as a string
+# Category: [ Standard lib ]
+#
+# Description:
+# Joins the backtrace associated with exception object 'var0' using 'str0' as
+# the separator. If the backtrace is nil, it returns an empty string
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0.backtrace) || ([])).join("str0")
 
 ((var0["str0"]) && (var0["str1"]))
