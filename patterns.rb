@@ -4509,6 +4509,18 @@ raise(ArgumentError.new("str0#{var0}"))
 
 var0.unshift(File.expand_path(File.dirname("str0") + "str1"))
 
+# 286.
+#
+# Title: Array of some hash values
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the elements at keys 'var1' and 'var2' in hash 'var0' as an array
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 [var0[var1], var0[var2]]
 
 (var0 & 0) == 0
