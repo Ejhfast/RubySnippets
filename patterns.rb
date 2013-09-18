@@ -4688,6 +4688,19 @@ var0.errors.empty?
 
 ((var0["str0"]) && (var0["str1"]))
 
+# 298.
+#
+# Title: Chained push using << operator
+# Category: [ Standard lib ]
+#
+# Description:
+# Pushes 'str0' to 'var0', and then pushes a stringified 'var1' to the result.
+# var0 may be an array or a string.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 << "str0") << var1.to_s
 
 !empty?
