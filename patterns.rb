@@ -4446,6 +4446,20 @@ var0 = var1[var2.name]
 
 var0 = self.class.new
 
+# 282.
+#
+# Title: Place item on top in acts_as_list
+# Category: [ External lib ]
+#
+# Description:
+# This snippet is trying to set the current item's position as the top item in the list,
+# by changing (reducing) the positions of higher items and setting current items's position.
+# All of this happens within a database transaction.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 acts_as_list_class.transaction do
   increment_positions_on_higher_items
   assume_top_position
