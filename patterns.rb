@@ -4384,6 +4384,21 @@ require("str3")
 
 var0.class.to_s.underscore
 
+# 278.
+#
+# Title: autoload symbol
+# Category: [ Standard lib ]
+#
+# Description:
+# autoload registers the second argument as the path-name for the first argument (the symbol)
+# This way, whenever the symbol is accessed for the first time, the path is loaded (using require).
+# In this snippet, autoloads are being set for :sym0 to path 'str0' and for :sym1 to path 'str1'
+# This permits us to lazily load dependent files, and only load the ones used currently.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 autoload(:sym0, "str0")
 autoload(:sym1, "str1")
 
