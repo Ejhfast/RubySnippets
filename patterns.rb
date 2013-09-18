@@ -5333,6 +5333,21 @@ Time.now.to_i.to_s
 
 var0[0..1].to_sym
 
+# 340.
+#
+# Title: Formatted string
+# Category: [ Standard lib ]
+#
+# Description:
+# Formats value 'var1' using the format-string "str0", and pushes it to 'var0'
+# Formatting with sprintf happens by applying format-specifiers from the first argument,
+# to the value in the second. Eg -
+#  sprintf("%.2f", 1234) # => 1234.00
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << sprintf("str0", var1)
 
 var0.each_byte do |var1|
