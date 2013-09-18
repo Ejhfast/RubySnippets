@@ -5037,6 +5037,21 @@ var0["str0"] != "str1"
 
 "str0" + $1.unpack("str1" * $1.size).join("str0").upcase
 
+# 321.
+#
+# Title: Set ENV and load Ruby scripts
+# Category: [ External lib ]
+#
+# Description:
+# Loads (using require) the ruby script 'str0'. Then sets the ENV hash at 'str1' with the
+# expanded path of 'str2' (relative to 'str3'). Doesn't set ENV if it already contains 'str1'.
+# Then loads the script 'str4' if the File in ENV['str1'] actually exists.
+# Perhaps part of the load sequence of some library.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 require("str0")
 ENV["str1"] ||= File.expand_path("str2", "str3")
 if File.exists?(ENV["str1"])
