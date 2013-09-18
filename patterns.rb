@@ -5290,6 +5290,19 @@ end
 
 var0.name[0, 1]
 
+# 337.
+#
+# Title: Current Epoch time as string
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the stringified version of the current Epoch time.
+# Epoch time is the number of seconds since 1 Jan 1970, 00:00:00
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Time.now.to_i.to_s
 
 ((var0) && (var1[:sym0] != false))
