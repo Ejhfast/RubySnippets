@@ -4746,6 +4746,19 @@ var0.length != var1
 
 ((var0.is_a?(Hash)) || (var0.is_a?(Array)))
 
+# 302.
+#
+# Title: Process status check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the status of a process 'var0' is (not) success.
+# Generally used with $?, that holds the value of the recently executed child process
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !var0.success?
 
 var0.result(binding)
