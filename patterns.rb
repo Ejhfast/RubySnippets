@@ -4538,6 +4538,18 @@ var0.unshift(File.expand_path(File.dirname("str0") + "str1"))
 
 (var0 & 0) == 0
 
+# 288.
+#
+# Title: List of some values from array
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the elements at given indexes (0 and 1 here) in array 'var0' as an array
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 [var0[0], var0[1]]
 
 :sym0 => params[:sym1]
