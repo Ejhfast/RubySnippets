@@ -5166,6 +5166,21 @@ var0 = open(var1, (File::WRONLY | File::APPEND) | File::CREAT)
 
 var0.value.nil?
 
+# 329.
+#
+# Title: Regex#quote usage
+# Category: [ Standard lib ]
+#
+# Description:
+# Substitute the first occurance of a pattern in 'var0' with 'str2'.
+# The pattern is obtained by 'quoting' (Regexp.quote) 'var1' and surrounding it
+# with 'str0' and 'str1'. Quoting will escape any charaters within var1 that may
+# have special meaning in regular expressions, like ?, *, . etc
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.sub(/str0#{Regexp.quote(var1)}str1/, "str2")
 
 var0.split("str0")[0..1].join("str0")
