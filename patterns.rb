@@ -4642,6 +4642,21 @@ var0.split("str0").map do |var1|
   var1.to_i
 end
 
+# 295.
+#
+# Title: errors on ActiveRecord object
+# Category: [ External lib ]
+#
+# Description:
+# Checks if there are no errors associated with the object 'var0'
+# The object var0 here may be an ActiveRecord which has an associated error object
+# that holds the related errors. The check is generally performed after a valid? call.
+# It is empty if there are no validation errors on the object.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.errors.empty?
 
 ((var0.backtrace) || ([])).join("str0")
