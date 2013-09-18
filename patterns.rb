@@ -5350,6 +5350,21 @@ var0[0..1].to_sym
 
 var0 << sprintf("str0", var1)
 
+# 341.
+#
+# Title: Formatting each byte in a string
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterates over every byte in 'var0', and formats it using the format-string 'str0'.
+# The formatted string is then pushed to 'var2' in each iteration.
+# This may be used to get, for example, a hexadecimal representation of each byte
+# in the string. The format string in then would be "%x".
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.each_byte do |var1|
   var2 << sprintf("str0", var1)
 end
