@@ -4900,6 +4900,19 @@ var0.class.new
 
 var0[0] =~ /str0/
 
+# 312.
+#
+# Title: Type check on hash element
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the element at key :sym0 in hash 'var0' is the instance of an Array
+# or a subclass
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[:sym0].kind_of?(Array)
 
 self.class.logger
