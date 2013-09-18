@@ -4841,6 +4841,19 @@ File.basename(File.dirname(var0))
 
 update_attribute(position_column, self.send(position_column).to_i - 0)
 
+# 308.
+#
+# Title: Append to string
+# Category: [ Standard lib ]
+#
+# Description:
+# Obtains a string by interpolating 'name' within 'str0' and 'str1' and then
+# append it to string/array 'var0'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << "str0#{name}str1"
 
 ((var0 == nil) || (var1 == nil))
