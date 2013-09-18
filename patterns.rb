@@ -4959,6 +4959,20 @@ var0[var1].last
 
 var0.name.blank?
 
+# 316.
+#
+# Title: Raise NotImplementedError
+# Category: [ Standard lib ]
+#
+# Description:
+# Raise the NotImplementedError
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# raise NotImplementedError
+
 raise(NotImplementedError.new)
 
 raise(NotImplementedError.new("str0"))
