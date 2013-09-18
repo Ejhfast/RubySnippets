@@ -4523,6 +4523,19 @@ var0.unshift(File.expand_path(File.dirname("str0") + "str1"))
 
 [var0[var1], var0[var2]]
 
+# 287.
+#
+# Title: Boolean AND comparison
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if Boolean AND (&) of 'var0' with a number (0) is equal to the number (0).
+# Always true in this case.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 & 0) == 0
 
 [var0[0], var0[1]]
