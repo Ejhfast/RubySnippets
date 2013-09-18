@@ -5072,6 +5072,19 @@ end
 
 var0.identifier.to_s
 
+# 323.
+#
+# Title: String construction using array elements
+# Category: [ Standard lib ]
+#
+# Description:
+# Constructs a string by interpolating elements from array 'var0' (at index 0 and 1 here),
+# by separating them with 'str0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "#{var0[0]}str0#{var0[1]}"
 
 var0 = var1[var2.downcase]
