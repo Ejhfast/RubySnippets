@@ -4915,6 +4915,18 @@ var0[0] =~ /str0/
 
 var0[:sym0].kind_of?(Array)
 
+# 313.
+#
+# Title: Get class's logger
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the logger object associated with the class of the current object
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 self.class.logger
 
 var0[var1].last
