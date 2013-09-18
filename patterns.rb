@@ -4872,6 +4872,18 @@ var0 << "str0#{name}str1"
 
 ((var0 == nil) || (var1 == nil))
 
+# 310.
+#
+# Title: Instantiate object
+# Category: [ Standard lib ]
+#
+# Description:
+# Creates an instance of the class of 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.class.new
 
 var0[0] =~ /str0/
