@@ -4366,6 +4366,22 @@ require("str1")
 require("str2")
 require("str3")
 
+# 277.
+#
+# Title: underscored classname
+# Category: [ External lib ]
+#
+# Description:
+# Get the class name of 'var0', and convert it to string, and then get its underscored version.
+# The underscore method replaces all hyphens in the string with underscores, and converts all
+# alphabets to lowercase. eg -
+#  'Active-Record::Base'.underscore  # => active_record/base
+# underscore is a part of Rails active_support/core_ext
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.class.to_s.underscore
 
 autoload(:sym0, "str0")
