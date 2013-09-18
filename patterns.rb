@@ -4809,6 +4809,20 @@ def method
   template("str0", File.join("str1", class_path, "#{file_name}str2"))
 end
 
+# 306.
+#
+# Title: Containing directory's name
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the name of the containing directory for the file 'var0'.
+# First gets the directory name of the file path 'var0', and then picks
+# its last part using File.basename. This last part is the containing direcory's name.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.basename(File.dirname(var0))
 
 update_attribute(position_column, self.send(position_column).to_i - 0)
