@@ -5305,6 +5305,18 @@ var0.name[0, 1]
 
 Time.now.to_i.to_s
 
+# 338.
+#
+# Title: Check presence in hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' exists (not nil) and that the value at :sym0 in hash 'var1' is not false
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0) && (var1[:sym0] != false))
 
 var0[0..1].to_sym
