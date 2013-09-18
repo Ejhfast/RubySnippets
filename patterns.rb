@@ -5275,6 +5275,19 @@ def method
   end
 end
 
+# 336.
+#
+# Title: Substring of name property
+# Category: [ Standard lib ]
+#
+# Description:
+# From the 'name' property of 'var0', this gets a substring at a certain index
+# (0 here) and of a certain length (1 here).
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.name[0, 1]
 
 Time.now.to_i.to_s
