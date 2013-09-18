@@ -4552,6 +4552,19 @@ var0.unshift(File.expand_path(File.dirname("str0") + "str1"))
 
 [var0[0], var0[1]]
 
+# 289.
+#
+# Title: Key value pair from params hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives a hash with one key-value pair, where the key :sym0 points to the value
+# at :sym1 in the 'params' hash
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 :sym0 => params[:sym1]
 
 var0 >= var1.length
