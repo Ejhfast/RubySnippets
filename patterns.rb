@@ -5369,6 +5369,18 @@ var0.each_byte do |var1|
   var2 << sprintf("str0", var1)
 end
 
+# 342.
+#
+# Title: Hash access using string and symbol
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the value at 'str0' if it is present, and if not, the value at :sym0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0["str0"]) || (var0[:sym0]))
 
 ((((_parse_eu(var0, var1)) || (_parse_us(var0, var1)))) || (_parse_iso(var0, var1)))
