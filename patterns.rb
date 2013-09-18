@@ -5241,6 +5241,20 @@ var0 <= var1.size
 
 var0.length <= var1
 
+# 334.
+#
+# Title: Check empty-ness of attributes
+# Category: [ External lib ]
+#
+# Description:
+# Checks if the attributes property of 'var0' gives an empty hash.
+# var0 here may be an ActiveRecord object and the 'attributes' method
+# might give a hash of its column-names with values.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.attributes.empty?
 
 def method
