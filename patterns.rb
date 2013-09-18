@@ -4494,6 +4494,19 @@ options[:sym0].to_s
 
 raise(ArgumentError.new("str0#{var0}"))
 
+# 285.
+#
+# Title: Insert file-path in the beginning of array
+# Category: [ Standard lib ]
+#
+# Description:
+# Add a file path to the beginning or array 'var0'. The file path is constructed
+# by joining the directory name of 'str0' with 'str1' and then expanding it.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.unshift(File.expand_path(File.dirname("str0") + "str1"))
 
 [var0[var1], var0[var2]]
