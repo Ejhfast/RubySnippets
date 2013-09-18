@@ -4975,6 +4975,20 @@ var0.name.blank?
 
 raise(NotImplementedError.new)
 
+# 317.
+#
+# Title: Raise exception with message
+# Category: [ Standard lib ]
+#
+# Description:
+# Raise the NotImplementedError using "str0" as the error message
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# raise NotImplementedError, "str0"
+
 raise(NotImplementedError.new("str0"))
 
 var0 = var1[:sym0]
