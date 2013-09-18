@@ -4991,6 +4991,18 @@ raise(NotImplementedError.new)
 
 raise(NotImplementedError.new("str0"))
 
+# 318.
+#
+# Title: Assign from Hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Assign 'var0' and 'var2' values from hash 'var1' at keys :sym0 and :sym1 respectively
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1[:sym0]
 var2 = var1[:sym1]
 
