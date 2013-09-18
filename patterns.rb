@@ -4479,6 +4479,19 @@ end
 
 options[:sym0].to_s
 
+# 284.
+#
+# Title: raise ArgumentError with custom message
+# Category: [ Standard lib ]
+#
+# Description:
+# raise the ArgumentError with a message that is obtained by prefixing 'str0'
+# with string version of 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 raise(ArgumentError.new("str0#{var0}"))
 
 var0.unshift(File.expand_path(File.dirname("str0") + "str1"))
