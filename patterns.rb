@@ -4732,6 +4732,18 @@ var0.errors.empty?
 
 var0.length != var1
 
+# 301.
+#
+# Title: type check for Hash/Array
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' is an instance of either an Array or a Hash
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0.is_a?(Hash)) || (var0.is_a?(Array)))
 
 !var0.success?
