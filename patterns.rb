@@ -5183,6 +5183,20 @@ var0.value.nil?
 
 var0.sub(/str0#{Regexp.quote(var1)}str1/, "str2")
 
+# 330.
+#
+# Title: Split and join sub-parts
+# Category: [ Standard lib ]
+#
+# Description:
+# Splits 'var0' at 'str0' and joins its sub-array using 'str0' again.
+# The subarray contains elements between two indexes (0 through 1 here).
+# Returns the joined string.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.split("str0")[0..1].join("str0")
 
 var0 - var1.to_i
