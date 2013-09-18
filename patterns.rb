@@ -4581,6 +4581,18 @@ var0.unshift(File.expand_path(File.dirname("str0") + "str1"))
 
 var0 >= var1.length
 
+# 291.
+#
+# Title: block_given? check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if no block is given to the current method
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !block_given?
 
 warn("str0#{var0.inspect}str1")
