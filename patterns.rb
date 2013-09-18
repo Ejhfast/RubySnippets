@@ -4929,6 +4929,18 @@ var0[:sym0].kind_of?(Array)
 
 self.class.logger
 
+# 314.
+#
+# Title: Last element of array within hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the last element of the array present at key 'var1' in the hash 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1].last
 
 var0.name.blank?
