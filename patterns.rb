@@ -5455,6 +5455,19 @@ var0 << var1.matched
 
 var0.size.to_f
 
+# 348.
+#
+# Title: Match regex with string
+# Category: [ Standard lib ]
+#
+# Description:
+# Matches regular expression /str0/ with 'var0', and gives the first matched value.
+# Fails with a NoMethodError exception if there is no match.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 /str0/.match(var0)[0]
 
 ((var0 != :sym0) && (var0 != :sym1))
