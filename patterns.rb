@@ -5413,6 +5413,18 @@ end
 
 ((var0) && (var0[0, 1] == "str0"))
 
+# 345.
+#
+# Title: Comparison on lowercased string
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the lowercased version of 'var0' equals 'str0'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.downcase == "str0"
 
 var0 << var1.matched
