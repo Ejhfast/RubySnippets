@@ -5441,6 +5441,18 @@ var0.downcase == "str0"
 
 var0 << var1.matched
 
+# 347.
+#
+# Title: size as float
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the size of 'var0' expressed at a float.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.size.to_f
 
 /str0/.match(var0)[0]
