@@ -5427,6 +5427,18 @@ end
 
 var0.downcase == "str0"
 
+# 346.
+#
+# Title: Push matched value to array
+# Category: [ Standard lib ]
+#
+# Description: TODO- matched reference
+# Pushes the value of 'var1.matched' to the array/string 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << var1.matched
 
 var0.size.to_f
