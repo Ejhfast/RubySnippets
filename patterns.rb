@@ -5484,6 +5484,18 @@ var0.size.to_f
 
 ((var0 != :sym0) && (var0 != :sym1))
 
+# 350.
+#
+# Title: Value from config hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value of :sym0 from config hash
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 config[:sym0]
 
 var0[:sym0].nil?
