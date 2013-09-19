@@ -5470,6 +5470,18 @@ var0.size.to_f
 
 /str0/.match(var0)[0]
 
+# 349.
+#
+# Title: Compare inequality with symbols
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' does not equal any of the symbols :sym1 and :sym0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0 != :sym0) && (var0 != :sym1))
 
 config[:sym0]
