@@ -5637,6 +5637,20 @@ var0, var1 = var2 >> 0, var2 & 1
 
 "str0" * var0 - var1
 
+# 359.
+#
+# Title: Rails find using block
+# Category: [ External lib ]
+#
+# Description:
+# When invoked, 'method' finds an object in a collection of ActiveRecord objects 'var1'
+# using the block. The block checks if the name property of compared object equals 'var2'.
+# Part of Ruby on Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 def method(var0)
   var1.find do |var2|
     var2.name == var0
