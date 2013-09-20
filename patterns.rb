@@ -6192,6 +6192,22 @@ if var0
   var1 = -var1 + 0
 end
 
+# 394.
+#
+# Title: Marshalling and unmarshalling an object
+# Category: [ Standard lib ]
+#
+# Description:
+# Marshal dump the object 'var0' and then Marshal load it. Gives back the same object.
+# Marshalling converts a ruby object into a byte stream which can be stored
+# and then loaded outside of the current script. The dump method performs the conversion
+# (serializing), where it converts all its descendent objects too. The load method
+# does the deserializing.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Marshal.load(Marshal.dump(var0))
 
 File.expand_path(File.dirname("str0"))
