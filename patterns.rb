@@ -6087,6 +6087,18 @@ var0["str0"].length
 
 (var0 * 0) + var1
 
+# 387.
+#
+# Title: Prefix hash value with string
+# Category: [ Standard lib ]
+#
+# Description:
+# Prefix 'str0' to the stringified value at key :sym0 in the options hash.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0#{options[:sym0]}"
 
 self.class.new(+d)
