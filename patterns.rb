@@ -5773,6 +5773,19 @@ var0.html do
   render({:sym0 => "str0"})
 end
 
+# 367.
+#
+# Title: sessions hash
+# Category: [ External lib ]
+#
+# Description:
+# Gets a particular value (keyed at 'var0') from the sessions hash.
+# Part of Rails.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 session[var0]
 
 var0.puts("str0#{var1}")
