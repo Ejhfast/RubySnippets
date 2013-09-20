@@ -6116,6 +6116,20 @@ var0["str0"].length
 
 self.class.new(+d)
 
+# 389.
+#
+# Title: Value from attributes hash
+# Category: [ External lib ]
+#
+# Description:
+# Gets the value at key 'var0' from the attributes hash. The attributes hash is
+# a property of the ActiveRecord objects, so this snippet may likely be used within
+# an ActiveRecord model class.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 attributes[var0]
 
 var0.value == value
