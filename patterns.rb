@@ -5980,6 +5980,18 @@ if var0.has_key?(var1)
   return(var0[var1])
 end
 
+# 380.
+#
+# Title: true check on element in options hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the value at :sym0 in options hash is true.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 options[:sym0] == true
 
 var0 = Time.now - var1
