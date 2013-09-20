@@ -5567,6 +5567,19 @@ if File.directory?(var0)
   var1.unshift(var0)
 end
 
+# 355.
+#
+# Title: strftime on Time
+# Category: [ Standard lib ]
+#
+# Description:
+# Prints the current time in a format specified in 'var0'
+# eg - Time.now.strftime("%I:%M%p") #=> 08:37AM
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Time.now.strftime(var0)
 
 s3e(var0, $4, Format::ABBR_MONTHS[$1.downcase], $2, (($3) && ($3[0, 1].downcase == "str0")))
