@@ -5868,6 +5868,20 @@ id.to_s
 
 Net::HTTP.new(var0.host, var0.port)
 
+# 373.
+#
+# Title: Equality check on lowercased slice of regex capture
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the substring sliced (at index 0, length 1) from a string,
+# when lowercased, is equal to the string 'str0'. The string here is the third capture
+# from the last regular expression match.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 $3[0, 1].downcase == "str0"
 
 request.env
