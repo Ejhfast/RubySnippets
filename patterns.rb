@@ -6057,6 +6057,18 @@ end
 
 var0.set_backtrace(var1 + caller)
 
+# 385.
+#
+# Title: length of hash element
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the length of the value at key 'str0' in hash 'var0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0["str0"].length
 
 (var0 * 0) + var1
