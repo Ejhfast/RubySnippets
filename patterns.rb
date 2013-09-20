@@ -6146,6 +6146,19 @@ attributes[var0]
 
 var0.value == value
 
+# 391.
+#
+# Title: Integer-ify and multiply
+# Category: [ Standard lib ]
+#
+# Description:
+# Convert $2 to an integer and then multiply it with a number (0 here). $2 holds the
+# second capture from the last regular expression match.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 $2.to_i * 0
 
 var0.length - var1.length
