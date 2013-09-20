@@ -5753,6 +5753,22 @@ var0.flatten.map do |var1|
   var1.to_s
 end
 
+# 366.
+#
+# Title: Rails respond as html
+# Category: [ External lib ]
+#
+# Description:
+# Responds to an http request when the response expected is in html.
+# The response is built as specified in the hash (:sym0 => "str0"), eg -
+# it could render a file as:
+#  render({:file => "template-file-name"})
+# Part of ruby on rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.html do
   render({:sym0 => "str0"})
 end
