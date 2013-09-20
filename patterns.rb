@@ -6132,6 +6132,18 @@ self.class.new(+d)
 
 attributes[var0]
 
+# 390.
+#
+# Title: Equality check on value property
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the value property of 'var0' is equal to another variable named 'value'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.value == value
 
 $2.to_i * 0
