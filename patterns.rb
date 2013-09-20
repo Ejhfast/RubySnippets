@@ -5788,6 +5788,19 @@ end
 
 session[var0]
 
+# 368.
+#
+# Title: puts and exit
+# Category: [ Standard lib ]
+#
+# Description:
+# Prints out a string composed by joining 'str0' and 'var1' to the file (handler) 'var0',
+# and then exit the current ruby script with the code 0.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.puts("str0#{var1}")
 exit(0)
 
