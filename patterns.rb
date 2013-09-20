@@ -5704,6 +5704,19 @@ var0 = var1[var2].ord
 
 "str0".%(var0[:sym0])
 
+# 363.
+#
+# Title: include check on array/hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the array 'var0' includes the stringified version of 'var1'.
+# If 'var0' is a hash, it checks if stringified 'var1' matches one of the keys.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.include?(var1.to_s)
 
 config.filter_parameters
