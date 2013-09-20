@@ -5884,6 +5884,19 @@ Net::HTTP.new(var0.host, var0.port)
 
 $3[0, 1].downcase == "str0"
 
+# 374.
+#
+# Title: request environment
+# Category: [ External lib ]
+#
+# Description:
+# Gets the request environment object for the current HTTP request.
+# Part of Rails.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 request.env
 
 var0.values_at(*var1).compact
