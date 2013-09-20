@@ -5994,6 +5994,19 @@ end
 
 options[:sym0] == true
 
+# 381.
+#
+# Title: Time difference
+# Category: [ Standard lib ]
+#
+# Description:
+# Reduces 'var1' seconds from current time, and assigns to 'var0'
+#  If 'var1' is another Time object, then the subtraction gives the difference in the times.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = Time.now - var1
 
 var0.keys.sort.last
