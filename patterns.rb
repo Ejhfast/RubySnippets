@@ -5964,6 +5964,18 @@ var0.camelize.constantize
 
 [var0[:sym0], var0[:sym1], var0[:sym2], var0[:sym3]]
 
+# 379.
+#
+# Title: Hash key check before lookup
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# If the hash var0 has a key 'var1', then return the value at that key.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0.has_key?(var1)
   return(var0[var1])
 end
