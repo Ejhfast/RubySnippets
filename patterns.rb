@@ -5734,6 +5734,21 @@ var0.include?(var1.to_s)
 
 config.filter_parameters
 
+# 365.
+#
+# Title: Stringify elements of a flattened array
+# Category: [ Standard lib ]
+#
+# Description:
+# Flatten the array 'var0' and then build another array from it that contains stringified
+# version of each of its elements. Flatten turns the array into a one-dimensional array.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var0.flatten.map(&:to_s)
+
 var0.flatten.map do |var1|
   var1.to_s
 end
