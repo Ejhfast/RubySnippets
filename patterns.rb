@@ -5606,6 +5606,19 @@ Time.now.strftime(var0)
 
 s3e(var0, $4, Format::ABBR_MONTHS[$1.downcase], $2, (($3) && ($3[0, 1].downcase == "str0")))
 
+# 357.
+#
+# Title: Boolean >> and &
+# Category: [ Standard lib ]
+#
+# Description:
+# Boolean right shift 'var2' by a number (0) and assign it to 'var0', boolean AND 'var2'
+# with another number (1) and assign it to 'var1'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0, var1 = var2 >> 0, var2 & 1
 
 "str0" * var0 - var1
