@@ -5949,6 +5949,19 @@ File.chmod(0, var0.path)
 
 var0.camelize.constantize
 
+# 378.
+#
+# Title: Values from hash listed as array
+# Category: [ Standard lib ]
+#
+# Description:
+# Pick values at :sym0, :sym1, :sym2 and :sym3 frrom the hash 'var0' and
+# returns them as an array
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 [var0[:sym0], var0[:sym1], var0[:sym2], var0[:sym3]]
 
 if var0.has_key?(var1)
