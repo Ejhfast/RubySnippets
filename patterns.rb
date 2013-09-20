@@ -6101,6 +6101,19 @@ var0["str0"].length
 
 "str0#{options[:sym0]}"
 
+# 388.
+#
+# Title: Instantiate using new with arguments
+# Category: [ Standard lib ]
+#
+# Description:
+# Instantiate an object of the current class by passing +d as an argument.
+# The +d here may be a value being converted to its positive equivalent.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 self.class.new(+d)
 
 attributes[var0]
