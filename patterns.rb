@@ -5930,6 +5930,23 @@ var0.values_at(*var1).compact
 
 File.chmod(0, var0.path)
 
+# 377.
+#
+# Title: camelize and constantize
+# Category: [ External lib ]
+#
+# Description:
+# Converts the string 'var0' to camel-case and then finds a constant by that name.
+# The camelize method will capitalize each part of the string separated with underscores,
+# and wil turn '/' to '::'.
+# eg -
+#  'active_support/core_ext'.camelize # => ActiveSupport::CoreExt
+# Part of Rails active_support
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.camelize.constantize
 
 [var0[:sym0], var0[:sym1], var0[:sym2], var0[:sym3]]
