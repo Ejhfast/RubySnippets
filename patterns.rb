@@ -5671,6 +5671,19 @@ end
 
 !var0.match(/str0/)
 
+# 361.
+#
+# Title: Integer ordinal
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the integer ordinal for the character at the index 'var2' in string 'var1'.
+# Then assigns it to 'var0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1[var2].ord
 
 "str0".%(var0[:sym0])
