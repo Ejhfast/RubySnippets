@@ -5686,6 +5686,22 @@ end
 
 var0 = var1[var2].ord
 
+# 362.
+#
+# Title: Format using % operator
+# Category: [ Standard lib ]
+#
+# Description:
+# Applies "str0" as the format specifier (using % operator) to format
+# the value at :sym0 in hash 'var0'.
+# eg-
+#    var0[:sym0]=100
+#   "%.2f".%var0[:sym0]   #=> 100.00
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0".%(var0[:sym0])
 
 var0.include?(var1.to_s)
