@@ -5837,6 +5837,20 @@ require("str2")
 require("str3")
 require("str4")
 
+# 371.
+#
+# Title: id as string
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets id as a string.
+# id may be a local variable holding a number or a method in the current context
+# that gives a number
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 id.to_s
 
 Net::HTTP.new(var0.host, var0.port)
