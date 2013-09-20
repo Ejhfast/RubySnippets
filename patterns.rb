@@ -6023,6 +6023,19 @@ var0 = Time.now - var1
 
 var0.keys.sort.last
 
+# 383.
+#
+# Title: Change file permissions within database transaction
+# Category: [ Standard lib ]
+#
+# Description:
+# Tries to change the mode on a file ('var1.path') to the given mode (0 here) within
+# a database transaction. The transaction is performed on ActiveRecord model class 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.transaction do |var1|
   File.chmod(0, var1.path)
 end
