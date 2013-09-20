@@ -5512,6 +5512,20 @@ config[:sym0]
 
 var0[:sym0].nil?
 
+# 352.
+#
+# Title: Date parsing in EU and US formats
+# Category: [ External lib ]
+#
+# Description:
+# Parses the string 'var0' as a date in EU and US formats, in that order of precedence.
+# 'var1' is used to specify the parse format.
+# These methods were used in Ruby 1.8 and are deprecated 1.9 onwards
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((_parse_eu(var0, var1)) || (_parse_us(var0, var1)))
 
 var0 ||= Hash.new do |var1, var2|
