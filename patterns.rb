@@ -6283,6 +6283,19 @@ var0 == var1 - 0
 
 raise(ArgumentError, "str0#{var0.length}str1")
 
+# 400.
+#
+# Title: Subarray at given index and of given size
+# Category: [ Standard lib ]
+#
+# Description:
+# Get a subarray from array 'var0' which consists of consecutive elements
+# starting at the given index (0 here) and is of size 'var1'-1.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0, var1 - 1]
 
 var0 = var0[0..var1 - 1]
