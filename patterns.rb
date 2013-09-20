@@ -6226,6 +6226,18 @@ Marshal.load(Marshal.dump(var0))
 
 File.expand_path(File.dirname("str0"))
 
+# 396.
+#
+# Title: Equality check on variable minus number
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' is equal to the difference of 'var1' and a number (0 here)
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 == var1 - 0
 
 !var0[var1].nil?
