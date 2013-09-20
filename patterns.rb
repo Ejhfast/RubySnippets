@@ -6268,6 +6268,19 @@ var0 == var1 - 0
 
 (var0 + var1) + 0
 
+# 399.
+#
+# Title: Raise exception with custom message
+# Category: [ Standard lib ]
+#
+# Description:
+# Raises the ArgumentError with an exception message composed by
+# interpolating the length of 'var0' between strings 'str0' and 'str1'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 raise(ArgumentError, "str0#{var0.length}str1")
 
 var0[0, var1 - 1]
