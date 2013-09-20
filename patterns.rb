@@ -5582,6 +5582,28 @@ end
 
 Time.now.strftime(var0)
 
+# 356.
+#
+# Title: Date parsing
+# Category: [ External lib ]
+#
+# Description:
+# Perhaps a part of the home_run date formatting library, invoked in the _parse_us method,
+# tries to parse a given string as date in the US format.
+# This statment occurs right after a regular expression match of the given string, so
+#  var0 specifies the format,
+#  $4 gets the year,
+#  $1.downcase gets the month as string, and Format::ABBR_MONTHS hash gets a corresponding number
+#  $2 gets the date
+#  The Last argument is true/false depending on whether $3 has first charcter 'b'
+#   $3 is for the 'bce' part in dates like 'Jan 12 bce 2009'
+#
+# The arguments are parsed to the se3 method that generates the Date object.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 s3e(var0, $4, Format::ABBR_MONTHS[$1.downcase], $2, (($3) && ($3[0, 1].downcase == "str0")))
 
 var0, var1 = var2 >> 0, var2 & 1
