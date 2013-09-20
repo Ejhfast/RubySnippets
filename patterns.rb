@@ -5528,6 +5528,24 @@ var0[:sym0].nil?
 
 ((_parse_eu(var0, var1)) || (_parse_us(var0, var1)))
 
+# 353.
+#
+# Title: Default value from Hash as a block
+# Category: [ Standard lib ]
+#
+# Description:
+# If var0 doesn't exist, it is assigned a new hash.
+# The new hash is created such that whenever it is accessed with a non-existing
+# key, it executes the given block to get the value. The block here sets the
+# value at the key to an empty array, so for any non-existing keys,
+# the value returned is a newly instantiated empty array.
+# This differs from Hash.new([]) because in the latter it returns the *same*
+# empty array everytime, not a newly created one
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 ||= Hash.new do |var1, var2|
   var1[var2] = []
 end
