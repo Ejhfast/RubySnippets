@@ -5621,6 +5621,20 @@ s3e(var0, $4, Format::ABBR_MONTHS[$1.downcase], $2, (($3) && ($3[0, 1].downcase 
 
 var0, var1 = var2 >> 0, var2 & 1
 
+# 358.
+#
+# Title: String multiplication and subtraction
+# Category: [ Standard lib ]
+#
+# Description:
+# Repeats the string "str0" 'var0' times to get a new string,
+# and then tries to subtract 'var1' from it.
+# Will fail with NoMethodError as '-' is not defined for strings.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "str0" * var0 - var1
 
 def method(var0)
