@@ -5853,6 +5853,19 @@ require("str4")
 
 id.to_s
 
+# 372.
+#
+# Title: New Net::HTTP request
+# Category: [ Standard lib ]
+#
+# Description:
+# Creates a new HTTP request object, without opening the TCP connection yet.
+# Passed arguments are hostname and port, which come as methods on 'var0' object.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Net::HTTP.new(var0.host, var0.port)
 
 $3[0, 1].downcase == "str0"
