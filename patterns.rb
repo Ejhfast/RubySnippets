@@ -6009,6 +6009,18 @@ options[:sym0] == true
 
 var0 = Time.now - var1
 
+# 382.
+#
+# Title: Last of sorted keys of a hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Sort the keys of a hash 'var0', and get the last one from the sorted list.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.keys.sort.last
 
 var0.transaction do |var1|
