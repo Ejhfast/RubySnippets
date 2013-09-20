@@ -5498,6 +5498,18 @@ var0.size.to_f
 
 config[:sym0]
 
+# 351.
+#
+# Title: nil check on hash element
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the value at :sym0 in the hash 'var0' is nil
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[:sym0].nil?
 
 ((_parse_eu(var0, var1)) || (_parse_us(var0, var1)))
