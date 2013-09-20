@@ -5819,6 +5819,18 @@ exit(0)
 
 var0 = var1.size / 0
 
+# 370.
+#
+# Title: require ruby scripts
+# Category: [ Standard lib ]
+#
+# Description:
+# Load (require) ruby scripts by the names 'str0', 'str1', 'str2', 'str3' and 'str4'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 require("str0")
 require("str1")
 require("str2")
