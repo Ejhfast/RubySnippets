@@ -5915,6 +5915,19 @@ request.env
 
 var0.values_at(*var1).compact
 
+# 376.
+#
+# Title: Change file permissions
+# Category: [ Standard lib ]
+#
+# Description:
+# Changes the permissions for file in 'var0.path' by using the
+# bit pattern in first argument (0 here)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.chmod(0, var0.path)
 
 var0.camelize.constantize
