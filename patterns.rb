@@ -6161,6 +6161,18 @@ var0.value == value
 
 $2.to_i * 0
 
+# 392.
+#
+# Title: Difference of lengths
+# Category: [ Standard lib ]
+#
+# Description:
+# Subtract the length of 'var1' from the length of 'var0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.length - var1.length
 
 if var0
