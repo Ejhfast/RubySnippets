@@ -6210,6 +6210,20 @@ end
 
 Marshal.load(Marshal.dump(var0))
 
+# 395.
+#
+# Title: Full path of a directory name
+# Category: [ Standard lib ]
+#
+# Description:
+# Expand and get the full path for the dirirectory name of 'str0'
+# File.directory gives the directory name part of 'str0', after removing the base file name,
+# and can be a relative path, eg ../nginx/sites-available
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.expand_path(File.dirname("str0"))
 
 var0 == var1 - 0
