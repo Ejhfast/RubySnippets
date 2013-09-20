@@ -5899,6 +5899,20 @@ $3[0, 1].downcase == "str0"
 
 request.env
 
+# 375.
+#
+# Title: values_at from array
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the values from the array 'var0' at the indexes mentioned in the list 'var1'
+# and compact the result by removing nil values. If 'var0' is a hash, then values with
+# keys mentioned in 'var1' are fetched and the result is compacted.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.values_at(*var1).compact
 
 File.chmod(0, var0.path)
