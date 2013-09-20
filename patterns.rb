@@ -6071,6 +6071,20 @@ var0.set_backtrace(var1 + caller)
 
 var0["str0"].length
 
+# 386.
+#
+# Title: Multiply and add numbers/strings
+# Category: [ Standard lib ]
+#
+# Description:
+# Multiply 'var0' with a number (0 here) and then add 'var1' to it.
+# If var0 and var1 are strings, it is repeated as many times as the number
+# to get a new string which is then concatenated with var1
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 * 0) + var1
 
 "str0#{options[:sym0]}"
