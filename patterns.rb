@@ -5719,6 +5719,19 @@ var0 = var1[var2].ord
 
 var0.include?(var1.to_s)
 
+# 364.
+#
+# Title: Rails filtered paramters
+# Category: [ External lib ]
+#
+# Description:
+# In Rails, this is a list of parameters to be filtered in logs.
+# Generally contains password and similar sensitive parameters.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.filter_parameters
 
 var0.flatten.map do |var1|
