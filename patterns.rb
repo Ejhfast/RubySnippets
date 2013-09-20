@@ -6040,6 +6040,21 @@ var0.transaction do |var1|
   File.chmod(0, var1.path)
 end
 
+# 384.
+#
+# Title: Set full backtrace
+# Category: [ Standard lib ]
+#
+# Description:
+# Sets the backtrace for the exception 'var0' using the sum of 'var1' and 'caller'.
+# 'var1' here may be holding the name of the current method, while caller gets
+# an array of the current execution stack. So their summation can give a full trace complete
+# with the current method's name.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.set_backtrace(var1 + caller)
 
 var0["str0"].length
