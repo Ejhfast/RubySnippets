@@ -5804,6 +5804,19 @@ session[var0]
 var0.puts("str0#{var1}")
 exit(0)
 
+# 369.
+#
+# Title: Divide size by a number
+# Category: [ Standard lib ]
+#
+# Description:
+# Divide the size of 'var1' by a number (0 here) and assign the result to 'var0'.
+# In this case it causes a ZeroDivisionError.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1.size / 0
 
 require("str0")
