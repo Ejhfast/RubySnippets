@@ -7549,6 +7549,19 @@ var0 = Time.now + var1
 
 var0[var1[0]] = var2
 
+# 482.
+#
+# Title: Multiplication of string/number
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the product of 'var0' and the integer version of 'var1'. If 'var0' is a
+# string, it gives another string created by repeating 'var0' 'var1' times.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 * var1.to_i
 
 "#{scope_condition}str0#{position_column}str1#{send(position_column).to_i}"
