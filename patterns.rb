@@ -6945,6 +6945,19 @@ var0.backtrace.join("str0")
 
 var0[var1].ord
 
+# 443.
+#
+# Title: Enumerator for sorted keys of hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives an enumerator which can iterate over a sorted array containing
+# keys of the hash 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.keys.sort.map
 
 (var0 + var1) - 0
