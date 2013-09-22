@@ -7829,5 +7829,17 @@ File.join(RbConfig::CONFIG["str0"], RbConfig::CONFIG["str1"] + RbConfig::CONFIG[
 
 File.join(File.dirname("str0"), "str1")
 
+# 500.
+#
+# Title: Size check on var0 and var1
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the size of 'var0' and 'var1' are both equal to a number (0 here).
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 ((var0.size == 0) && (var1.size == 0))
 
