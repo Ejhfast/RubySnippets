@@ -6974,6 +6974,20 @@ var0.keys.sort.map
 
 (var0 + var1) - 0
 
+# 445.
+#
+# Title: define instance method
+# Category: [ Standard lib ]
+#
+# Description:
+# Defines an instance method for the current module/class.
+# The name of the method is a string composed by adding 'str0' to 'var0'.
+# The body of the method checks if 'var1' is equal to 'var0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 define_method("#{var0}str0") do
   var1 == var0
 end
