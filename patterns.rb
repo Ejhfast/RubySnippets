@@ -7456,6 +7456,20 @@ var0.class == Hash
 
 (var0 - var1).abs
 
+# 476.
+#
+# Title: singleton
+# Category: [ Other ]
+#
+# Description:
+# Get the singleton property associated with 'var0', and boolean reverse it
+# using the NOT (!) operator. There is no 'singleton' method on standard lib.
+# There are singleton_class, singleton_methods etc
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !var0.singleton
 
 var0.params["str0"]
