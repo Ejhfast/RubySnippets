@@ -7037,6 +7037,21 @@ var0[var1].each
 
 var0.join("str0") + "str0"
 
+# 449.
+#
+# Title: next iteration of loop
+# Category: [ Standard lib ]
+#
+# Description:
+# Skip and execute the next iteration of the loop if 'var0'
+# equals either the string "str0" or the string "str1"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# next if ["str0", "str1"].include?(var0)
+
 if ((var0 == "str0") || (var0 == "str1"))
   next
 end
