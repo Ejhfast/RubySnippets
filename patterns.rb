@@ -6298,6 +6298,21 @@ raise(ArgumentError, "str0#{var0.length}str1")
 
 var0[0, var1 - 1]
 
+# 401.
+#
+# Title: Subarray using range
+# Category: [ Standard lib ]
+#
+# Description:
+# Get a subarray from array 'var0', which consisits of consecutive elements between
+# indexes 0 (or a given number) and var1-1. Since it uses the range operator (..) for
+# slicing, it includes the element on index var-1 too, and therefore gets a longer
+# subarray than var0[0, var1-1]
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var0[0..var1 - 1]
 
 "#{position_column}str0#{position_column}str1"
