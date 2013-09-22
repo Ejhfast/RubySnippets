@@ -6364,6 +6364,18 @@ end
 
 var0 + var1.size
 
+# 405.
+#
+# Title: Compare variable lengths
+# Category: [ Standard lib ]
+#
+# Description:
+# Compare if the length of 'var0' is less than the length of 'var1'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.length < var1.length
 
 update_attribute(position_column, 0)
