@@ -6704,6 +6704,19 @@ var0 = File.expand_path(File.dirname("str0"))
 
 var0.force_encoding(Encoding.default_external)
 
+# 427.
+#
+# Title: Substring addition
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets a substring from 'var0' (starting at index 0, of length 1), and
+# concatenate it with "str0"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0, 1] + "str0"
 
 var0.to_a.sort
