@@ -7412,6 +7412,19 @@ var0.name == :sym0
 
 (var0.size - 0).times
 
+# 473.
+#
+# Title: Enumerate on parts of split
+# Category: [ Standard lib ]
+#
+# Description:
+# Splits the string 'var0' on occurances of pattern /str0/ and returns
+# an enumerator that can iterate on it.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.split(/str0/).map
 
 var0.class == Hash
