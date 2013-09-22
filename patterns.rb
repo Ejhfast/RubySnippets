@@ -7242,6 +7242,21 @@ parameters[:sym0]
 
 var0.to_f / var1.to_f
 
+# 462.
+#
+# Title: Push array elements to self
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterate over the array 'var0' and push (<<) every element to the
+# current object.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# self.push *var0  ## splat array var0 and push to self
+
 var0.each do |var1|
   self << var1
 end
