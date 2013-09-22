@@ -7228,6 +7228,18 @@ var0.path.to_s
 
 parameters[:sym0]
 
+# 461.
+#
+# Title: Float division
+# Category: [ Standard lib ]
+#
+# Description:
+# Divide the float form of 'var0' by the float form of 'var1'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_f / var1.to_f
 
 var0.each do |var1|
