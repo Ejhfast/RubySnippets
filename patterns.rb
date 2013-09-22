@@ -6854,6 +6854,18 @@ var0.uniq.join("str0")
 
 var0[0] - 1
 
+# 437.
+#
+# Title: Symbol type check on hash element
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets a value from the hash at key :sym0, and check if it is a Symbol.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[:sym0].is_a?(Symbol)
 
 def method
