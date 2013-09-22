@@ -7532,6 +7532,21 @@ var0 = var1.length - 0
 
 var0 = Time.now + var1
 
+# 481.
+#
+# Title: Assign to hash at key given by array
+# Category: [ Standard lib ]
+#
+# Description:
+# Assign var2 to the hash 'var0' at the key which is an element if array 'var1'
+# (at index 0).
+# 'var0' may also be an array, in which case 'var2' is assigned to the index
+# fetched from the array 'var1' (index 0)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1[0]] = var2
 
 var0 * var1.to_i
