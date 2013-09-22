@@ -6378,6 +6378,21 @@ var0 + var1.size
 
 var0.length < var1.length
 
+# 406.
+#
+# Title: Rails update_attribute
+# Category: [ External lib ]
+#
+# Description:
+# Changes the position_column attribute of the current object to a number (0 here)
+# It calls the ActiveRecord update_attribute method, which changes a single attribute
+# and saves the change, without performing any validations.
+# Ruby on Rails related.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 update_attribute(position_column, 0)
 
 var0 << var1[0]
