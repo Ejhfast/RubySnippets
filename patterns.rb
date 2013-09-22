@@ -7383,6 +7383,18 @@ def method
   self.class.new
 end
 
+# 471.
+#
+# Title: Comparison on name
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the name property of 'var0' equals :sym0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.name == :sym0
 
 (var0.size - 0).times
