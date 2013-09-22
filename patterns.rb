@@ -7628,6 +7628,20 @@ var0.message =~ /str0/
 
 var0 = var1.result(binding)
 
+# 487.
+#
+# Title: Full path in Rails application
+# Category: [ External lib ]
+#
+# Description:
+# Joins the given strings "str0" and "str1" with Rails application root path
+# to get the full path. Eg-
+#   Rails.root.join("config", "environment.rb")  #=> /code/project/config/environments.rb
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Rails.root.join("str0", "str1")
 
 var0.size >= 0
