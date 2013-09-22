@@ -7597,6 +7597,19 @@ var0 * var1.to_i
 
 var0.keys.first
 
+# 485.
+#
+# Title: Match message with regex
+# Category: [ Standard lib ]
+#
+# Description:
+# Compares the message property of 'var0' with the regular expression /str0/,
+# and checks if there's a match. Returns match object if there is match, nil otherwise
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.message =~ /str0/
 
 var0 = var1.result(binding)
