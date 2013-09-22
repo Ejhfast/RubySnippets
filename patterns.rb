@@ -6766,6 +6766,18 @@ session[:sym0]
 
 self.class === var0
 
+# 431.
+#
+# Title: Stringified element of array
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives the stringified version of an element (at index 0 here) of the array 'var0'.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0].to_s
 
 raise("str0#{var0.inspect}str1")
