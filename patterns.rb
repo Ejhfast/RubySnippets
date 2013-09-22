@@ -7518,6 +7518,18 @@ end
 
 var0 = var1.length - 0
 
+# 480.
+#
+# Title: Addition to Time
+# Category: [ Standard lib ]
+#
+# Description:
+# Add 'var1' to current time and assign the new time to 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = Time.now + var1
 
 var0[var1[0]] = var2
