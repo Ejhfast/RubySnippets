@@ -7427,6 +7427,18 @@ var0.name == :sym0
 
 var0.split(/str0/).map
 
+# 474.
+#
+# Title: type check on Hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' is an object of the class Hash
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.class == Hash
 
 (var0 - var1).abs
