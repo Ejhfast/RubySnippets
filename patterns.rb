@@ -7564,6 +7564,23 @@ var0[var1[0]] = var2
 
 var0 * var1.to_i
 
+# 483.
+#
+# Title: query string
+# Category: [ External lib ]
+#
+# Description:
+# This constructs the query needed to update serveral records at once using
+# update_all in the acts_as_list gem. The scope_condition part helps filter
+# out the relevant records, and the other parts are concerned with updating
+# the position_column field.
+# For example -
+#  "where priority like 'high' AND #{position_column} = #{send(position_column).to_i}"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "#{scope_condition}str0#{position_column}str1#{send(position_column).to_i}"
 
 var0.keys.first
