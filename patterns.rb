@@ -6749,6 +6749,21 @@ var0.to_a.sort
 
 session[:sym0]
 
+# 430.
+#
+# Title: Class similarity check
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the class of current object is the same as the class of 'var0',
+# or the classes are part of the same class hierarchy.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# var0.is_a? self.class
+
 self.class === var0
 
 var0[0].to_s
