@@ -6491,6 +6491,19 @@ var0.each do |var1, var2|
   var3[var1] = var2
 end
 
+# 413.
+#
+# Title: Iterate over child objects
+# Category: [ External lib ]
+#
+# Description:
+# As a part of Pathname (or similar) library, this gives an enumerator that can
+# iterate over the children of a directory 'var0' - files and subdirectories.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.children.each
 
 var0.bytesize.to_s
