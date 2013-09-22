@@ -6426,6 +6426,18 @@ unless ((var0) && (!var0.empty?))
   next
 end
 
+# 409.
+#
+# Title: Join and push to array
+# Category: [ Standard lib ]
+#
+# Description:
+# Join the array 'var1' using 'str0' as separator and push it to the array 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << var1.join("str0")
 
 acts_as_list_class.update_all("#{position_column}str0#{position_column}str1", "#{scope_condition}str2#{position_column}str3#{var0}")
