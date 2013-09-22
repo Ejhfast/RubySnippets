@@ -7170,6 +7170,18 @@ var0.collect do |var1|
   var1.dup
 end
 
+# 457.
+#
+# Title: Range object
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives a Range object that runs from 0 through the var0.size-1
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 0..var0.size - 1
 
 self.class.name
