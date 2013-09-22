@@ -7753,6 +7753,18 @@ end
 
 params[:sym0].present?
 
+# 495.
+#
+# Title: Regex check on text
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0.text' matches the regular expression /str0/
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.text =~ /str0/
 
 (["str0"] * 0).join("str1")
