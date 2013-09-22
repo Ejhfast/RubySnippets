@@ -6458,6 +6458,18 @@ var0 << var1.join("str0")
 
 acts_as_list_class.update_all("#{position_column}str0#{position_column}str1", "#{scope_condition}str2#{position_column}str3#{var0}")
 
+# 411.
+#
+# Title: Push hash element to array
+# Category: [ Standard lib ]
+#
+# Description:
+# Push the element at "str0" in hash 'var1' to another array/string 'var0'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << var1["str0"]
 
 var0.each do |var1, var2|
