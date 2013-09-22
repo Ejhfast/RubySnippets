@@ -6506,6 +6506,18 @@ end
 
 var0.children.each
 
+# 414.
+#
+# Title: bytesize as string
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the length of string 'var0' in number of bytes, and gives its stringified version
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.bytesize.to_s
 
 unless var0.empty?
