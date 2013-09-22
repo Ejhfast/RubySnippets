@@ -7071,6 +7071,18 @@ end
 
 var0[0..0] == "str0"
 
+# 451.
+#
+# Title: Open file and write
+# Category: [ Standard lib ]
+#
+# Description:
+# Open the file/IO-stream 'var0' in the mode "str0" and write 'var2' to it.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 open(var0, "str0") do |var1|
   var1.write(var2)
 end
