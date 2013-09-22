@@ -7007,6 +7007,19 @@ end
 
 :sym0 => options[:sym1]
 
+# 447.
+#
+# Title: Enumerator for array within hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives an enumerator which can iterate over an array which is a member
+# of the hash 'var0' at key 'var1'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1].each
 
 var0.join("str0") + "str0"
