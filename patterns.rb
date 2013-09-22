@@ -7135,6 +7135,20 @@ if File.exists?(ENV["str0"])
   require("str1")
 end
 
+# 455.
+#
+# Title: Boolean right shift (>>) and AND (&)
+# Category: [ Standard lib ]
+#
+# Description:
+# Boolean right shift the value of 'var1' by a number (0 here)
+# and then perform a Boolean & with another number (1 here).
+# Then assign the result to 'var0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = (var1 >> 0) & 1
 
 var0.collect do |var1|
