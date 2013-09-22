@@ -6688,6 +6688,20 @@ end
 
 var0 = File.expand_path(File.dirname("str0"))
 
+# 426.
+#
+# Title: Force encoding
+# Category: [ Standard lib ]
+#
+# Description:
+# Force the default external encoding (which is generally utf-8) on "var0".
+# The force_encoding method keeps the byte representation of the string and
+# changes the characters to the required encoding.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.force_encoding(Encoding.default_external)
 
 var0[0, 1] + "str0"
