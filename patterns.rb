@@ -7305,6 +7305,21 @@ var0 = var1.split("str0").last
 
 var0.size.times
 
+# 466.
+#
+# Title: Rails action_controller.consider_all_requests_local config
+# Category: [External lib ]
+#
+# Description:
+# Sets the Rails configuration consider_all_requests_local to false.
+# When true this makes sure that error messages contain debugging details
+# (error, exception backtrace etc). When it is set to false, the error messages
+# are more user focussed, with fewer details.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.consider_all_requests_local=(false)
 
 Post.new(var0.path)
