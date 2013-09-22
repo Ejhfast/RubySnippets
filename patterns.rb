@@ -7118,6 +7118,19 @@ var0.dup.force_encoding("str0")
 
 (var0 - var1.length) + 0
 
+# 454.
+#
+# Title: Load script after environment check
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# Load (require) a ruby script if another file mentioned in the environment hash
+# ENV (at key "str0") exists.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if File.exists?(ENV["str0"])
   require("str1")
 end
