@@ -6350,6 +6350,18 @@ var0.each do |var1, var2|
   instance_variable_set("str0#{var1}", var2)
 end
 
+# 404.
+#
+# Title: Add size to variable
+# Category: [ Standard lib ]
+#
+# Description:
+# Add the size of 'var1' to 'var0'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 + var1.size
 
 var0.length < var1.length
