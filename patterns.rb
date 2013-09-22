@@ -6901,6 +6901,19 @@ end
 
 var0.push(var1[0])
 
+# 440.
+#
+# Title: active_record config
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the configuration related to active_record as a hash.
+# Part of Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 config.active_record
 
 var0.backtrace.join("str0")
