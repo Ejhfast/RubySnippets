@@ -7151,6 +7151,21 @@ end
 
 var0 = (var1 >> 0) & 1
 
+# 456.
+#
+# Title: Duplicates of array elements
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterate over the array 'var0' and returns a list of duplicates of elements of 'var0'.
+# The duplicates are shallow copies created using the dup method.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+#
+# => var0.collect(&:dup)
+
 var0.collect do |var1|
   var1.dup
 end
