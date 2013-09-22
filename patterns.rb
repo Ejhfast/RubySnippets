@@ -7672,6 +7672,22 @@ var0.size >= 0
 
 var0.to_f * 0
 
+# 490.
+#
+# Title: Exit status of a process
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the exit-status of a process is (not) 0.
+# The exit-status value is actually the least significant eight bits from
+# the return code of the process, and is available only if the process
+# has exited. Generally used with $?, which holds the value of the recently
+# executed child process.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.exitstatus != 0
 
 load(preinitializer_path)
