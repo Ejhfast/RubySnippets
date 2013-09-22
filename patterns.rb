@@ -7583,6 +7583,18 @@ var0 * var1.to_i
 
 "#{scope_condition}str0#{position_column}str1#{send(position_column).to_i}"
 
+# 484.
+#
+# Title: First from list of keys
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the list of keys of the hash 'var0', and returns the first one
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.keys.first
 
 var0.message =~ /str0/
