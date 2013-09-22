@@ -7720,6 +7720,18 @@ load(preinitializer_path)
 
 var0.sub!(/str0/, "str1").sub!(/str2/, "str1")
 
+# 493.
+#
+# Title: Assign hash element to another hash
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# If var0[:sym0] exists, then assign it to the hash 'var1' at :sym0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0[:sym0]
   var1[:sym0] = var0[:sym0]
 end
