@@ -6395,6 +6395,18 @@ var0.length < var1.length
 
 update_attribute(position_column, 0)
 
+# 407.
+#
+# Title: Array push using <<
+# Category: [ Standard lib ]
+#
+# Description:
+# Push an element of array 'var1' to the array 'var0'
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 << var1[0]
 
 unless ((var0) && (!var0.empty?))
