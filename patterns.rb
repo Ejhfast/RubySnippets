@@ -7783,6 +7783,18 @@ var0.text =~ /str0/
 
 (["str0"] * 0).join("str1")
 
+# 497.
+#
+# Title: Subtract and add
+# Category: [ Standard lib ]
+#
+# Description:
+# Subtract 'var0' from 'var1' and add a number to the difference.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 - var1) + 0
 
 File.join(RbConfig::CONFIG["str0"], RbConfig::CONFIG["str1"] + RbConfig::CONFIG["str2"])
