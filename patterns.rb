@@ -6960,6 +6960,18 @@ var0[var1].ord
 
 var0.keys.sort.map
 
+# 444.
+#
+# Title: Add variables and subtract number
+# Category: [ Standard lib ]
+#
+# Description:
+# Add 'var0' and 'var1' and subtract a number (0 here) from the sum.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 + var1) - 0
 
 define_method("#{var0}str0") do
