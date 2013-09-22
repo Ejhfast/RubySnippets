@@ -7104,6 +7104,18 @@ end
 
 var0.dup.force_encoding("str0")
 
+# 453.
+#
+# Title: Subtract length and add number
+# Category: [ Standard lib ]
+#
+# Description:
+# Subtract the length of 'var1' from 'var0', and add a number (0) to the difference
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 - var1.length) + 0
 
 if File.exists?(ENV["str0"])
