@@ -7472,6 +7472,18 @@ var0.class == Hash
 
 !var0.singleton
 
+# 477.
+#
+# Title: Element from params hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value at "str0" from the 'params' hash associated with 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.params["str0"]
 
 if var0.last.is_a?(Hash)
