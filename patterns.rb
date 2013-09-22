@@ -7813,6 +7813,20 @@ var0.text =~ /str0/
 
 File.join(RbConfig::CONFIG["str0"], RbConfig::CONFIG["str1"] + RbConfig::CONFIG["str2"])
 
+# 499.
+#
+# Title: Generate path for a file name
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the directory name of "str0" by calling File.dirname,
+# and joins it with "str1" to generate the full path for "str1".
+# The full path is then assigned to 'var0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.join(File.dirname("str0"), "str1")
 
 ((var0.size == 0) && (var1.size == 0))
