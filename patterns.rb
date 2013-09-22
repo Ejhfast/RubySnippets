@@ -7612,6 +7612,20 @@ var0.keys.first
 
 var0.message =~ /str0/
 
+# 486.
+#
+# Title: Passing Binding object as argument
+# Category: [ Standard lib ]
+#
+# Description:
+# Passes the current context as a Binding object to the 'result' method on 'var1'.
+# This binding can be applied to arbitrary ruby code later on, where
+# all the local/instance variables of current context will be available.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1.result(binding)
 
 Rails.root.join("str0", "str1")
