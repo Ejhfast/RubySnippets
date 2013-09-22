@@ -6472,6 +6472,21 @@ acts_as_list_class.update_all("#{position_column}str0#{position_column}str1", "#
 
 var0 << var1["str0"]
 
+# 412.
+#
+# Title: Duplicate array
+# Category: [ Standard lib ]
+#
+# Description:
+# Iterate over key value pairs in hash 'var0', and build another hash 'var3'
+# using the same key-value pairs.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# => var3 = var0.dup
+
 var0.each do |var1, var2|
   var3[var1] = var2
 end
