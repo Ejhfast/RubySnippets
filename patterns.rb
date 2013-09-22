@@ -6992,6 +6992,19 @@ define_method("#{var0}str0") do
   var1 == var0
 end
 
+# 446.
+#
+# Title: Key value pair from options hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives a hash with one key-value pair, where the key :sym0 points to options[:sym1]
+# from the options hash. Generally used as an argument to a function.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 :sym0 => options[:sym1]
 
 var0[var1].each
