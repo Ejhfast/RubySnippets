@@ -7214,6 +7214,18 @@ self.class.name
 
 var0.path.to_s
 
+# 460.
+#
+# Title: parameters hash value
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the value at :sym0 from the 'parameters' hash
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 parameters[:sym0]
 
 var0.to_f / var1.to_f
