@@ -6840,6 +6840,18 @@ var0.cookies[var1]
 
 var0.uniq.join("str0")
 
+# 436.
+#
+# Title: Subtraction on array element
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets an element from the array 'var0' and subtract a number (1 here) from it
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0] - 1
 
 var0[:sym0].is_a?(Symbol)
