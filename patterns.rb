@@ -7705,6 +7705,19 @@ var0.exitstatus != 0
 
 load(preinitializer_path)
 
+# 492.
+#
+# Title: In place pattern substitution
+# Category: [ Standard lib ]
+#
+# Description:
+# For 'var0', substitutes the first occurance of regular expressions
+# /str0/ and /str2/ with "str1". Modifies 'var0' in place.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.sub!(/str0/, "str1").sub!(/str2/, "str1")
 
 if var0[:sym0]
