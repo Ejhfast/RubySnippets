@@ -7644,6 +7644,18 @@ var0 = var1.result(binding)
 
 Rails.root.join("str0", "str1")
 
+# 488.
+#
+# Title: Size comparison
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the size of 'var0' is greater or equal to a number (0 here).
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.size >= 0
 
 var0.to_f * 0
