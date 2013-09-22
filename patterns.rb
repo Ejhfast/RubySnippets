@@ -6780,6 +6780,20 @@ self.class === var0
 
 var0[0].to_s
 
+# 432.
+#
+# Title: raise exception with custom message
+# Category: [ Standard lib ]
+#
+# Description:
+# Raise the RuntimeError with a message. The message string here is composed
+# by interpolating the inspect (human readable form) of 'var0' within strings
+# "str0" and "str1"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 raise("str0#{var0.inspect}str1")
 
 var0.cookies[var1]
