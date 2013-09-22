@@ -6638,6 +6638,20 @@ var0.first.size
 
 var0.to_s =~ /str0/i
 
+# 423.
+#
+# Title: Print multiplied string
+# Category: [ Standard lib ]
+#
+# Description:
+# Prints on standard output, a string obtained by multiplying 'str0' with a number.
+# String multiplication with a number gives a new string which has 'str0' repeated
+# as many times as the number.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 puts("str0" * 0)
 
 if var0
