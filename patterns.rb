@@ -7087,6 +7087,21 @@ open(var0, "str0") do |var1|
   var1.write(var2)
 end
 
+# 452.
+#
+# Title: Duplicate and force encoding
+# Category: [ Standard lib ]
+#
+# Description:
+# Duplicates 'var0' using dup, and forces the 'str0' encoding on the copy.
+# The force_encoding method keeps the byte representation of the string and
+# changes the characters to get the required encoding. It is destructive -
+# modifies the input object, hence the duplication step before the encoding.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.dup.force_encoding("str0")
 
 (var0 - var1.length) + 0
