@@ -7504,6 +7504,18 @@ if var0.last.is_a?(Hash)
   var1 = var0.pop
 end
 
+# 479.
+#
+# Title: Length minus a number
+# Category: [ Standard lib ]
+#
+# Description:
+# Subtract a number (0 here) from the length of 'var1' and assign it to 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = var1.length - 0
 
 var0 = Time.now + var1
