@@ -7291,6 +7291,18 @@ end
 
 var0 = var1.split("str0").last
 
+# 465.
+#
+# Title: Enumerator on times
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets an enumerator that can execute a given block as many times as the size of 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.size.times
 
 config.consider_all_requests_local=(false)
