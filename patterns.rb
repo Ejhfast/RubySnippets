@@ -7198,6 +7198,20 @@ end
 
 self.class.name
 
+# 459.
+#
+# Title: path as string
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the 'path' property of 'var0' as a string.
+# When 'var0' is a File object, path gives the pathname
+# that was used to create the object.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.path.to_s
 
 parameters[:sym0]
