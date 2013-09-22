@@ -6440,6 +6440,22 @@ end
 
 var0 << var1.join("str0")
 
+# 410.
+#
+# Title: update multiple database records in a single step
+# Category: [ External lib ]
+#
+# Description:
+# Runs the 'update_all' method on the class represented by 'acts_as_list_class',
+# to update all the records filtered by scope conditions (in second argument).
+# by setting the 'position_column' to a new value determined by 'str0' and 'str1'.
+# For example, this could be something like:
+#  User.update_all("#{position_column}=#{position_column}+1", "where priority like 'high' AND position_column >= 1")
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 acts_as_list_class.update_all("#{position_column}str0#{position_column}str1", "#{scope_condition}str2#{position_column}str3#{var0}")
 
 var0 << var1["str0"]
