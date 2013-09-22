@@ -6409,6 +6409,19 @@ update_attribute(position_column, 0)
 
 var0 << var1[0]
 
+# 408.
+#
+# Title: Conditional next
+# Category: [ Standard lib ]
+#
+# Description:
+# Skip and execute the next iteration in a loop unless 'var0' exists - it is neither
+# nil nor empty
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 unless ((var0) && (!var0.empty?))
   next
 end
