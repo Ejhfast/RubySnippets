@@ -7322,6 +7322,18 @@ var0.size.times
 
 config.consider_all_requests_local=(false)
 
+# 467.
+#
+# Title: New Post object
+# Category: [ Standard lib ]
+#
+# Description:
+# Creates a new Post object using 'path' property of 'var1', and assign it to 'var0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 Post.new(var0.path)
 
 var0.map(&:sym0).join("str0")
