@@ -6609,6 +6609,18 @@ var0.unpack("str0").first
 
 var0 = self.class.name
 
+# 421.
+#
+# Title: Size of first element
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the size of the first element from the array 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.first.size
 
 var0.to_s =~ /str0/i
