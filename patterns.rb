@@ -6623,6 +6623,19 @@ var0 = self.class.name
 
 var0.first.size
 
+# 422.
+#
+# Title: Case insensitive regex match
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the stringified version of var0 matches with the regular expression /str0/
+# The opition i on the regex makes sure the match performed is case-insensitive.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_s =~ /str0/i
 
 puts("str0" * 0)
