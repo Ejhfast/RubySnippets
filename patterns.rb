@@ -6811,6 +6811,18 @@ raise("str0#{var0.inspect}str1")
 
 var0.cookies[var1]
 
+# 434.
+#
+# Title: Type check on Array element
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' is not an instance of Array.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 !var0.kind_of?(Array)
 
 var0.uniq.join("str0")
