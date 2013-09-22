@@ -6868,6 +6868,19 @@ var0[0] - 1
 
 var0[:sym0].is_a?(Symbol)
 
+# 438.
+#
+# Title: Load pre-initializer in Rails boot
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# Loads the pre-initializer script if it exists.
+# Part of the Rails 2.1 boot sequence.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 def method
   if File.exist?(preinitializer_path)
     load(preinitializer_path)
