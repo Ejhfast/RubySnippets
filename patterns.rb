@@ -7056,6 +7056,19 @@ if ((var0 == "str0") || (var0 == "str1"))
   next
 end
 
+# 450.
+#
+# Title: Comparison on sliced string
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if a substring of 'var0' equals "str0". The substring is obtained
+# by slicing it between indexes in the mentioned range (0..0 here)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[0..0] == "str0"
 
 open(var0, "str0") do |var1|
