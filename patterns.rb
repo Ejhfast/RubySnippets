@@ -6330,6 +6330,22 @@ var0 = var0[0..var1 - 1]
 
 "#{position_column}str0#{position_column}str1"
 
+# 403.
+#
+# Title: Set instance variables externally
+# Category: [ Standard lib ]
+#
+# Description:
+# Set the instance variables on the current object using the key-value pairs
+# from the hash 'var0'. The instance_varaible_set method is called with the two arguments,
+# the first one being a symbol for the varaible's name, and the second is the value.
+# Instance variable names start with an '@' symbol, so 'str0' here may be '@'.
+# If the variable didn't exist yet, it is created.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.each do |var1, var2|
   instance_variable_set("str0#{var1}", var2)
 end
