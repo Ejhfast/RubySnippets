@@ -6825,6 +6825,19 @@ var0.cookies[var1]
 
 !var0.kind_of?(Array)
 
+# 435.
+#
+# Title: Join unique elements of Array
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the unique elements from array 'var0' and join the elements
+# using "str0" as separator.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.uniq.join("str0")
 
 var0[0] - 1
