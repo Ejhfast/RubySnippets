@@ -6734,6 +6734,19 @@ var0[0, 1] + "str0"
 
 var0.to_a.sort
 
+# 429.
+#
+# Title: sessions hash
+# Category: [ External lib  ]
+#
+# Description:
+# Gets a particular value (keyed at :sym0) from the sessions hash.
+# May be a part of Rails
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 session[:sym0]
 
 self.class === var0
