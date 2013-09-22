@@ -7767,6 +7767,20 @@ params[:sym0].present?
 
 var0.text =~ /str0/
 
+# 496.
+#
+# Title: Multiply array and join
+# Category: [ Standard lib ]
+#
+# Description:
+# Mutiplies the array ["str0"] with a given number (0 here), and then joins
+# the resulting array using "str1" as separator. Mutiplying the array with
+# a number repeat the elements as many times.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (["str0"] * 0).join("str1")
 
 (var0 - var1) + 0
