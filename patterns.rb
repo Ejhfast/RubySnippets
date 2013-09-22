@@ -7022,6 +7022,19 @@ end
 
 var0[var1].each
 
+# 448.
+#
+# Title: Join array, add string
+# Category: [ Standard lib ]
+#
+# Description:
+# Join the array 'var0' into a string using 'str0' as separator,
+# and then add string 'str0' to the end of the joined string.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.join("str0") + "str0"
 
 if ((var0 == "str0") || (var0 == "str1"))
