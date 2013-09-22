@@ -6580,6 +6580,19 @@ var0["str0"]["str1"]
 
 "str0" + var0.name
 
+# 419.
+#
+# Title: unpack and pick first part
+# Category: [ Standard lib ]
+#
+# Description:
+# Unpack 'var0' using the format "str0" and get the first element from the result.
+# The unpack method decodes the given string according to the format and gives an array.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.unpack("str0").first
 
 var0 = self.class.name
