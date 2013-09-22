@@ -7184,6 +7184,18 @@ end
 
 0..var0.size - 1
 
+# 458.
+#
+# Title: class name
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the name of current class as a string.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 self.class.name
 
 var0.path.to_s
