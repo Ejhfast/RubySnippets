@@ -7441,6 +7441,19 @@ var0.split(/str0/).map
 
 var0.class == Hash
 
+# 475.
+#
+# Title: Absolute value of difference
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the absolute value of the difference between var0 and var1.
+# Absolute value here refers to difference being expressed as a positive value.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0 - var1).abs
 
 !var0.singleton
