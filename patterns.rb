@@ -6796,6 +6796,19 @@ var0[0].to_s
 
 raise("str0#{var0.inspect}str1")
 
+# 433.
+#
+# Title: session cookies
+# Category: [  External lib ]
+#
+# Description:
+# Gets a particular cookie from a hash of cookies obtained from object 'var0'.
+# var0 may be the session object.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.cookies[var1]
 
 !var0.kind_of?(Array)
