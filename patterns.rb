@@ -6315,6 +6315,19 @@ var0[0, var1 - 1]
 
 var0 = var0[0..var1 - 1]
 
+# 402.
+#
+# Title: String constructed using position_column
+# Category: [ External lib ]
+#
+# Description:
+# Constructs a string by interpolating strings "str0" and "str1" after stringified
+# versions of position_column. This may be used as a query string in acts_as_list gem.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 "#{position_column}str0#{position_column}str1"
 
 var0.each do |var1, var2|
