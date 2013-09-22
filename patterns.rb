@@ -7351,6 +7351,20 @@ Post.new(var0.path)
 
 var0.map(&:sym0).join("str0")
 
+# 469.
+#
+# Title: Comparison on size
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if the size of the current object is greater than 0.
+# The size here may be also be a local variable or a method
+# whose return value is used for comparison.
+#
+# Useful programming task or idiom: [ No ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 size > 0
 
 def method
