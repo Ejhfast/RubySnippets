@@ -6536,6 +6536,18 @@ unless var0.empty?
   (var1 << "str0") << var0
 end
 
+# 416.
+#
+# Title: Element from nested hash
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets an element from a nested hash, at the key ["str0", "str1"]
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0["str0"]["str1"]
 
 ((var0 > 0) && (var1 > 0))
