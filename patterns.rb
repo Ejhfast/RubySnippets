@@ -7397,6 +7397,19 @@ end
 
 var0.name == :sym0
 
+# 472.
+#
+# Title: Enumerator on times
+# Category: [ Standard lib ]
+#
+# Description:
+# Gives an enumerator that can execute a given block as many times as the
+# result of the subtraction of a number (0 here) from the size of 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 (var0.size - 0).times
 
 var0.split(/str0/).map
