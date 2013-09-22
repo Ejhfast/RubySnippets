@@ -7690,6 +7690,19 @@ var0.to_f * 0
 
 var0.exitstatus != 0
 
+# 491.
+#
+# Title: Rails load pre-initializer
+# Category: [ External lib ]
+#
+# Description:
+# Load pre-initializer script from its path.
+# This is a part of the boot process in a Rails (version 2) application
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 load(preinitializer_path)
 
 var0.sub!(/str0/, "str1").sub!(/str2/, "str1")
