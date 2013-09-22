@@ -7261,6 +7261,20 @@ var0.each do |var1|
   self << var1
 end
 
+# 463.
+#
+# Title: Comparison of range
+# Category: [ Standard lib ]
+#
+# Description:
+# Checks if 'var0' is not less than a number (0 here) and not greater than another (1)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# (0..1).include?(var0)
+
 ((var0 >= 0) && (var0 <= 1))
 
 var0 = var1.split("str0").last
