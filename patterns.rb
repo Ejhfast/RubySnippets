@@ -6887,6 +6887,18 @@ def method
   end
 end
 
+# 439.
+#
+# Title: Push array element in to another
+# Category: [ Standard lib ]
+#
+# Description:
+# Push an element from the array 'var1' (at index 0 here) to the array 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.push(var1[0])
 
 config.active_record
