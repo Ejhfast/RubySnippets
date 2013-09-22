@@ -6654,6 +6654,19 @@ var0.to_s =~ /str0/i
 
 puts("str0" * 0)
 
+# 424.
+#
+# Title: Integer-ify and assign to hash
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# If var0 exisits (non nil), this converts it to an integer and assigns it to the hash
+# 'var1' at key :sym0
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0
   var1[:sym0] = var0.to_i
 end
