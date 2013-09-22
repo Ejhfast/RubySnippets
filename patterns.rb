@@ -7336,6 +7336,19 @@ config.consider_all_requests_local=(false)
 
 Post.new(var0.path)
 
+# 468.
+#
+# Title: Join mapped array
+# Category: [ Standard lib ]
+#
+# Description:
+# Executes the method :sym0 on the list 'var0' and joins the
+# returned array using "str0" as separator
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.map(&:sym0).join("str0")
 
 size > 0
