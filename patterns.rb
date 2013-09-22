@@ -7367,6 +7367,18 @@ var0.map(&:sym0).join("str0")
 
 size > 0
 
+# 470.
+#
+# Title: Instantiate new object
+# Category: [ Standard lib ]
+#
+# Description:
+# On being invoked, 'method' return a new object of the current class.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ No ]
+# There's a more common way to write the code snippet: [ No ]
+
 def method
   self.class.new
 end
