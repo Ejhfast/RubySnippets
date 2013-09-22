@@ -6671,6 +6671,21 @@ if var0
   var1[:sym0] = var0.to_i
 end
 
+# 425.
+#
+# Title: Full path of a directory name
+# Category: [ Standard lib ]
+#
+# Description:
+# Expand and get the full path for the directory of 'str0'.
+# File.directory gives the directory name part of 'str0',
+# after removing the base file name, and can be a relative path,
+# eg- ../nginx/sites-available
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0 = File.expand_path(File.dirname("str0"))
 
 var0.force_encoding(Encoding.default_external)
