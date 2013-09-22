@@ -7736,6 +7736,21 @@ if var0[:sym0]
   var1[:sym0] = var0[:sym0]
 end
 
+# 494.
+#
+# Title: Presence check on params element
+# Category: [ External lib ]
+#
+# Description:
+# Checks if a value is present at key :sym0 in params hash.
+# The value should not be nil, should not be an empty array or hash,
+# and should not be a blank string (containing only whitespaces or no elements)
+# Its the opposite of the blank? method. Part of Rails active_support/core_ext.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 params[:sym0].present?
 
 var0.text =~ /str0/
