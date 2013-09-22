@@ -6916,6 +6916,18 @@ var0.push(var1[0])
 
 config.active_record
 
+# 441.
+#
+# Title: Join backtrace into string
+# Category: [ Standard lib ]
+#
+# Description:
+# Join the backtrace associated with exception 'var0' using "str0" as separator.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.backtrace.join("str0")
 
 var0[var1].ord
