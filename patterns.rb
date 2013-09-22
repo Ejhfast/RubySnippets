@@ -7486,6 +7486,20 @@ var0.class == Hash
 
 var0.params["str0"]
 
+# 478.
+#
+# Title: pop the last element from a list if its a hash
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# Pops the last element from the list 'var0' if it is a Hash, and assign the popped
+# element to 'var1'. This is commonly used to extract the options hash passed as
+# the last argument to a function call.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 if var0.last.is_a?(Hash)
   var1 = var0.pop
 end
