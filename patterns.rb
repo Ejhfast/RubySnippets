@@ -6719,6 +6719,19 @@ var0.force_encoding(Encoding.default_external)
 
 var0[0, 1] + "str0"
 
+# 428.
+#
+# Title: Convert to array and sort
+# Category: [ Standard lib ]
+#
+# Description:
+# Convert 'var0' to an array and then sort it.
+# var0 may be an Enumerable/Time/MatchData/nil etc to respond to 'to_a'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_a.sort
 
 session[:sym0]
