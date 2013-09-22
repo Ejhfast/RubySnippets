@@ -7797,6 +7797,20 @@ var0.text =~ /str0/
 
 (var0 - var1) + 0
 
+# 498.
+#
+# Title: File path using RbConfig::CONFIG values
+# Category: [ Standard lib ]
+#
+# Description:
+# Creates file path by joining values from RbConfig::CONFIG.
+# The values at keys "str1" and "str2" are added/concatenated, and (file-)joined with
+# the value at "str0"
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 File.join(RbConfig::CONFIG["str0"], RbConfig::CONFIG["str1"] + RbConfig::CONFIG["str2"])
 
 File.join(File.dirname("str0"), "str1")
