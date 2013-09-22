@@ -6564,6 +6564,20 @@ var0["str0"]["str1"]
 
 ((var0 > 0) && (var1 > 0))
 
+# 418.
+#
+# Title: String addition
+# Category: [ Standard lib ]
+#
+# Description:
+# Concatenates string "str0" with the name property of 'var0'
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ Yes ]
+#
+# "str0#{var0.name}"
+
 "str0" + var0.name
 
 var0.unpack("str0").first
