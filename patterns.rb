@@ -6930,6 +6930,19 @@ config.active_record
 
 var0.backtrace.join("str0")
 
+# 442.
+#
+# Title: Integer ordinal
+# Category: [ Standard lib ]
+#
+# Description:
+# Gets the integer ordinal for the character at the index 'var1' in string 'var0'.
+# Then assign it to 'var0'.
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0[var1].ord
 
 var0.keys.sort.map
