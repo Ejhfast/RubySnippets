@@ -6520,6 +6520,18 @@ var0.children.each
 
 var0.bytesize.to_s
 
+# 415.
+#
+# Title: Push to string conditionally
+# Category: [ Data or Control Flow ]
+#
+# Description:
+# Push the string 'str0' to 'var1' and then 'var0' to it, unless 'var0' is empty
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 unless var0.empty?
   (var1 << "str0") << var0
 end
