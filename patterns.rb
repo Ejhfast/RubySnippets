@@ -7658,6 +7658,18 @@ Rails.root.join("str0", "str1")
 
 var0.size >= 0
 
+# 489.
+#
+# Title: Multiplication with float
+# Category: [ Standard lib ]
+#
+# Description:
+# Convert to float and multiply with a number (0 here)
+#
+# Useful programming task or idiom: [ Yes ]
+# Can be encapsulated in standalone function: [ Yes ]
+# There's a more common way to write the code snippet: [ No ]
+
 var0.to_f * 0
 
 var0.exitstatus != 0
